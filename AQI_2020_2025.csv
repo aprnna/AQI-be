@@ -1,0 +1,3517 @@
+Month,Year,State Name,AQI,Category
+1,2020,Alabama,36.4,Good
+2,2020,Alabama,34.6,Good
+3,2020,Alabama,41.1,Good
+4,2020,Alabama,44.2,Good
+5,2020,Alabama,42.2,Good
+6,2020,Alabama,42.9,Good
+7,2020,Alabama,38.6,Good
+8,2020,Alabama,43.7,Good
+9,2020,Alabama,40.3,Good
+10,2020,Alabama,41.4,Good
+11,2020,Alabama,45.4,Good
+12,2020,Alabama,46.6,Good
+1,2021,Alabama,40.5,Good
+2,2021,Alabama,42.1,Good
+3,2021,Alabama,45.2,Good
+4,2021,Alabama,47.5,Good
+5,2021,Alabama,45.2,Good
+6,2021,Alabama,40.3,Good
+7,2021,Alabama,41.3,Good
+8,2021,Alabama,43.0,Good
+9,2021,Alabama,38.4,Good
+10,2021,Alabama,37.5,Good
+11,2021,Alabama,43.6,Good
+12,2021,Alabama,39.9,Good
+1,2022,Alabama,38.4,Good
+2,2022,Alabama,43.3,Good
+3,2022,Alabama,46.5,Good
+4,2022,Alabama,44.8,Good
+5,2022,Alabama,44.6,Good
+6,2022,Alabama,49.9,Good
+7,2022,Alabama,38.6,Good
+8,2022,Alabama,35.8,Good
+9,2022,Alabama,42.9,Good
+10,2022,Alabama,43.9,Good
+11,2022,Alabama,42.1,Good
+12,2022,Alabama,34.2,Good
+1,2023,Alabama,37.2,Good
+2,2023,Alabama,42.8,Good
+3,2023,Alabama,49.9,Good
+4,2023,Alabama,45.9,Good
+5,2023,Alabama,49.5,Good
+6,2023,Alabama,57.1,Moderate
+7,2023,Alabama,49.1,Good
+8,2023,Alabama,47.8,Good
+9,2023,Alabama,46.9,Good
+10,2023,Alabama,40.3,Good
+11,2023,Alabama,39.1,Good
+12,2023,Alabama,32.7,Good
+1,2024,Alabama,29.8,Good
+2,2024,Alabama,39.7,Good
+3,2024,Alabama,42.0,Good
+4,2024,Alabama,45.7,Good
+5,2024,Alabama,43.1,Good
+6,2024,Alabama,46.0,Good
+7,2024,Alabama,38.9,Good
+8,2024,Alabama,49.2,Good
+9,2024,Alabama,39.5,Good
+10,2024,Alabama,45.2,Good
+11,2024,Alabama,34.9,Good
+12,2024,Alabama,36.8,Good
+1,2025,Alabama,34.3,Good
+2,2025,Alabama,41.6,Good
+3,2025,Alabama,46.8,Good
+4,2025,Alabama,43.2,Good
+1,2020,Alaska,41.9,Good
+2,2020,Alaska,28.9,Good
+3,2020,Alaska,26.9,Good
+4,2020,Alaska,25.6,Good
+5,2020,Alaska,24.4,Good
+6,2020,Alaska,18.4,Good
+7,2020,Alaska,20.2,Good
+8,2020,Alaska,18.7,Good
+9,2020,Alaska,20.7,Good
+10,2020,Alaska,30.1,Good
+11,2020,Alaska,39.8,Good
+12,2020,Alaska,36.0,Good
+1,2021,Alaska,43.4,Good
+2,2021,Alaska,37.3,Good
+3,2021,Alaska,30.8,Good
+4,2021,Alaska,29.2,Good
+5,2021,Alaska,23.0,Good
+6,2021,Alaska,21.5,Good
+7,2021,Alaska,27.2,Good
+8,2021,Alaska,20.0,Good
+9,2021,Alaska,20.0,Good
+10,2021,Alaska,24.7,Good
+11,2021,Alaska,34.3,Good
+12,2021,Alaska,41.3,Good
+1,2022,Alaska,42.1,Good
+2,2022,Alaska,28.4,Good
+3,2022,Alaska,27.2,Good
+4,2022,Alaska,29.1,Good
+5,2022,Alaska,24.9,Good
+6,2022,Alaska,43.7,Good
+7,2022,Alaska,32.0,Good
+8,2022,Alaska,15.8,Good
+9,2022,Alaska,17.8,Good
+10,2022,Alaska,23.8,Good
+11,2022,Alaska,34.1,Good
+12,2022,Alaska,42.3,Good
+1,2023,Alaska,40.3,Good
+2,2023,Alaska,28.0,Good
+3,2023,Alaska,29.1,Good
+4,2023,Alaska,25.0,Good
+5,2023,Alaska,25.6,Good
+6,2023,Alaska,20.0,Good
+7,2023,Alaska,22.8,Good
+8,2023,Alaska,30.1,Good
+9,2023,Alaska,18.0,Good
+10,2023,Alaska,29.3,Good
+11,2023,Alaska,30.6,Good
+12,2023,Alaska,36.6,Good
+1,2024,Alaska,42.3,Good
+2,2024,Alaska,35.9,Good
+3,2024,Alaska,27.3,Good
+4,2024,Alaska,29.1,Good
+5,2024,Alaska,23.3,Good
+6,2024,Alaska,32.1,Good
+7,2024,Alaska,20.8,Good
+8,2024,Alaska,20.2,Good
+9,2024,Alaska,18.1,Good
+10,2024,Alaska,27.0,Good
+11,2024,Alaska,40.4,Good
+12,2024,Alaska,44.4,Good
+1,2025,Alaska,38.4,Good
+2,2025,Alaska,46.1,Good
+3,2025,Alaska,32.3,Good
+4,2025,Alaska,37.9,Good
+1,2020,Arizona,40.3,Good
+2,2020,Arizona,46.5,Good
+3,2020,Arizona,45.3,Good
+4,2020,Arizona,55.2,Moderate
+5,2020,Arizona,55.5,Moderate
+6,2020,Arizona,52.6,Moderate
+7,2020,Arizona,52.2,Moderate
+8,2020,Arizona,72.2,Moderate
+9,2020,Arizona,56.3,Moderate
+10,2020,Arizona,63.1,Moderate
+11,2020,Arizona,48.4,Good
+12,2020,Arizona,44.6,Good
+1,2021,Arizona,49.0,Good
+2,2021,Arizona,42.2,Good
+3,2021,Arizona,55.2,Moderate
+4,2021,Arizona,63.3,Moderate
+5,2021,Arizona,58.4,Moderate
+6,2021,Arizona,59.7,Moderate
+7,2021,Arizona,57.1,Moderate
+8,2021,Arizona,49.9,Good
+9,2021,Arizona,58.0,Moderate
+10,2021,Arizona,55.7,Moderate
+11,2021,Arizona,46.6,Good
+12,2021,Arizona,43.5,Good
+1,2022,Arizona,46.8,Good
+2,2022,Arizona,43.8,Good
+3,2022,Arizona,45.4,Good
+4,2022,Arizona,54.7,Moderate
+5,2022,Arizona,59.2,Moderate
+6,2022,Arizona,57.6,Moderate
+7,2022,Arizona,52.8,Moderate
+8,2022,Arizona,52.4,Moderate
+9,2022,Arizona,41.2,Good
+10,2022,Arizona,40.8,Good
+11,2022,Arizona,41.7,Good
+12,2022,Arizona,39.3,Good
+1,2023,Arizona,37.9,Good
+2,2023,Arizona,40.6,Good
+3,2023,Arizona,39.4,Good
+4,2023,Arizona,55.4,Moderate
+5,2023,Arizona,56.7,Moderate
+6,2023,Arizona,62.7,Moderate
+7,2023,Arizona,60.6,Moderate
+8,2023,Arizona,50.3,Moderate
+9,2023,Arizona,43.7,Good
+10,2023,Arizona,47.6,Good
+11,2023,Arizona,41.9,Good
+12,2023,Arizona,42.3,Good
+1,2024,Arizona,38.6,Good
+2,2024,Arizona,36.3,Good
+3,2024,Arizona,37.8,Good
+4,2024,Arizona,49.2,Good
+5,2024,Arizona,62.8,Moderate
+6,2024,Arizona,56.2,Moderate
+7,2024,Arizona,63.5,Moderate
+8,2024,Arizona,48.6,Good
+9,2024,Arizona,52.4,Moderate
+10,2024,Arizona,53.5,Moderate
+11,2024,Arizona,43.4,Good
+12,2024,Arizona,48.7,Good
+1,2025,Arizona,52.4,Moderate
+2,2025,Arizona,44.7,Good
+3,2025,Arizona,47.7,Good
+4,2025,Arizona,48.8,Good
+5,2025,Arizona,54.0,Moderate
+6,2025,Arizona,45.9,Good
+7,2025,Arizona,3.0,Good
+1,2020,Arkansas,34.9,Good
+2,2020,Arkansas,32.3,Good
+3,2020,Arkansas,38.7,Good
+4,2020,Arkansas,41.3,Good
+5,2020,Arkansas,38.7,Good
+6,2020,Arkansas,51.8,Moderate
+7,2020,Arkansas,42.5,Good
+8,2020,Arkansas,44.4,Good
+9,2020,Arkansas,42.3,Good
+10,2020,Arkansas,38.1,Good
+11,2020,Arkansas,38.7,Good
+12,2020,Arkansas,37.9,Good
+1,2021,Arkansas,35.3,Good
+2,2021,Arkansas,40.9,Good
+3,2021,Arkansas,43.6,Good
+4,2021,Arkansas,43.9,Good
+5,2021,Arkansas,41.2,Good
+6,2021,Arkansas,45.7,Good
+7,2021,Arkansas,50.1,Moderate
+8,2021,Arkansas,49.8,Good
+9,2021,Arkansas,48.3,Good
+10,2021,Arkansas,41.0,Good
+11,2021,Arkansas,42.3,Good
+12,2021,Arkansas,40.4,Good
+1,2022,Arkansas,37.9,Good
+2,2022,Arkansas,41.2,Good
+3,2022,Arkansas,45.1,Good
+4,2022,Arkansas,39.5,Good
+5,2022,Arkansas,44.3,Good
+6,2022,Arkansas,50.6,Moderate
+7,2022,Arkansas,45.0,Good
+8,2022,Arkansas,36.4,Good
+9,2022,Arkansas,45.8,Good
+10,2022,Arkansas,45.1,Good
+11,2022,Arkansas,39.5,Good
+12,2022,Arkansas,32.1,Good
+1,2023,Arkansas,33.4,Good
+2,2023,Arkansas,38.4,Good
+3,2023,Arkansas,40.5,Good
+4,2023,Arkansas,42.4,Good
+5,2023,Arkansas,51.2,Moderate
+6,2023,Arkansas,55.7,Moderate
+7,2023,Arkansas,47.8,Good
+8,2023,Arkansas,49.9,Good
+9,2023,Arkansas,51.8,Moderate
+10,2023,Arkansas,40.7,Good
+11,2023,Arkansas,40.7,Good
+12,2023,Arkansas,34.9,Good
+1,2024,Arkansas,33.8,Good
+2,2024,Arkansas,42.9,Good
+3,2024,Arkansas,41.2,Good
+4,2024,Arkansas,43.3,Good
+5,2024,Arkansas,45.6,Good
+6,2024,Arkansas,48.2,Good
+7,2024,Arkansas,43.4,Good
+8,2024,Arkansas,50.6,Moderate
+9,2024,Arkansas,41.5,Good
+10,2024,Arkansas,53.4,Moderate
+11,2024,Arkansas,33.9,Good
+12,2024,Arkansas,34.7,Good
+1,2025,Arkansas,38.7,Good
+2,2025,Arkansas,35.6,Good
+3,2025,Arkansas,43.9,Good
+4,2025,Arkansas,46.0,Good
+5,2025,Arkansas,44.8,Good
+6,2025,Arkansas,45.0,Good
+7,2025,Arkansas,6.0,Good
+1,2020,California,51.1,Moderate
+2,2020,California,51.4,Moderate
+3,2020,California,42.1,Good
+4,2020,California,43.0,Good
+5,2020,California,50.7,Moderate
+6,2020,California,49.8,Good
+7,2020,California,58.2,Moderate
+8,2020,California,83.4,Moderate
+9,2020,California,112.9,Unhealthy for Sensitive Groups
+10,2020,California,79.2,Moderate
+11,2020,California,56.0,Moderate
+12,2020,California,57.8,Moderate
+1,2021,California,53.4,Moderate
+2,2021,California,47.5,Good
+3,2021,California,45.7,Good
+4,2021,California,53.6,Moderate
+5,2021,California,52.7,Moderate
+6,2021,California,55.0,Moderate
+7,2021,California,66.7,Moderate
+8,2021,California,96.7,Moderate
+9,2021,California,72.5,Moderate
+10,2021,California,54.4,Moderate
+11,2021,California,54.4,Moderate
+12,2021,California,51.3,Moderate
+1,2022,California,57.2,Moderate
+2,2022,California,53.4,Moderate
+3,2022,California,46.0,Good
+4,2022,California,54.2,Moderate
+5,2022,California,60.4,Moderate
+6,2022,California,61.6,Moderate
+7,2022,California,56.1,Moderate
+8,2022,California,60.8,Moderate
+9,2022,California,62.5,Moderate
+10,2022,California,55.5,Moderate
+11,2022,California,54.2,Moderate
+12,2022,California,52.0,Moderate
+1,2023,California,44.5,Good
+2,2023,California,48.8,Good
+3,2023,California,41.5,Good
+4,2023,California,51.0,Moderate
+5,2023,California,50.2,Moderate
+6,2023,California,50.9,Moderate
+7,2023,California,67.2,Moderate
+8,2023,California,63.1,Moderate
+9,2023,California,56.6,Moderate
+10,2023,California,51.2,Moderate
+11,2023,California,52.0,Moderate
+12,2023,California,52.6,Moderate
+1,2024,California,44.5,Good
+2,2024,California,41.5,Good
+3,2024,California,41.2,Good
+4,2024,California,46.7,Good
+5,2024,California,50.7,Moderate
+6,2024,California,60.9,Moderate
+7,2024,California,72.5,Moderate
+8,2024,California,61.6,Moderate
+9,2024,California,58.7,Moderate
+10,2024,California,55.7,Moderate
+11,2024,California,48.2,Good
+12,2024,California,56.4,Moderate
+1,2025,California,54.0,Moderate
+2,2025,California,43.5,Good
+3,2025,California,41.8,Good
+4,2025,California,47.3,Good
+5,2025,California,51.1,Moderate
+6,2025,California,39.0,Good
+7,2025,California,28.3,Good
+1,2020,Colorado,37.3,Good
+2,2020,Colorado,39.7,Good
+3,2020,Colorado,39.6,Good
+4,2020,Colorado,42.9,Good
+5,2020,Colorado,49.6,Good
+6,2020,Colorado,50.6,Moderate
+7,2020,Colorado,49.7,Good
+8,2020,Colorado,69.3,Moderate
+9,2020,Colorado,53.8,Moderate
+10,2020,Colorado,47.4,Good
+11,2020,Colorado,37.6,Good
+12,2020,Colorado,36.8,Good
+1,2021,Colorado,39.2,Good
+2,2021,Colorado,39.7,Good
+3,2021,Colorado,43.9,Good
+4,2021,Colorado,45.8,Good
+5,2021,Colorado,48.4,Good
+6,2021,Colorado,56.5,Moderate
+7,2021,Colorado,76.9,Moderate
+8,2021,Colorado,68.4,Moderate
+9,2021,Colorado,56.4,Moderate
+10,2021,Colorado,38.2,Good
+11,2021,Colorado,37.0,Good
+12,2021,Colorado,36.9,Good
+1,2022,Colorado,38.8,Good
+2,2022,Colorado,39.4,Good
+3,2022,Colorado,41.0,Good
+4,2022,Colorado,49.8,Good
+5,2022,Colorado,50.1,Moderate
+6,2022,Colorado,54.5,Moderate
+7,2022,Colorado,54.9,Moderate
+8,2022,Colorado,54.1,Moderate
+9,2022,Colorado,46.4,Good
+10,2022,Colorado,38.2,Good
+11,2022,Colorado,36.5,Good
+12,2022,Colorado,37.2,Good
+1,2023,Colorado,38.4,Good
+2,2023,Colorado,42.6,Good
+3,2023,Colorado,44.5,Good
+4,2023,Colorado,53.1,Moderate
+5,2023,Colorado,58.4,Moderate
+6,2023,Colorado,55.1,Moderate
+7,2023,Colorado,54.4,Moderate
+8,2023,Colorado,52.9,Moderate
+9,2023,Colorado,46.6,Good
+10,2023,Colorado,38.9,Good
+11,2023,Colorado,38.2,Good
+12,2023,Colorado,37.0,Good
+1,2024,Colorado,36.5,Good
+2,2024,Colorado,38.2,Good
+3,2024,Colorado,39.9,Good
+4,2024,Colorado,50.5,Moderate
+5,2024,Colorado,56.4,Moderate
+6,2024,Colorado,52.1,Moderate
+7,2024,Colorado,70.4,Moderate
+8,2024,Colorado,51.7,Moderate
+9,2024,Colorado,46.7,Good
+10,2024,Colorado,43.0,Good
+11,2024,Colorado,36.0,Good
+12,2024,Colorado,37.3,Good
+1,2025,Colorado,37.0,Good
+2,2025,Colorado,40.0,Good
+3,2025,Colorado,42.1,Good
+4,2025,Colorado,46.3,Good
+5,2025,Colorado,47.9,Good
+6,2025,Colorado,57.2,Moderate
+7,2025,Colorado,2.0,Good
+1,2020,Connecticut,39.4,Good
+2,2020,Connecticut,42.0,Good
+3,2020,Connecticut,40.8,Good
+4,2020,Connecticut,42.8,Good
+5,2020,Connecticut,41.6,Good
+6,2020,Connecticut,49.8,Good
+7,2020,Connecticut,53.4,Moderate
+8,2020,Connecticut,49.9,Good
+9,2020,Connecticut,36.9,Good
+10,2020,Connecticut,36.2,Good
+11,2020,Connecticut,43.3,Good
+12,2020,Connecticut,42.5,Good
+1,2021,Connecticut,40.5,Good
+2,2021,Connecticut,42.8,Good
+3,2021,Connecticut,43.5,Good
+4,2021,Connecticut,44.4,Good
+5,2021,Connecticut,44.6,Good
+6,2021,Connecticut,55.5,Moderate
+7,2021,Connecticut,50.3,Moderate
+8,2021,Connecticut,51.2,Moderate
+9,2021,Connecticut,36.5,Good
+10,2021,Connecticut,34.6,Good
+11,2021,Connecticut,38.8,Good
+12,2021,Connecticut,41.4,Good
+1,2022,Connecticut,43.9,Good
+2,2022,Connecticut,41.8,Good
+3,2022,Connecticut,43.1,Good
+4,2022,Connecticut,41.6,Good
+5,2022,Connecticut,43.4,Good
+6,2022,Connecticut,46.0,Good
+7,2022,Connecticut,56.1,Moderate
+8,2022,Connecticut,53.1,Moderate
+9,2022,Connecticut,36.4,Good
+10,2022,Connecticut,37.5,Good
+11,2022,Connecticut,38.3,Good
+12,2022,Connecticut,37.4,Good
+1,2023,Connecticut,35.4,Good
+2,2023,Connecticut,41.0,Good
+3,2023,Connecticut,43.0,Good
+4,2023,Connecticut,51.4,Moderate
+5,2023,Connecticut,47.4,Good
+6,2023,Connecticut,58.8,Moderate
+7,2023,Connecticut,59.3,Moderate
+8,2023,Connecticut,43.2,Good
+9,2023,Connecticut,42.8,Good
+10,2023,Connecticut,35.1,Good
+11,2023,Connecticut,35.9,Good
+12,2023,Connecticut,38.5,Good
+1,2024,Connecticut,34.2,Good
+2,2024,Connecticut,37.5,Good
+3,2024,Connecticut,38.6,Good
+4,2024,Connecticut,43.5,Good
+5,2024,Connecticut,44.2,Good
+6,2024,Connecticut,60.2,Moderate
+7,2024,Connecticut,51.1,Moderate
+8,2024,Connecticut,47.6,Good
+9,2024,Connecticut,36.8,Good
+10,2024,Connecticut,35.8,Good
+11,2024,Connecticut,30.5,Good
+12,2024,Connecticut,36.8,Good
+1,2025,Connecticut,37.3,Good
+2,2025,Connecticut,37.5,Good
+3,2025,Connecticut,41.8,Good
+4,2025,Connecticut,43.3,Good
+1,2020,Country Of Mexico,33.1,Good
+2,2020,Country Of Mexico,38.3,Good
+3,2020,Country Of Mexico,38.2,Good
+4,2020,Country Of Mexico,49.8,Good
+5,2020,Country Of Mexico,59.9,Moderate
+10,2020,Country Of Mexico,95.0,Moderate
+11,2020,Country Of Mexico,117.2,Unhealthy for Sensitive Groups
+12,2020,Country Of Mexico,131.0,Unhealthy for Sensitive Groups
+1,2021,Country Of Mexico,110.1,Unhealthy for Sensitive Groups
+2,2021,Country Of Mexico,89.1,Moderate
+3,2021,Country Of Mexico,74.5,Moderate
+4,2021,Country Of Mexico,59.9,Moderate
+5,2021,Country Of Mexico,63.6,Moderate
+6,2021,Country Of Mexico,68.1,Moderate
+7,2021,Country Of Mexico,61.8,Moderate
+8,2021,Country Of Mexico,63.0,Moderate
+9,2021,Country Of Mexico,59.6,Moderate
+10,2021,Country Of Mexico,63.9,Moderate
+11,2021,Country Of Mexico,70.5,Moderate
+12,2021,Country Of Mexico,68.7,Moderate
+1,2022,Country Of Mexico,92.1,Moderate
+2,2022,Country Of Mexico,76.1,Moderate
+3,2022,Country Of Mexico,73.8,Moderate
+4,2022,Country Of Mexico,67.0,Moderate
+5,2022,Country Of Mexico,64.1,Moderate
+6,2022,Country Of Mexico,60.0,Moderate
+7,2022,Country Of Mexico,52.3,Moderate
+8,2022,Country Of Mexico,48.5,Good
+9,2022,Country Of Mexico,47.0,Good
+10,2022,Country Of Mexico,54.1,Moderate
+11,2022,Country Of Mexico,63.3,Moderate
+12,2022,Country Of Mexico,65.6,Moderate
+1,2023,Country Of Mexico,53.4,Moderate
+2,2023,Country Of Mexico,54.2,Moderate
+3,2023,Country Of Mexico,48.1,Good
+4,2023,Country Of Mexico,58.2,Moderate
+5,2023,Country Of Mexico,55.3,Moderate
+6,2023,Country Of Mexico,68.5,Moderate
+7,2023,Country Of Mexico,50.2,Moderate
+8,2023,Country Of Mexico,39.4,Good
+9,2023,Country Of Mexico,56.5,Moderate
+10,2023,Country Of Mexico,57.8,Moderate
+11,2023,Country Of Mexico,61.8,Moderate
+12,2023,Country Of Mexico,73.6,Moderate
+1,2024,Country Of Mexico,63.5,Moderate
+2,2024,Country Of Mexico,60.5,Moderate
+3,2024,Country Of Mexico,52.5,Moderate
+4,2024,Country Of Mexico,52.3,Moderate
+5,2024,Country Of Mexico,61.0,Moderate
+6,2024,Country Of Mexico,50.3,Moderate
+7,2024,Country Of Mexico,48.8,Good
+8,2024,Country Of Mexico,44.7,Good
+9,2024,Country Of Mexico,59.0,Moderate
+10,2024,Country Of Mexico,77.7,Moderate
+11,2024,Country Of Mexico,69.3,Moderate
+12,2024,Country Of Mexico,90.7,Moderate
+1,2025,Country Of Mexico,72.5,Moderate
+2,2025,Country Of Mexico,51.5,Moderate
+3,2025,Country Of Mexico,48.3,Good
+4,2025,Country Of Mexico,60.4,Moderate
+5,2025,Country Of Mexico,64.6,Moderate
+6,2025,Country Of Mexico,54.6,Moderate
+1,2020,Delaware,41.8,Good
+2,2020,Delaware,44.1,Good
+3,2020,Delaware,44.7,Good
+4,2020,Delaware,43.7,Good
+5,2020,Delaware,41.9,Good
+6,2020,Delaware,47.6,Good
+7,2020,Delaware,50.6,Moderate
+8,2020,Delaware,43.6,Good
+9,2020,Delaware,38.3,Good
+10,2020,Delaware,36.2,Good
+11,2020,Delaware,44.3,Good
+12,2020,Delaware,43.9,Good
+1,2021,Delaware,45.2,Good
+2,2021,Delaware,43.2,Good
+3,2021,Delaware,42.3,Good
+4,2021,Delaware,44.3,Good
+5,2021,Delaware,47.2,Good
+6,2021,Delaware,45.5,Good
+7,2021,Delaware,57.3,Moderate
+8,2021,Delaware,48.9,Good
+9,2021,Delaware,41.3,Good
+10,2021,Delaware,38.8,Good
+11,2021,Delaware,43.1,Good
+12,2021,Delaware,49.2,Good
+1,2022,Delaware,47.3,Good
+2,2022,Delaware,46.8,Good
+3,2022,Delaware,45.4,Good
+4,2022,Delaware,44.5,Good
+5,2022,Delaware,46.4,Good
+6,2022,Delaware,52.5,Moderate
+7,2022,Delaware,51.3,Moderate
+8,2022,Delaware,43.9,Good
+9,2022,Delaware,38.7,Good
+10,2022,Delaware,36.1,Good
+11,2022,Delaware,42.4,Good
+12,2022,Delaware,43.8,Good
+1,2023,Delaware,43.2,Good
+2,2023,Delaware,47.9,Good
+3,2023,Delaware,46.6,Good
+4,2023,Delaware,53.3,Moderate
+5,2023,Delaware,50.7,Moderate
+6,2023,Delaware,83.0,Moderate
+7,2023,Delaware,56.4,Moderate
+8,2023,Delaware,53.0,Moderate
+9,2023,Delaware,47.8,Good
+10,2023,Delaware,41.0,Good
+11,2023,Delaware,46.0,Good
+12,2023,Delaware,43.3,Good
+1,2024,Delaware,42.0,Good
+2,2024,Delaware,44.9,Good
+3,2024,Delaware,40.6,Good
+4,2024,Delaware,45.7,Good
+5,2024,Delaware,46.3,Good
+6,2024,Delaware,49.7,Good
+7,2024,Delaware,49.8,Good
+8,2024,Delaware,50.3,Moderate
+9,2024,Delaware,40.6,Good
+10,2024,Delaware,41.8,Good
+11,2024,Delaware,34.5,Good
+12,2024,Delaware,41.4,Good
+1,2025,Delaware,46.0,Good
+2,2025,Delaware,41.3,Good
+3,2025,Delaware,44.6,Good
+1,2020,District Of Columbia,40.2,Good
+2,2020,District Of Columbia,43.0,Good
+3,2020,District Of Columbia,40.5,Good
+4,2020,District Of Columbia,42.8,Good
+5,2020,District Of Columbia,43.6,Good
+6,2020,District Of Columbia,52.4,Moderate
+7,2020,District Of Columbia,61.9,Moderate
+8,2020,District Of Columbia,47.9,Good
+9,2020,District Of Columbia,42.4,Good
+10,2020,District Of Columbia,40.1,Good
+11,2020,District Of Columbia,48.4,Good
+12,2020,District Of Columbia,41.6,Good
+1,2021,District Of Columbia,44.6,Good
+2,2021,District Of Columbia,55.1,Moderate
+3,2021,District Of Columbia,48.9,Good
+4,2021,District Of Columbia,49.9,Good
+5,2021,District Of Columbia,55.3,Moderate
+6,2021,District Of Columbia,54.4,Moderate
+7,2021,District Of Columbia,69.8,Moderate
+8,2021,District Of Columbia,59.8,Moderate
+9,2021,District Of Columbia,48.2,Good
+10,2021,District Of Columbia,42.4,Good
+11,2021,District Of Columbia,45.6,Good
+12,2021,District Of Columbia,48.9,Good
+1,2022,District Of Columbia,44.5,Good
+2,2022,District Of Columbia,44.2,Good
+3,2022,District Of Columbia,46.3,Good
+4,2022,District Of Columbia,45.1,Good
+5,2022,District Of Columbia,49.5,Good
+6,2022,District Of Columbia,63.8,Moderate
+7,2022,District Of Columbia,61.3,Moderate
+8,2022,District Of Columbia,50.2,Moderate
+9,2022,District Of Columbia,44.4,Good
+10,2022,District Of Columbia,43.1,Good
+11,2022,District Of Columbia,44.5,Good
+12,2022,District Of Columbia,46.5,Good
+1,2023,District Of Columbia,42.2,Good
+2,2023,District Of Columbia,45.5,Good
+3,2023,District Of Columbia,47.2,Good
+4,2023,District Of Columbia,57.1,Moderate
+5,2023,District Of Columbia,56.0,Moderate
+6,2023,District Of Columbia,78.3,Moderate
+7,2023,District Of Columbia,66.7,Moderate
+8,2023,District Of Columbia,54.6,Moderate
+9,2023,District Of Columbia,45.8,Good
+10,2023,District Of Columbia,42.2,Good
+11,2023,District Of Columbia,43.8,Good
+12,2023,District Of Columbia,44.2,Good
+1,2024,District Of Columbia,40.7,Good
+2,2024,District Of Columbia,46.0,Good
+3,2024,District Of Columbia,40.2,Good
+4,2024,District Of Columbia,45.9,Good
+5,2024,District Of Columbia,50.8,Moderate
+6,2024,District Of Columbia,61.2,Moderate
+7,2024,District Of Columbia,63.7,Moderate
+8,2024,District Of Columbia,56.0,Moderate
+9,2024,District Of Columbia,40.3,Good
+10,2024,District Of Columbia,42.1,Good
+11,2024,District Of Columbia,37.4,Good
+12,2024,District Of Columbia,43.5,Good
+1,2025,District Of Columbia,44.3,Good
+2,2025,District Of Columbia,41.9,Good
+3,2025,District Of Columbia,44.6,Good
+4,2025,District Of Columbia,45.6,Good
+5,2025,District Of Columbia,42.7,Good
+1,2020,Florida,41.7,Good
+2,2020,Florida,40.3,Good
+3,2020,Florida,44.4,Good
+4,2020,Florida,49.6,Good
+5,2020,Florida,45.1,Good
+6,2020,Florida,41.9,Good
+7,2020,Florida,41.6,Good
+8,2020,Florida,37.1,Good
+9,2020,Florida,37.1,Good
+10,2020,Florida,38.0,Good
+11,2020,Florida,37.6,Good
+12,2020,Florida,41.2,Good
+1,2021,Florida,42.3,Good
+2,2021,Florida,39.7,Good
+3,2021,Florida,44.2,Good
+4,2021,Florida,49.2,Good
+5,2021,Florida,46.3,Good
+6,2021,Florida,37.3,Good
+7,2021,Florida,38.1,Good
+8,2021,Florida,39.1,Good
+9,2021,Florida,38.7,Good
+10,2021,Florida,39.2,Good
+11,2021,Florida,40.0,Good
+12,2021,Florida,40.7,Good
+1,2022,Florida,42.0,Good
+2,2022,Florida,43.5,Good
+3,2022,Florida,46.9,Good
+4,2022,Florida,45.5,Good
+5,2022,Florida,46.1,Good
+6,2022,Florida,43.3,Good
+7,2022,Florida,37.2,Good
+8,2022,Florida,37.3,Good
+9,2022,Florida,36.6,Good
+10,2022,Florida,42.2,Good
+11,2022,Florida,39.7,Good
+12,2022,Florida,39.4,Good
+1,2023,Florida,41.4,Good
+2,2023,Florida,43.7,Good
+3,2023,Florida,48.0,Good
+4,2023,Florida,44.9,Good
+5,2023,Florida,49.7,Good
+6,2023,Florida,44.7,Good
+7,2023,Florida,43.6,Good
+8,2023,Florida,42.4,Good
+9,2023,Florida,40.1,Good
+10,2023,Florida,41.9,Good
+11,2023,Florida,39.9,Good
+12,2023,Florida,36.7,Good
+1,2024,Florida,38.5,Good
+2,2024,Florida,46.2,Good
+3,2024,Florida,43.9,Good
+4,2024,Florida,51.0,Moderate
+5,2024,Florida,47.8,Good
+6,2024,Florida,39.3,Good
+7,2024,Florida,41.0,Good
+8,2024,Florida,40.6,Good
+9,2024,Florida,34.2,Good
+10,2024,Florida,42.2,Good
+11,2024,Florida,39.1,Good
+12,2024,Florida,38.7,Good
+1,2025,Florida,40.5,Good
+2,2025,Florida,42.1,Good
+3,2025,Florida,48.6,Good
+4,2025,Florida,38.6,Good
+1,2020,Georgia,36.5,Good
+2,2020,Georgia,35.4,Good
+3,2020,Georgia,43.5,Good
+4,2020,Georgia,43.1,Good
+5,2020,Georgia,40.4,Good
+6,2020,Georgia,41.8,Good
+7,2020,Georgia,40.6,Good
+8,2020,Georgia,40.2,Good
+9,2020,Georgia,36.8,Good
+10,2020,Georgia,38.6,Good
+11,2020,Georgia,41.7,Good
+12,2020,Georgia,46.9,Good
+1,2021,Georgia,41.6,Good
+2,2021,Georgia,38.7,Good
+3,2021,Georgia,47.1,Good
+4,2021,Georgia,50.2,Moderate
+5,2021,Georgia,45.6,Good
+6,2021,Georgia,38.9,Good
+7,2021,Georgia,42.3,Good
+8,2021,Georgia,42.9,Good
+9,2021,Georgia,41.9,Good
+10,2021,Georgia,38.8,Good
+11,2021,Georgia,47.1,Good
+12,2021,Georgia,48.2,Good
+1,2022,Georgia,44.2,Good
+2,2022,Georgia,49.5,Good
+3,2022,Georgia,46.0,Good
+4,2022,Georgia,46.8,Good
+5,2022,Georgia,44.8,Good
+6,2022,Georgia,49.3,Good
+7,2022,Georgia,37.9,Good
+8,2022,Georgia,37.7,Good
+9,2022,Georgia,41.0,Good
+10,2022,Georgia,44.2,Good
+11,2022,Georgia,44.4,Good
+12,2022,Georgia,41.3,Good
+1,2023,Georgia,41.3,Good
+2,2023,Georgia,44.6,Good
+3,2023,Georgia,49.8,Good
+4,2023,Georgia,46.7,Good
+5,2023,Georgia,46.4,Good
+6,2023,Georgia,56.9,Moderate
+7,2023,Georgia,51.8,Moderate
+8,2023,Georgia,46.9,Good
+9,2023,Georgia,46.5,Good
+10,2023,Georgia,41.0,Good
+11,2023,Georgia,49.4,Good
+12,2023,Georgia,39.9,Good
+1,2024,Georgia,37.0,Good
+2,2024,Georgia,48.6,Good
+3,2024,Georgia,43.9,Good
+4,2024,Georgia,48.5,Good
+5,2024,Georgia,43.5,Good
+6,2024,Georgia,49.8,Good
+7,2024,Georgia,41.1,Good
+8,2024,Georgia,48.2,Good
+9,2024,Georgia,41.2,Good
+10,2024,Georgia,47.0,Good
+11,2024,Georgia,40.8,Good
+12,2024,Georgia,44.3,Good
+1,2025,Georgia,43.3,Good
+2,2025,Georgia,48.3,Good
+3,2025,Georgia,48.6,Good
+4,2025,Georgia,47.7,Good
+5,2025,Georgia,40.8,Good
+6,2025,Georgia,36.9,Good
+1,2020,Hawaii,26.8,Good
+2,2020,Hawaii,25.2,Good
+3,2020,Hawaii,24.5,Good
+4,2020,Hawaii,21.6,Good
+5,2020,Hawaii,22.0,Good
+6,2020,Hawaii,24.6,Good
+7,2020,Hawaii,20.3,Good
+8,2020,Hawaii,19.0,Good
+9,2020,Hawaii,18.2,Good
+10,2020,Hawaii,24.8,Good
+11,2020,Hawaii,23.4,Good
+12,2020,Hawaii,25.8,Good
+1,2021,Hawaii,28.9,Good
+2,2021,Hawaii,27.9,Good
+3,2021,Hawaii,28.5,Good
+4,2021,Hawaii,24.8,Good
+5,2021,Hawaii,22.8,Good
+6,2021,Hawaii,18.7,Good
+7,2021,Hawaii,21.4,Good
+8,2021,Hawaii,21.1,Good
+9,2021,Hawaii,19.8,Good
+10,2021,Hawaii,23.5,Good
+11,2021,Hawaii,24.8,Good
+12,2021,Hawaii,25.6,Good
+1,2022,Hawaii,25.6,Good
+2,2022,Hawaii,23.8,Good
+3,2022,Hawaii,28.6,Good
+4,2022,Hawaii,36.6,Good
+5,2022,Hawaii,35.4,Good
+6,2022,Hawaii,25.7,Good
+7,2022,Hawaii,25.8,Good
+8,2022,Hawaii,26.3,Good
+9,2022,Hawaii,22.5,Good
+10,2022,Hawaii,25.7,Good
+11,2022,Hawaii,27.3,Good
+12,2022,Hawaii,29.8,Good
+1,2023,Hawaii,38.6,Good
+2,2023,Hawaii,34.4,Good
+3,2023,Hawaii,29.6,Good
+4,2023,Hawaii,25.5,Good
+5,2023,Hawaii,28.4,Good
+6,2023,Hawaii,24.4,Good
+7,2023,Hawaii,24.5,Good
+8,2023,Hawaii,26.5,Good
+9,2023,Hawaii,25.3,Good
+10,2023,Hawaii,18.4,Good
+11,2023,Hawaii,24.2,Good
+12,2023,Hawaii,23.6,Good
+1,2024,Hawaii,28.1,Good
+2,2024,Hawaii,25.8,Good
+3,2024,Hawaii,29.1,Good
+4,2024,Hawaii,29.3,Good
+5,2024,Hawaii,26.7,Good
+6,2024,Hawaii,27.1,Good
+7,2024,Hawaii,23.1,Good
+8,2024,Hawaii,21.2,Good
+9,2024,Hawaii,21.7,Good
+10,2024,Hawaii,21.2,Good
+11,2024,Hawaii,23.3,Good
+12,2024,Hawaii,27.0,Good
+1,2025,Hawaii,33.1,Good
+2,2025,Hawaii,34.4,Good
+3,2025,Hawaii,35.0,Good
+4,2025,Hawaii,9.3,Good
+1,2020,Idaho,34.1,Good
+2,2020,Idaho,35.1,Good
+3,2020,Idaho,30.3,Good
+4,2020,Idaho,27.8,Good
+5,2020,Idaho,25.1,Good
+6,2020,Idaho,23.1,Good
+7,2020,Idaho,33.6,Good
+8,2020,Idaho,50.6,Moderate
+9,2020,Idaho,72.8,Moderate
+10,2020,Idaho,44.2,Good
+11,2020,Idaho,43.2,Good
+12,2020,Idaho,45.2,Good
+1,2021,Idaho,42.8,Good
+2,2021,Idaho,33.6,Good
+3,2021,Idaho,37.1,Good
+4,2021,Idaho,33.4,Good
+5,2021,Idaho,27.7,Good
+6,2021,Idaho,32.4,Good
+7,2021,Idaho,68.4,Moderate
+8,2021,Idaho,74.7,Moderate
+9,2021,Idaho,50.5,Moderate
+10,2021,Idaho,33.5,Good
+11,2021,Idaho,39.6,Good
+12,2021,Idaho,34.2,Good
+1,2022,Idaho,44.3,Good
+2,2022,Idaho,41.2,Good
+3,2022,Idaho,29.2,Good
+4,2022,Idaho,27.7,Good
+5,2022,Idaho,21.1,Good
+6,2022,Idaho,23.7,Good
+7,2022,Idaho,38.4,Good
+8,2022,Idaho,45.9,Good
+9,2022,Idaho,65.6,Moderate
+10,2022,Idaho,44.0,Good
+11,2022,Idaho,44.8,Good
+12,2022,Idaho,41.1,Good
+1,2023,Idaho,68.2,Moderate
+2,2023,Idaho,38.7,Good
+3,2023,Idaho,30.3,Good
+4,2023,Idaho,30.2,Good
+5,2023,Idaho,34.8,Good
+6,2023,Idaho,30.6,Good
+7,2023,Idaho,38.5,Good
+8,2023,Idaho,45.4,Good
+9,2023,Idaho,31.3,Good
+10,2023,Idaho,32.5,Good
+11,2023,Idaho,45.5,Good
+12,2023,Idaho,40.5,Good
+1,2024,Idaho,40.3,Good
+2,2024,Idaho,28.3,Good
+3,2024,Idaho,24.5,Good
+4,2024,Idaho,25.6,Good
+5,2024,Idaho,25.1,Good
+6,2024,Idaho,29.8,Good
+7,2024,Idaho,61.0,Moderate
+8,2024,Idaho,59.6,Moderate
+9,2024,Idaho,48.1,Good
+10,2024,Idaho,40.9,Good
+11,2024,Idaho,40.0,Good
+12,2024,Idaho,42.2,Good
+1,2025,Idaho,42.9,Good
+2,2025,Idaho,36.7,Good
+3,2025,Idaho,29.2,Good
+4,2025,Idaho,36.1,Good
+5,2025,Idaho,16.4,Good
+6,2025,Idaho,22.8,Good
+1,2020,Illinois,42.0,Good
+2,2020,Illinois,40.1,Good
+3,2020,Illinois,42.4,Good
+4,2020,Illinois,45.1,Good
+5,2020,Illinois,41.7,Good
+6,2020,Illinois,58.4,Moderate
+7,2020,Illinois,50.8,Moderate
+8,2020,Illinois,45.8,Good
+9,2020,Illinois,40.9,Good
+10,2020,Illinois,39.1,Good
+11,2020,Illinois,40.4,Good
+12,2020,Illinois,46.2,Good
+1,2021,Illinois,44.4,Good
+2,2021,Illinois,46.8,Good
+3,2021,Illinois,44.9,Good
+4,2021,Illinois,44.9,Good
+5,2021,Illinois,45.4,Good
+6,2021,Illinois,55.3,Moderate
+7,2021,Illinois,53.7,Moderate
+8,2021,Illinois,52.3,Moderate
+9,2021,Illinois,46.3,Good
+10,2021,Illinois,38.8,Good
+11,2021,Illinois,41.0,Good
+12,2021,Illinois,44.7,Good
+1,2022,Illinois,44.2,Good
+2,2022,Illinois,43.0,Good
+3,2022,Illinois,43.1,Good
+4,2022,Illinois,41.8,Good
+5,2022,Illinois,47.4,Good
+6,2022,Illinois,62.3,Moderate
+7,2022,Illinois,48.2,Good
+8,2022,Illinois,42.9,Good
+9,2022,Illinois,41.2,Good
+10,2022,Illinois,42.9,Good
+11,2022,Illinois,43.5,Good
+12,2022,Illinois,43.6,Good
+1,2023,Illinois,44.5,Good
+2,2023,Illinois,40.1,Good
+3,2023,Illinois,45.2,Good
+4,2023,Illinois,48.9,Good
+5,2023,Illinois,65.1,Moderate
+6,2023,Illinois,90.9,Moderate
+7,2023,Illinois,55.9,Moderate
+8,2023,Illinois,50.5,Moderate
+9,2023,Illinois,48.7,Good
+10,2023,Illinois,40.9,Good
+11,2023,Illinois,41.2,Good
+12,2023,Illinois,35.7,Good
+1,2024,Illinois,35.3,Good
+2,2024,Illinois,40.8,Good
+3,2024,Illinois,41.3,Good
+4,2024,Illinois,42.2,Good
+5,2024,Illinois,48.0,Good
+6,2024,Illinois,51.1,Moderate
+7,2024,Illinois,48.7,Good
+8,2024,Illinois,47.5,Good
+9,2024,Illinois,44.3,Good
+10,2024,Illinois,45.6,Good
+11,2024,Illinois,32.4,Good
+12,2024,Illinois,37.0,Good
+1,2025,Illinois,32.1,Good
+2,2025,Illinois,37.0,Good
+3,2025,Illinois,44.1,Good
+4,2025,Illinois,42.4,Good
+5,2025,Illinois,42.9,Good
+6,2025,Illinois,57.4,Moderate
+7,2025,Illinois,2.0,Good
+1,2020,Indiana,36.9,Good
+2,2020,Indiana,39.1,Good
+3,2020,Indiana,39.3,Good
+4,2020,Indiana,42.5,Good
+5,2020,Indiana,38.9,Good
+6,2020,Indiana,53.2,Moderate
+7,2020,Indiana,49.0,Good
+8,2020,Indiana,42.6,Good
+9,2020,Indiana,39.9,Good
+10,2020,Indiana,34.8,Good
+11,2020,Indiana,38.0,Good
+12,2020,Indiana,38.8,Good
+1,2021,Indiana,37.4,Good
+2,2021,Indiana,44.9,Good
+3,2021,Indiana,41.9,Good
+4,2021,Indiana,44.7,Good
+5,2021,Indiana,44.4,Good
+6,2021,Indiana,49.1,Good
+7,2021,Indiana,50.9,Moderate
+8,2021,Indiana,48.3,Good
+9,2021,Indiana,43.5,Good
+10,2021,Indiana,36.3,Good
+11,2021,Indiana,35.8,Good
+12,2021,Indiana,36.3,Good
+1,2022,Indiana,39.3,Good
+2,2022,Indiana,40.3,Good
+3,2022,Indiana,40.7,Good
+4,2022,Indiana,38.9,Good
+5,2022,Indiana,42.9,Good
+6,2022,Indiana,58.9,Moderate
+7,2022,Indiana,47.3,Good
+8,2022,Indiana,40.8,Good
+9,2022,Indiana,38.6,Good
+10,2022,Indiana,39.5,Good
+11,2022,Indiana,39.5,Good
+12,2022,Indiana,35.4,Good
+1,2023,Indiana,37.5,Good
+2,2023,Indiana,39.3,Good
+3,2023,Indiana,42.9,Good
+4,2023,Indiana,47.9,Good
+5,2023,Indiana,53.1,Moderate
+6,2023,Indiana,76.9,Moderate
+7,2023,Indiana,53.3,Moderate
+8,2023,Indiana,48.2,Good
+9,2023,Indiana,42.1,Good
+10,2023,Indiana,36.0,Good
+11,2023,Indiana,40.6,Good
+12,2023,Indiana,35.6,Good
+1,2024,Indiana,34.7,Good
+2,2024,Indiana,42.3,Good
+3,2024,Indiana,40.1,Good
+4,2024,Indiana,40.9,Good
+5,2024,Indiana,45.6,Good
+6,2024,Indiana,50.3,Moderate
+7,2024,Indiana,48.8,Good
+8,2024,Indiana,47.4,Good
+9,2024,Indiana,42.5,Good
+10,2024,Indiana,44.1,Good
+11,2024,Indiana,33.5,Good
+12,2024,Indiana,35.4,Good
+1,2025,Indiana,37.7,Good
+2,2025,Indiana,40.7,Good
+3,2025,Indiana,41.7,Good
+4,2025,Indiana,41.8,Good
+5,2025,Indiana,39.0,Good
+6,2025,Indiana,27.1,Good
+1,2020,Iowa,46.6,Good
+2,2020,Iowa,43.0,Good
+3,2020,Iowa,40.5,Good
+4,2020,Iowa,44.3,Good
+5,2020,Iowa,37.7,Good
+6,2020,Iowa,46.6,Good
+7,2020,Iowa,43.4,Good
+8,2020,Iowa,41.8,Good
+9,2020,Iowa,35.5,Good
+10,2020,Iowa,37.9,Good
+11,2020,Iowa,42.2,Good
+12,2020,Iowa,48.8,Good
+1,2021,Iowa,49.8,Good
+2,2021,Iowa,51.2,Moderate
+3,2021,Iowa,45.1,Good
+4,2021,Iowa,44.0,Good
+5,2021,Iowa,40.8,Good
+6,2021,Iowa,48.4,Good
+7,2021,Iowa,56.1,Moderate
+8,2021,Iowa,49.0,Good
+9,2021,Iowa,43.7,Good
+10,2021,Iowa,36.9,Good
+11,2021,Iowa,39.5,Good
+12,2021,Iowa,45.9,Good
+1,2022,Iowa,43.9,Good
+2,2022,Iowa,41.2,Good
+3,2022,Iowa,40.9,Good
+4,2022,Iowa,39.1,Good
+5,2022,Iowa,44.0,Good
+6,2022,Iowa,47.9,Good
+7,2022,Iowa,43.8,Good
+8,2022,Iowa,40.5,Good
+9,2022,Iowa,39.4,Good
+10,2022,Iowa,44.9,Good
+11,2022,Iowa,40.7,Good
+12,2022,Iowa,43.9,Good
+1,2023,Iowa,50.2,Moderate
+2,2023,Iowa,40.3,Good
+3,2023,Iowa,44.0,Good
+4,2023,Iowa,46.0,Good
+5,2023,Iowa,60.9,Moderate
+6,2023,Iowa,82.7,Moderate
+7,2023,Iowa,54.2,Moderate
+8,2023,Iowa,51.4,Moderate
+9,2023,Iowa,52.6,Moderate
+10,2023,Iowa,38.6,Good
+11,2023,Iowa,44.6,Good
+12,2023,Iowa,41.2,Good
+1,2024,Iowa,43.5,Good
+2,2024,Iowa,40.5,Good
+3,2024,Iowa,41.2,Good
+4,2024,Iowa,40.4,Good
+5,2024,Iowa,45.4,Good
+6,2024,Iowa,45.3,Good
+7,2024,Iowa,47.1,Good
+8,2024,Iowa,44.4,Good
+9,2024,Iowa,41.7,Good
+10,2024,Iowa,46.9,Good
+11,2024,Iowa,36.0,Good
+12,2024,Iowa,42.4,Good
+1,2025,Iowa,35.2,Good
+2,2025,Iowa,41.5,Good
+3,2025,Iowa,42.1,Good
+4,2025,Iowa,45.5,Good
+5,2025,Iowa,47.7,Good
+6,2025,Iowa,56.8,Moderate
+7,2025,Iowa,2.0,Good
+1,2020,Kansas,31.6,Good
+2,2020,Kansas,31.8,Good
+3,2020,Kansas,34.2,Good
+4,2020,Kansas,43.9,Good
+5,2020,Kansas,34.0,Good
+6,2020,Kansas,48.9,Good
+7,2020,Kansas,42.8,Good
+8,2020,Kansas,43.4,Good
+9,2020,Kansas,41.2,Good
+10,2020,Kansas,41.3,Good
+11,2020,Kansas,35.7,Good
+12,2020,Kansas,36.0,Good
+1,2021,Kansas,39.1,Good
+2,2021,Kansas,37.6,Good
+3,2021,Kansas,39.2,Good
+4,2021,Kansas,42.9,Good
+5,2021,Kansas,34.3,Good
+6,2021,Kansas,45.9,Good
+7,2021,Kansas,51.2,Moderate
+8,2021,Kansas,50.9,Moderate
+9,2021,Kansas,45.4,Good
+10,2021,Kansas,37.0,Good
+11,2021,Kansas,37.8,Good
+12,2021,Kansas,43.0,Good
+1,2022,Kansas,33.3,Good
+2,2022,Kansas,36.6,Good
+3,2022,Kansas,42.5,Good
+4,2022,Kansas,47.4,Good
+5,2022,Kansas,41.5,Good
+6,2022,Kansas,48.9,Good
+7,2022,Kansas,46.6,Good
+8,2022,Kansas,45.4,Good
+9,2022,Kansas,41.6,Good
+10,2022,Kansas,42.7,Good
+11,2022,Kansas,33.6,Good
+12,2022,Kansas,36.1,Good
+1,2023,Kansas,35.9,Good
+2,2023,Kansas,36.9,Good
+3,2023,Kansas,43.8,Good
+4,2023,Kansas,45.6,Good
+5,2023,Kansas,52.4,Moderate
+6,2023,Kansas,60.1,Moderate
+7,2023,Kansas,46.3,Good
+8,2023,Kansas,50.4,Moderate
+9,2023,Kansas,58.0,Moderate
+10,2023,Kansas,36.0,Good
+11,2023,Kansas,35.7,Good
+12,2023,Kansas,30.1,Good
+1,2024,Kansas,31.9,Good
+2,2024,Kansas,35.5,Good
+3,2024,Kansas,41.8,Good
+4,2024,Kansas,47.7,Good
+5,2024,Kansas,43.4,Good
+6,2024,Kansas,42.2,Good
+7,2024,Kansas,50.9,Moderate
+8,2024,Kansas,46.9,Good
+9,2024,Kansas,42.6,Good
+10,2024,Kansas,49.5,Good
+11,2024,Kansas,29.5,Good
+12,2024,Kansas,36.3,Good
+1,2025,Kansas,34.7,Good
+2,2025,Kansas,37.8,Good
+3,2025,Kansas,46.8,Good
+4,2025,Kansas,40.7,Good
+1,2020,Kentucky,36.7,Good
+2,2020,Kentucky,37.1,Good
+3,2020,Kentucky,37.6,Good
+4,2020,Kentucky,42.2,Good
+5,2020,Kentucky,37.9,Good
+6,2020,Kentucky,46.9,Good
+7,2020,Kentucky,42.3,Good
+8,2020,Kentucky,38.8,Good
+9,2020,Kentucky,35.7,Good
+10,2020,Kentucky,33.5,Good
+11,2020,Kentucky,41.0,Good
+12,2020,Kentucky,44.1,Good
+1,2021,Kentucky,40.8,Good
+2,2021,Kentucky,46.2,Good
+3,2021,Kentucky,42.7,Good
+4,2021,Kentucky,45.6,Good
+5,2021,Kentucky,44.4,Good
+6,2021,Kentucky,43.1,Good
+7,2021,Kentucky,49.9,Good
+8,2021,Kentucky,43.4,Good
+9,2021,Kentucky,39.8,Good
+10,2021,Kentucky,36.8,Good
+11,2021,Kentucky,39.9,Good
+12,2021,Kentucky,41.4,Good
+1,2022,Kentucky,42.6,Good
+2,2022,Kentucky,42.7,Good
+3,2022,Kentucky,43.5,Good
+4,2022,Kentucky,42.6,Good
+5,2022,Kentucky,42.0,Good
+6,2022,Kentucky,54.1,Moderate
+7,2022,Kentucky,45.4,Good
+8,2022,Kentucky,40.6,Good
+9,2022,Kentucky,38.1,Good
+10,2022,Kentucky,40.0,Good
+11,2022,Kentucky,46.4,Good
+12,2022,Kentucky,37.0,Good
+1,2023,Kentucky,38.2,Good
+2,2023,Kentucky,41.4,Good
+3,2023,Kentucky,44.2,Good
+4,2023,Kentucky,48.6,Good
+5,2023,Kentucky,47.6,Good
+6,2023,Kentucky,68.3,Moderate
+7,2023,Kentucky,48.9,Good
+8,2023,Kentucky,46.6,Good
+9,2023,Kentucky,44.3,Good
+10,2023,Kentucky,35.1,Good
+11,2023,Kentucky,43.8,Good
+12,2023,Kentucky,34.3,Good
+1,2024,Kentucky,30.8,Good
+2,2024,Kentucky,39.1,Good
+3,2024,Kentucky,39.6,Good
+4,2024,Kentucky,43.3,Good
+5,2024,Kentucky,41.9,Good
+6,2024,Kentucky,47.9,Good
+7,2024,Kentucky,46.5,Good
+8,2024,Kentucky,49.2,Good
+9,2024,Kentucky,38.9,Good
+10,2024,Kentucky,42.8,Good
+11,2024,Kentucky,33.1,Good
+12,2024,Kentucky,33.1,Good
+1,2025,Kentucky,36.7,Good
+2,2025,Kentucky,34.1,Good
+3,2025,Kentucky,43.7,Good
+4,2025,Kentucky,41.9,Good
+1,2020,Louisiana,34.5,Good
+2,2020,Louisiana,35.5,Good
+3,2020,Louisiana,39.4,Good
+4,2020,Louisiana,44.8,Good
+5,2020,Louisiana,43.4,Good
+6,2020,Louisiana,43.8,Good
+7,2020,Louisiana,38.5,Good
+8,2020,Louisiana,42.6,Good
+9,2020,Louisiana,37.5,Good
+10,2020,Louisiana,39.1,Good
+11,2020,Louisiana,38.4,Good
+12,2020,Louisiana,37.1,Good
+1,2021,Louisiana,36.4,Good
+2,2021,Louisiana,37.0,Good
+3,2021,Louisiana,39.7,Good
+4,2021,Louisiana,43.0,Good
+5,2021,Louisiana,41.7,Good
+6,2021,Louisiana,36.3,Good
+7,2021,Louisiana,41.0,Good
+8,2021,Louisiana,44.6,Good
+9,2021,Louisiana,41.5,Good
+10,2021,Louisiana,43.1,Good
+11,2021,Louisiana,42.6,Good
+12,2021,Louisiana,36.0,Good
+1,2022,Louisiana,39.8,Good
+2,2022,Louisiana,40.5,Good
+3,2022,Louisiana,46.5,Good
+4,2022,Louisiana,46.0,Good
+5,2022,Louisiana,48.6,Good
+6,2022,Louisiana,48.9,Good
+7,2022,Louisiana,35.7,Good
+8,2022,Louisiana,32.0,Good
+9,2022,Louisiana,46.4,Good
+10,2022,Louisiana,48.1,Good
+11,2022,Louisiana,39.5,Good
+12,2022,Louisiana,36.4,Good
+1,2023,Louisiana,37.0,Good
+2,2023,Louisiana,39.2,Good
+3,2023,Louisiana,43.5,Good
+4,2023,Louisiana,42.2,Good
+5,2023,Louisiana,55.1,Moderate
+6,2023,Louisiana,50.0,Good
+7,2023,Louisiana,48.7,Good
+8,2023,Louisiana,54.0,Moderate
+9,2023,Louisiana,51.2,Moderate
+10,2023,Louisiana,45.9,Good
+11,2023,Louisiana,40.9,Good
+12,2023,Louisiana,39.3,Good
+1,2024,Louisiana,36.6,Good
+2,2024,Louisiana,41.8,Good
+3,2024,Louisiana,39.7,Good
+4,2024,Louisiana,48.2,Good
+5,2024,Louisiana,48.4,Good
+6,2024,Louisiana,45.0,Good
+7,2024,Louisiana,41.0,Good
+8,2024,Louisiana,53.8,Moderate
+9,2024,Louisiana,41.9,Good
+10,2024,Louisiana,52.3,Moderate
+11,2024,Louisiana,36.8,Good
+12,2024,Louisiana,37.1,Good
+1,2025,Louisiana,36.1,Good
+2,2025,Louisiana,39.2,Good
+3,2025,Louisiana,47.3,Good
+4,2025,Louisiana,46.8,Good
+5,2025,Louisiana,41.1,Good
+6,2025,Louisiana,40.4,Good
+7,2025,Louisiana,3.0,Good
+1,2020,Maine,36.4,Good
+2,2020,Maine,40.3,Good
+3,2020,Maine,41.7,Good
+4,2020,Maine,41.0,Good
+5,2020,Maine,38.8,Good
+6,2020,Maine,38.2,Good
+7,2020,Maine,35.0,Good
+8,2020,Maine,34.3,Good
+9,2020,Maine,29.5,Good
+10,2020,Maine,27.3,Good
+11,2020,Maine,34.1,Good
+12,2020,Maine,32.3,Good
+1,2021,Maine,32.8,Good
+2,2021,Maine,38.0,Good
+3,2021,Maine,41.8,Good
+4,2021,Maine,40.3,Good
+5,2021,Maine,39.4,Good
+6,2021,Maine,45.1,Good
+7,2021,Maine,34.4,Good
+8,2021,Maine,39.1,Good
+9,2021,Maine,30.0,Good
+10,2021,Maine,26.3,Good
+11,2021,Maine,32.0,Good
+12,2021,Maine,33.1,Good
+1,2022,Maine,40.2,Good
+2,2022,Maine,36.3,Good
+3,2022,Maine,39.5,Good
+4,2022,Maine,39.2,Good
+5,2022,Maine,37.0,Good
+6,2022,Maine,32.8,Good
+7,2022,Maine,41.6,Good
+8,2022,Maine,33.1,Good
+9,2022,Maine,27.9,Good
+10,2022,Maine,30.1,Good
+11,2022,Maine,30.1,Good
+12,2022,Maine,30.0,Good
+1,2023,Maine,28.5,Good
+2,2023,Maine,36.5,Good
+3,2023,Maine,42.1,Good
+4,2023,Maine,43.4,Good
+5,2023,Maine,41.4,Good
+6,2023,Maine,37.5,Good
+7,2023,Maine,44.0,Good
+8,2023,Maine,35.6,Good
+9,2023,Maine,37.4,Good
+10,2023,Maine,31.1,Good
+11,2023,Maine,32.7,Good
+12,2023,Maine,34.2,Good
+1,2024,Maine,32.5,Good
+2,2024,Maine,35.7,Good
+3,2024,Maine,37.4,Good
+4,2024,Maine,39.5,Good
+5,2024,Maine,36.0,Good
+6,2024,Maine,38.8,Good
+7,2024,Maine,42.7,Good
+8,2024,Maine,39.2,Good
+9,2024,Maine,32.9,Good
+10,2024,Maine,30.2,Good
+11,2024,Maine,25.4,Good
+12,2024,Maine,32.0,Good
+1,2025,Maine,35.6,Good
+2,2025,Maine,39.6,Good
+3,2025,Maine,40.8,Good
+4,2025,Maine,42.6,Good
+5,2025,Maine,34.3,Good
+6,2025,Maine,42.4,Good
+7,2025,Maine,2.0,Good
+1,2020,Maryland,32.4,Good
+2,2020,Maryland,35.5,Good
+3,2020,Maryland,37.0,Good
+4,2020,Maryland,40.4,Good
+5,2020,Maryland,38.4,Good
+6,2020,Maryland,44.1,Good
+7,2020,Maryland,48.7,Good
+8,2020,Maryland,40.1,Good
+9,2020,Maryland,33.3,Good
+10,2020,Maryland,32.0,Good
+11,2020,Maryland,38.5,Good
+12,2020,Maryland,37.7,Good
+1,2021,Maryland,38.4,Good
+2,2021,Maryland,44.7,Good
+3,2021,Maryland,41.9,Good
+4,2021,Maryland,45.3,Good
+5,2021,Maryland,47.4,Good
+6,2021,Maryland,44.3,Good
+7,2021,Maryland,53.0,Moderate
+8,2021,Maryland,47.0,Good
+9,2021,Maryland,39.0,Good
+10,2021,Maryland,34.2,Good
+11,2021,Maryland,38.5,Good
+12,2021,Maryland,40.9,Good
+1,2022,Maryland,41.5,Good
+2,2022,Maryland,40.1,Good
+3,2022,Maryland,41.9,Good
+4,2022,Maryland,42.4,Good
+5,2022,Maryland,42.7,Good
+6,2022,Maryland,50.9,Moderate
+7,2022,Maryland,48.3,Good
+8,2022,Maryland,42.3,Good
+9,2022,Maryland,37.2,Good
+10,2022,Maryland,33.4,Good
+11,2022,Maryland,34.9,Good
+12,2022,Maryland,36.7,Good
+1,2023,Maryland,32.4,Good
+2,2023,Maryland,36.4,Good
+3,2023,Maryland,41.6,Good
+4,2023,Maryland,52.1,Moderate
+5,2023,Maryland,47.2,Good
+6,2023,Maryland,68.3,Moderate
+7,2023,Maryland,54.0,Moderate
+8,2023,Maryland,45.4,Good
+9,2023,Maryland,39.5,Good
+10,2023,Maryland,34.4,Good
+11,2023,Maryland,36.6,Good
+12,2023,Maryland,33.7,Good
+1,2024,Maryland,33.4,Good
+2,2024,Maryland,38.0,Good
+3,2024,Maryland,39.0,Good
+4,2024,Maryland,44.6,Good
+5,2024,Maryland,44.3,Good
+6,2024,Maryland,52.1,Moderate
+7,2024,Maryland,51.4,Moderate
+8,2024,Maryland,47.3,Good
+9,2024,Maryland,37.7,Good
+10,2024,Maryland,40.4,Good
+11,2024,Maryland,30.4,Good
+12,2024,Maryland,36.3,Good
+1,2025,Maryland,39.3,Good
+2,2025,Maryland,36.2,Good
+3,2025,Maryland,42.1,Good
+4,2025,Maryland,45.2,Good
+5,2025,Maryland,40.8,Good
+6,2025,Maryland,50.4,Moderate
+7,2025,Maryland,1.0,Good
+1,2020,Massachusetts,41.9,Good
+2,2020,Massachusetts,45.7,Good
+3,2020,Massachusetts,42.4,Good
+4,2020,Massachusetts,42.1,Good
+5,2020,Massachusetts,39.0,Good
+6,2020,Massachusetts,42.6,Good
+7,2020,Massachusetts,44.1,Good
+8,2020,Massachusetts,43.1,Good
+9,2020,Massachusetts,36.3,Good
+10,2020,Massachusetts,35.3,Good
+11,2020,Massachusetts,40.7,Good
+12,2020,Massachusetts,41.9,Good
+1,2021,Massachusetts,41.2,Good
+2,2021,Massachusetts,43.7,Good
+3,2021,Massachusetts,43.1,Good
+4,2021,Massachusetts,41.5,Good
+5,2021,Massachusetts,43.8,Good
+6,2021,Massachusetts,49.1,Good
+7,2021,Massachusetts,46.7,Good
+8,2021,Massachusetts,45.9,Good
+9,2021,Massachusetts,36.7,Good
+10,2021,Massachusetts,36.1,Good
+11,2021,Massachusetts,38.9,Good
+12,2021,Massachusetts,41.5,Good
+1,2022,Massachusetts,45.6,Good
+2,2022,Massachusetts,44.1,Good
+3,2022,Massachusetts,43.5,Good
+4,2022,Massachusetts,40.5,Good
+5,2022,Massachusetts,41.0,Good
+6,2022,Massachusetts,40.8,Good
+7,2022,Massachusetts,48.8,Good
+8,2022,Massachusetts,43.9,Good
+9,2022,Massachusetts,34.2,Good
+10,2022,Massachusetts,40.1,Good
+11,2022,Massachusetts,38.9,Good
+12,2022,Massachusetts,41.4,Good
+1,2023,Massachusetts,39.2,Good
+2,2023,Massachusetts,43.4,Good
+3,2023,Massachusetts,43.6,Good
+4,2023,Massachusetts,49.0,Good
+5,2023,Massachusetts,45.8,Good
+6,2023,Massachusetts,52.0,Moderate
+7,2023,Massachusetts,52.4,Moderate
+8,2023,Massachusetts,40.3,Good
+9,2023,Massachusetts,42.3,Good
+10,2023,Massachusetts,35.0,Good
+11,2023,Massachusetts,36.1,Good
+12,2023,Massachusetts,37.2,Good
+1,2024,Massachusetts,35.3,Good
+2,2024,Massachusetts,39.4,Good
+3,2024,Massachusetts,37.2,Good
+4,2024,Massachusetts,40.5,Good
+5,2024,Massachusetts,40.4,Good
+6,2024,Massachusetts,45.4,Good
+7,2024,Massachusetts,46.4,Good
+8,2024,Massachusetts,45.1,Good
+9,2024,Massachusetts,36.2,Good
+10,2024,Massachusetts,35.9,Good
+11,2024,Massachusetts,38.4,Good
+12,2024,Massachusetts,36.5,Good
+1,2025,Massachusetts,39.7,Good
+2,2025,Massachusetts,40.8,Good
+3,2025,Massachusetts,41.3,Good
+4,2025,Massachusetts,44.9,Good
+5,2025,Massachusetts,5.0,Good
+1,2020,Michigan,34.6,Good
+2,2020,Michigan,37.7,Good
+3,2020,Michigan,38.0,Good
+4,2020,Michigan,39.8,Good
+5,2020,Michigan,38.6,Good
+6,2020,Michigan,55.5,Moderate
+7,2020,Michigan,47.8,Good
+8,2020,Michigan,40.8,Good
+9,2020,Michigan,34.8,Good
+10,2020,Michigan,30.3,Good
+11,2020,Michigan,36.1,Good
+12,2020,Michigan,35.3,Good
+1,2021,Michigan,43.4,Good
+2,2021,Michigan,44.8,Good
+3,2021,Michigan,42.0,Good
+4,2021,Michigan,43.0,Good
+5,2021,Michigan,45.6,Good
+6,2021,Michigan,52.2,Moderate
+7,2021,Michigan,47.1,Good
+8,2021,Michigan,49.9,Good
+9,2021,Michigan,37.7,Good
+10,2021,Michigan,34.7,Good
+11,2021,Michigan,38.6,Good
+12,2021,Michigan,42.8,Good
+1,2022,Michigan,43.2,Good
+2,2022,Michigan,43.9,Good
+3,2022,Michigan,41.7,Good
+4,2022,Michigan,38.3,Good
+5,2022,Michigan,43.7,Good
+6,2022,Michigan,55.7,Moderate
+7,2022,Michigan,45.5,Good
+8,2022,Michigan,38.8,Good
+9,2022,Michigan,36.6,Good
+10,2022,Michigan,39.7,Good
+11,2022,Michigan,44.6,Good
+12,2022,Michigan,44.3,Good
+1,2023,Michigan,44.0,Good
+2,2023,Michigan,41.6,Good
+3,2023,Michigan,43.2,Good
+4,2023,Michigan,48.4,Good
+5,2023,Michigan,52.8,Moderate
+6,2023,Michigan,73.0,Moderate
+7,2023,Michigan,53.0,Moderate
+8,2023,Michigan,45.2,Good
+9,2023,Michigan,40.2,Good
+10,2023,Michigan,34.1,Good
+11,2023,Michigan,38.6,Good
+12,2023,Michigan,38.2,Good
+1,2024,Michigan,39.0,Good
+2,2024,Michigan,42.3,Good
+3,2024,Michigan,39.2,Good
+4,2024,Michigan,40.8,Good
+5,2024,Michigan,45.2,Good
+6,2024,Michigan,45.9,Good
+7,2024,Michigan,46.6,Good
+8,2024,Michigan,43.1,Good
+9,2024,Michigan,42.0,Good
+10,2024,Michigan,38.8,Good
+11,2024,Michigan,29.5,Good
+12,2024,Michigan,35.9,Good
+1,2025,Michigan,33.7,Good
+2,2025,Michigan,38.9,Good
+3,2025,Michigan,37.1,Good
+4,2025,Michigan,40.5,Good
+1,2020,Minnesota,36.7,Good
+2,2020,Minnesota,33.2,Good
+3,2020,Minnesota,36.6,Good
+4,2020,Minnesota,36.1,Good
+5,2020,Minnesota,35.3,Good
+6,2020,Minnesota,40.9,Good
+7,2020,Minnesota,33.4,Good
+8,2020,Minnesota,32.2,Good
+9,2020,Minnesota,29.0,Good
+10,2020,Minnesota,30.4,Good
+11,2020,Minnesota,33.8,Good
+12,2020,Minnesota,37.6,Good
+1,2021,Minnesota,40.6,Good
+2,2021,Minnesota,42.0,Good
+3,2021,Minnesota,39.5,Good
+4,2021,Minnesota,36.4,Good
+5,2021,Minnesota,38.0,Good
+6,2021,Minnesota,47.0,Good
+7,2021,Minnesota,64.0,Moderate
+8,2021,Minnesota,47.9,Good
+9,2021,Minnesota,34.7,Good
+10,2021,Minnesota,31.0,Good
+11,2021,Minnesota,28.1,Good
+12,2021,Minnesota,32.6,Good
+1,2022,Minnesota,34.7,Good
+2,2022,Minnesota,35.8,Good
+3,2022,Minnesota,35.7,Good
+4,2022,Minnesota,32.7,Good
+5,2022,Minnesota,36.6,Good
+6,2022,Minnesota,39.2,Good
+7,2022,Minnesota,33.6,Good
+8,2022,Minnesota,32.4,Good
+9,2022,Minnesota,31.7,Good
+10,2022,Minnesota,37.9,Good
+11,2022,Minnesota,33.4,Good
+12,2022,Minnesota,31.9,Good
+1,2023,Minnesota,42.9,Good
+2,2023,Minnesota,32.5,Good
+3,2023,Minnesota,40.6,Good
+4,2023,Minnesota,40.3,Good
+5,2023,Minnesota,53.9,Moderate
+6,2023,Minnesota,75.5,Moderate
+7,2023,Minnesota,50.2,Moderate
+8,2023,Minnesota,51.6,Moderate
+9,2023,Minnesota,49.1,Good
+10,2023,Minnesota,29.3,Good
+11,2023,Minnesota,31.1,Good
+12,2023,Minnesota,36.6,Good
+1,2024,Minnesota,36.6,Good
+2,2024,Minnesota,33.3,Good
+3,2024,Minnesota,34.6,Good
+4,2024,Minnesota,35.0,Good
+5,2024,Minnesota,40.6,Good
+6,2024,Minnesota,35.0,Good
+7,2024,Minnesota,48.0,Good
+8,2024,Minnesota,43.4,Good
+9,2024,Minnesota,41.5,Good
+10,2024,Minnesota,38.5,Good
+11,2024,Minnesota,28.6,Good
+12,2024,Minnesota,36.2,Good
+1,2025,Minnesota,26.0,Good
+2,2025,Minnesota,31.7,Good
+3,2025,Minnesota,36.2,Good
+4,2025,Minnesota,37.8,Good
+1,2020,Mississippi,41.3,Good
+2,2020,Mississippi,37.6,Good
+3,2020,Mississippi,43.1,Good
+4,2020,Mississippi,47.7,Good
+5,2020,Mississippi,43.8,Good
+6,2020,Mississippi,44.4,Good
+7,2020,Mississippi,40.8,Good
+8,2020,Mississippi,43.0,Good
+9,2020,Mississippi,41.4,Good
+10,2020,Mississippi,42.4,Good
+11,2020,Mississippi,45.2,Good
+12,2020,Mississippi,44.8,Good
+1,2021,Mississippi,42.4,Good
+2,2021,Mississippi,43.9,Good
+3,2021,Mississippi,45.1,Good
+4,2021,Mississippi,46.4,Good
+5,2021,Mississippi,43.6,Good
+6,2021,Mississippi,39.6,Good
+7,2021,Mississippi,40.9,Good
+8,2021,Mississippi,44.8,Good
+9,2021,Mississippi,41.2,Good
+10,2021,Mississippi,41.2,Good
+11,2021,Mississippi,45.7,Good
+12,2021,Mississippi,42.3,Good
+1,2022,Mississippi,42.5,Good
+2,2022,Mississippi,47.7,Good
+3,2022,Mississippi,48.3,Good
+4,2022,Mississippi,45.5,Good
+5,2022,Mississippi,46.4,Good
+6,2022,Mississippi,51.9,Moderate
+7,2022,Mississippi,38.5,Good
+8,2022,Mississippi,33.6,Good
+9,2022,Mississippi,46.8,Good
+10,2022,Mississippi,48.1,Good
+11,2022,Mississippi,46.3,Good
+12,2022,Mississippi,38.2,Good
+1,2023,Mississippi,39.0,Good
+2,2023,Mississippi,43.6,Good
+3,2023,Mississippi,48.8,Good
+4,2023,Mississippi,45.9,Good
+5,2023,Mississippi,54.9,Moderate
+6,2023,Mississippi,56.6,Moderate
+7,2023,Mississippi,47.9,Good
+8,2023,Mississippi,52.9,Moderate
+9,2023,Mississippi,50.2,Moderate
+10,2023,Mississippi,48.2,Good
+11,2023,Mississippi,49.5,Good
+12,2023,Mississippi,43.2,Good
+1,2024,Mississippi,34.9,Good
+2,2024,Mississippi,43.3,Good
+3,2024,Mississippi,41.7,Good
+4,2024,Mississippi,46.7,Good
+5,2024,Mississippi,45.8,Good
+6,2024,Mississippi,45.5,Good
+7,2024,Mississippi,40.2,Good
+8,2024,Mississippi,50.4,Moderate
+9,2024,Mississippi,40.7,Good
+10,2024,Mississippi,52.9,Moderate
+11,2024,Mississippi,38.1,Good
+12,2024,Mississippi,40.2,Good
+1,2025,Mississippi,35.6,Good
+2,2025,Mississippi,41.5,Good
+3,2025,Mississippi,47.8,Good
+4,2025,Mississippi,47.4,Good
+5,2025,Mississippi,40.0,Good
+6,2025,Mississippi,5.0,Good
+1,2020,Missouri,35.7,Good
+2,2020,Missouri,33.6,Good
+3,2020,Missouri,37.8,Good
+4,2020,Missouri,42.3,Good
+5,2020,Missouri,38.0,Good
+6,2020,Missouri,51.0,Moderate
+7,2020,Missouri,44.4,Good
+8,2020,Missouri,40.5,Good
+9,2020,Missouri,37.3,Good
+10,2020,Missouri,34.8,Good
+11,2020,Missouri,33.4,Good
+12,2020,Missouri,41.8,Good
+1,2021,Missouri,37.5,Good
+2,2021,Missouri,37.6,Good
+3,2021,Missouri,41.1,Good
+4,2021,Missouri,42.6,Good
+5,2021,Missouri,39.0,Good
+6,2021,Missouri,47.8,Good
+7,2021,Missouri,49.0,Good
+8,2021,Missouri,44.8,Good
+9,2021,Missouri,43.7,Good
+10,2021,Missouri,34.0,Good
+11,2021,Missouri,32.3,Good
+12,2021,Missouri,40.6,Good
+1,2022,Missouri,35.7,Good
+2,2022,Missouri,35.4,Good
+3,2022,Missouri,43.2,Good
+4,2022,Missouri,41.7,Good
+5,2022,Missouri,42.1,Good
+6,2022,Missouri,53.6,Moderate
+7,2022,Missouri,49.3,Good
+8,2022,Missouri,43.6,Good
+9,2022,Missouri,42.4,Good
+10,2022,Missouri,41.1,Good
+11,2022,Missouri,36.7,Good
+12,2022,Missouri,34.8,Good
+1,2023,Missouri,38.0,Good
+2,2023,Missouri,36.3,Good
+3,2023,Missouri,41.5,Good
+4,2023,Missouri,47.4,Good
+5,2023,Missouri,59.0,Moderate
+6,2023,Missouri,75.6,Moderate
+7,2023,Missouri,50.2,Moderate
+8,2023,Missouri,44.7,Good
+9,2023,Missouri,51.1,Moderate
+10,2023,Missouri,36.5,Good
+11,2023,Missouri,37.8,Good
+12,2023,Missouri,29.8,Good
+1,2024,Missouri,31.0,Good
+2,2024,Missouri,40.7,Good
+3,2024,Missouri,42.0,Good
+4,2024,Missouri,44.0,Good
+5,2024,Missouri,44.9,Good
+6,2024,Missouri,47.2,Good
+7,2024,Missouri,45.5,Good
+8,2024,Missouri,45.1,Good
+9,2024,Missouri,41.7,Good
+10,2024,Missouri,48.0,Good
+11,2024,Missouri,28.5,Good
+12,2024,Missouri,34.3,Good
+1,2025,Missouri,31.4,Good
+2,2025,Missouri,37.6,Good
+3,2025,Missouri,48.9,Good
+1,2020,Montana,33.9,Good
+2,2020,Montana,34.1,Good
+3,2020,Montana,33.6,Good
+4,2020,Montana,34.4,Good
+5,2020,Montana,27.4,Good
+6,2020,Montana,26.7,Good
+7,2020,Montana,35.0,Good
+8,2020,Montana,48.3,Good
+9,2020,Montana,62.1,Moderate
+10,2020,Montana,41.0,Good
+11,2020,Montana,39.4,Good
+12,2020,Montana,38.4,Good
+1,2021,Montana,37.2,Good
+2,2021,Montana,36.8,Good
+3,2021,Montana,37.5,Good
+4,2021,Montana,36.2,Good
+5,2021,Montana,30.8,Good
+6,2021,Montana,37.8,Good
+7,2021,Montana,80.0,Moderate
+8,2021,Montana,70.9,Moderate
+9,2021,Montana,52.7,Moderate
+10,2021,Montana,37.5,Good
+11,2021,Montana,35.7,Good
+12,2021,Montana,33.5,Good
+1,2022,Montana,39.7,Good
+2,2022,Montana,34.8,Good
+3,2022,Montana,33.6,Good
+4,2022,Montana,32.0,Good
+5,2022,Montana,27.2,Good
+6,2022,Montana,27.7,Good
+7,2022,Montana,36.6,Good
+8,2022,Montana,38.2,Good
+9,2022,Montana,56.3,Moderate
+10,2022,Montana,38.0,Good
+11,2022,Montana,39.8,Good
+12,2022,Montana,41.1,Good
+1,2023,Montana,35.8,Good
+2,2023,Montana,31.5,Good
+3,2023,Montana,36.9,Good
+4,2023,Montana,31.5,Good
+5,2023,Montana,43.7,Good
+6,2023,Montana,34.5,Good
+7,2023,Montana,46.1,Good
+8,2023,Montana,48.2,Good
+9,2023,Montana,39.0,Good
+10,2023,Montana,29.5,Good
+11,2023,Montana,35.9,Good
+12,2023,Montana,33.1,Good
+1,2024,Montana,34.8,Good
+2,2024,Montana,29.3,Good
+3,2024,Montana,28.5,Good
+4,2024,Montana,25.5,Good
+5,2024,Montana,24.1,Good
+6,2024,Montana,24.3,Good
+7,2024,Montana,49.8,Good
+8,2024,Montana,42.4,Good
+9,2024,Montana,37.7,Good
+10,2024,Montana,31.3,Good
+11,2024,Montana,27.5,Good
+12,2024,Montana,27.5,Good
+1,2025,Montana,30.8,Good
+2,2025,Montana,30.4,Good
+3,2025,Montana,26.0,Good
+4,2025,Montana,27.5,Good
+5,2025,Montana,2.0,Good
+1,2020,Nebraska,28.2,Good
+2,2020,Nebraska,25.3,Good
+3,2020,Nebraska,27.0,Good
+4,2020,Nebraska,37.4,Good
+5,2020,Nebraska,32.2,Good
+6,2020,Nebraska,38.9,Good
+7,2020,Nebraska,35.4,Good
+8,2020,Nebraska,38.6,Good
+9,2020,Nebraska,37.5,Good
+10,2020,Nebraska,35.2,Good
+11,2020,Nebraska,28.4,Good
+12,2020,Nebraska,29.3,Good
+1,2021,Nebraska,31.3,Good
+2,2021,Nebraska,33.8,Good
+3,2021,Nebraska,32.1,Good
+4,2021,Nebraska,32.6,Good
+5,2021,Nebraska,28.1,Good
+6,2021,Nebraska,44.0,Good
+7,2021,Nebraska,50.3,Moderate
+8,2021,Nebraska,47.0,Good
+9,2021,Nebraska,40.5,Good
+10,2021,Nebraska,33.4,Good
+11,2021,Nebraska,26.1,Good
+12,2021,Nebraska,29.6,Good
+1,2022,Nebraska,26.2,Good
+2,2022,Nebraska,25.5,Good
+3,2022,Nebraska,27.7,Good
+4,2022,Nebraska,31.6,Good
+5,2022,Nebraska,29.6,Good
+6,2022,Nebraska,37.0,Good
+7,2022,Nebraska,32.0,Good
+8,2022,Nebraska,31.4,Good
+9,2022,Nebraska,30.7,Good
+10,2022,Nebraska,33.3,Good
+11,2022,Nebraska,25.0,Good
+12,2022,Nebraska,26.6,Good
+1,2023,Nebraska,35.6,Good
+2,2023,Nebraska,25.3,Good
+3,2023,Nebraska,33.1,Good
+4,2023,Nebraska,36.0,Good
+5,2023,Nebraska,48.0,Good
+6,2023,Nebraska,53.1,Moderate
+7,2023,Nebraska,37.6,Good
+8,2023,Nebraska,38.2,Good
+9,2023,Nebraska,46.9,Good
+10,2023,Nebraska,28.1,Good
+11,2023,Nebraska,33.4,Good
+12,2023,Nebraska,30.1,Good
+1,2024,Nebraska,34.2,Good
+2,2024,Nebraska,28.8,Good
+3,2024,Nebraska,34.8,Good
+4,2024,Nebraska,30.2,Good
+5,2024,Nebraska,28.9,Good
+6,2024,Nebraska,34.9,Good
+7,2024,Nebraska,47.6,Good
+8,2024,Nebraska,40.7,Good
+9,2024,Nebraska,40.1,Good
+10,2024,Nebraska,45.8,Good
+11,2024,Nebraska,26.4,Good
+12,2024,Nebraska,34.1,Good
+1,2025,Nebraska,30.6,Good
+2,2025,Nebraska,34.2,Good
+3,2025,Nebraska,33.3,Good
+4,2025,Nebraska,34.9,Good
+5,2025,Nebraska,31.3,Good
+6,2025,Nebraska,36.1,Good
+7,2025,Nebraska,5.0,Good
+1,2020,Nevada,34.9,Good
+2,2020,Nevada,36.1,Good
+3,2020,Nevada,32.8,Good
+4,2020,Nevada,34.7,Good
+5,2020,Nevada,42.5,Good
+6,2020,Nevada,40.0,Good
+7,2020,Nevada,44.3,Good
+8,2020,Nevada,65.6,Moderate
+9,2020,Nevada,72.3,Moderate
+10,2020,Nevada,42.7,Good
+11,2020,Nevada,37.6,Good
+12,2020,Nevada,38.3,Good
+1,2021,Nevada,35.3,Good
+2,2021,Nevada,33.3,Good
+3,2021,Nevada,36.5,Good
+4,2021,Nevada,43.8,Good
+5,2021,Nevada,45.3,Good
+6,2021,Nevada,47.0,Good
+7,2021,Nevada,69.1,Moderate
+8,2021,Nevada,94.8,Moderate
+9,2021,Nevada,59.2,Moderate
+10,2021,Nevada,35.2,Good
+11,2021,Nevada,35.2,Good
+12,2021,Nevada,35.1,Good
+1,2022,Nevada,38.9,Good
+2,2022,Nevada,38.7,Good
+3,2022,Nevada,38.2,Good
+4,2022,Nevada,45.4,Good
+5,2022,Nevada,46.1,Good
+6,2022,Nevada,45.0,Good
+7,2022,Nevada,50.4,Moderate
+8,2022,Nevada,46.9,Good
+9,2022,Nevada,55.3,Moderate
+10,2022,Nevada,37.5,Good
+11,2022,Nevada,37.9,Good
+12,2022,Nevada,36.5,Good
+1,2023,Nevada,34.6,Good
+2,2023,Nevada,38.3,Good
+3,2023,Nevada,35.5,Good
+4,2023,Nevada,46.0,Good
+5,2023,Nevada,50.9,Moderate
+6,2023,Nevada,51.3,Moderate
+7,2023,Nevada,50.8,Moderate
+8,2023,Nevada,46.0,Good
+9,2023,Nevada,42.1,Good
+10,2023,Nevada,37.1,Good
+11,2023,Nevada,37.2,Good
+12,2023,Nevada,37.9,Good
+1,2024,Nevada,35.0,Good
+2,2024,Nevada,32.2,Good
+3,2024,Nevada,35.4,Good
+4,2024,Nevada,42.6,Good
+5,2024,Nevada,50.0,Good
+6,2024,Nevada,49.4,Good
+7,2024,Nevada,58.3,Moderate
+8,2024,Nevada,49.1,Good
+9,2024,Nevada,48.7,Good
+10,2024,Nevada,42.4,Good
+11,2024,Nevada,36.9,Good
+12,2024,Nevada,41.2,Good
+1,2025,Nevada,40.2,Good
+2,2025,Nevada,35.6,Good
+3,2025,Nevada,37.2,Good
+4,2025,Nevada,58.2,Moderate
+5,2025,Nevada,80.9,Moderate
+6,2025,Nevada,5.0,Good
+1,2020,New Hampshire,35.6,Good
+2,2020,New Hampshire,38.4,Good
+3,2020,New Hampshire,41.5,Good
+4,2020,New Hampshire,42.1,Good
+5,2020,New Hampshire,40.6,Good
+6,2020,New Hampshire,38.8,Good
+7,2020,New Hampshire,37.3,Good
+8,2020,New Hampshire,35.6,Good
+9,2020,New Hampshire,34.0,Good
+10,2020,New Hampshire,31.1,Good
+11,2020,New Hampshire,36.7,Good
+12,2020,New Hampshire,37.6,Good
+1,2021,New Hampshire,38.3,Good
+2,2021,New Hampshire,40.1,Good
+3,2021,New Hampshire,42.6,Good
+4,2021,New Hampshire,41.8,Good
+5,2021,New Hampshire,42.2,Good
+6,2021,New Hampshire,44.3,Good
+7,2021,New Hampshire,39.6,Good
+8,2021,New Hampshire,41.7,Good
+9,2021,New Hampshire,33.4,Good
+10,2021,New Hampshire,30.3,Good
+11,2021,New Hampshire,32.3,Good
+12,2021,New Hampshire,37.0,Good
+1,2022,New Hampshire,43.3,Good
+2,2022,New Hampshire,39.1,Good
+3,2022,New Hampshire,41.3,Good
+4,2022,New Hampshire,40.4,Good
+5,2022,New Hampshire,40.2,Good
+6,2022,New Hampshire,36.6,Good
+7,2022,New Hampshire,41.5,Good
+8,2022,New Hampshire,38.0,Good
+9,2022,New Hampshire,29.4,Good
+10,2022,New Hampshire,33.9,Good
+11,2022,New Hampshire,34.1,Good
+12,2022,New Hampshire,35.5,Good
+1,2023,New Hampshire,34.6,Good
+2,2023,New Hampshire,39.8,Good
+3,2023,New Hampshire,43.9,Good
+4,2023,New Hampshire,48.3,Good
+5,2023,New Hampshire,44.6,Good
+6,2023,New Hampshire,43.7,Good
+7,2023,New Hampshire,49.9,Good
+8,2023,New Hampshire,37.0,Good
+9,2023,New Hampshire,39.4,Good
+10,2023,New Hampshire,31.4,Good
+11,2023,New Hampshire,33.5,Good
+12,2023,New Hampshire,34.1,Good
+1,2024,New Hampshire,32.7,Good
+2,2024,New Hampshire,37.4,Good
+3,2024,New Hampshire,38.9,Good
+4,2024,New Hampshire,40.8,Good
+5,2024,New Hampshire,40.7,Good
+6,2024,New Hampshire,44.4,Good
+7,2024,New Hampshire,44.8,Good
+8,2024,New Hampshire,41.5,Good
+9,2024,New Hampshire,36.1,Good
+10,2024,New Hampshire,35.3,Good
+11,2024,New Hampshire,32.9,Good
+12,2024,New Hampshire,37.8,Good
+1,2025,New Hampshire,38.6,Good
+2,2025,New Hampshire,38.6,Good
+3,2025,New Hampshire,42.3,Good
+4,2025,New Hampshire,37.3,Good
+1,2020,New Jersey,40.9,Good
+2,2020,New Jersey,43.1,Good
+3,2020,New Jersey,39.8,Good
+4,2020,New Jersey,40.4,Good
+5,2020,New Jersey,38.5,Good
+6,2020,New Jersey,44.9,Good
+7,2020,New Jersey,49.6,Good
+8,2020,New Jersey,45.4,Good
+9,2020,New Jersey,37.5,Good
+10,2020,New Jersey,34.7,Good
+11,2020,New Jersey,44.4,Good
+12,2020,New Jersey,43.5,Good
+1,2021,New Jersey,40.1,Good
+2,2021,New Jersey,43.7,Good
+3,2021,New Jersey,42.7,Good
+4,2021,New Jersey,43.9,Good
+5,2021,New Jersey,45.8,Good
+6,2021,New Jersey,48.6,Good
+7,2021,New Jersey,53.2,Moderate
+8,2021,New Jersey,48.9,Good
+9,2021,New Jersey,39.4,Good
+10,2021,New Jersey,36.5,Good
+11,2021,New Jersey,41.4,Good
+12,2021,New Jersey,45.0,Good
+1,2022,New Jersey,43.9,Good
+2,2022,New Jersey,41.6,Good
+3,2022,New Jersey,42.4,Good
+4,2022,New Jersey,40.8,Good
+5,2022,New Jersey,42.5,Good
+6,2022,New Jersey,48.2,Good
+7,2022,New Jersey,55.1,Moderate
+8,2022,New Jersey,46.4,Good
+9,2022,New Jersey,37.2,Good
+10,2022,New Jersey,36.1,Good
+11,2022,New Jersey,37.6,Good
+12,2022,New Jersey,38.4,Good
+1,2023,New Jersey,36.9,Good
+2,2023,New Jersey,44.0,Good
+3,2023,New Jersey,41.8,Good
+4,2023,New Jersey,49.0,Good
+5,2023,New Jersey,46.3,Good
+6,2023,New Jersey,70.1,Moderate
+7,2023,New Jersey,57.9,Moderate
+8,2023,New Jersey,47.2,Good
+9,2023,New Jersey,42.8,Good
+10,2023,New Jersey,37.1,Good
+11,2023,New Jersey,39.8,Good
+12,2023,New Jersey,41.9,Good
+1,2024,New Jersey,35.2,Good
+2,2024,New Jersey,40.3,Good
+3,2024,New Jersey,38.5,Good
+4,2024,New Jersey,43.7,Good
+5,2024,New Jersey,43.9,Good
+6,2024,New Jersey,54.0,Moderate
+7,2024,New Jersey,53.8,Moderate
+8,2024,New Jersey,49.0,Good
+9,2024,New Jersey,39.1,Good
+10,2024,New Jersey,38.8,Good
+11,2024,New Jersey,33.1,Good
+12,2024,New Jersey,37.4,Good
+1,2025,New Jersey,31.0,Good
+2,2025,New Jersey,34.1,Good
+3,2025,New Jersey,38.2,Good
+4,2025,New Jersey,41.8,Good
+1,2020,New Mexico,33.3,Good
+2,2020,New Mexico,32.7,Good
+3,2020,New Mexico,34.3,Good
+4,2020,New Mexico,40.4,Good
+5,2020,New Mexico,47.0,Good
+6,2020,New Mexico,49.7,Good
+7,2020,New Mexico,44.5,Good
+8,2020,New Mexico,54.7,Moderate
+9,2020,New Mexico,48.3,Good
+10,2020,New Mexico,44.9,Good
+11,2020,New Mexico,36.7,Good
+12,2020,New Mexico,35.6,Good
+1,2021,New Mexico,35.5,Good
+2,2021,New Mexico,35.5,Good
+3,2021,New Mexico,43.3,Good
+4,2021,New Mexico,43.3,Good
+5,2021,New Mexico,49.0,Good
+6,2021,New Mexico,57.2,Moderate
+7,2021,New Mexico,58.7,Moderate
+8,2021,New Mexico,51.1,Moderate
+9,2021,New Mexico,46.7,Good
+10,2021,New Mexico,38.2,Good
+11,2021,New Mexico,37.1,Good
+12,2021,New Mexico,36.2,Good
+1,2022,New Mexico,35.6,Good
+2,2022,New Mexico,41.4,Good
+3,2022,New Mexico,39.3,Good
+4,2022,New Mexico,52.0,Moderate
+5,2022,New Mexico,57.4,Moderate
+6,2022,New Mexico,51.0,Moderate
+7,2022,New Mexico,55.7,Moderate
+8,2022,New Mexico,46.9,Good
+9,2022,New Mexico,40.1,Good
+10,2022,New Mexico,34.2,Good
+11,2022,New Mexico,34.6,Good
+12,2022,New Mexico,32.8,Good
+1,2023,New Mexico,34.2,Good
+2,2023,New Mexico,39.3,Good
+3,2023,New Mexico,37.0,Good
+4,2023,New Mexico,47.8,Good
+5,2023,New Mexico,50.3,Moderate
+6,2023,New Mexico,52.0,Moderate
+7,2023,New Mexico,52.0,Moderate
+8,2023,New Mexico,49.8,Good
+9,2023,New Mexico,39.7,Good
+10,2023,New Mexico,37.7,Good
+11,2023,New Mexico,31.9,Good
+12,2023,New Mexico,30.9,Good
+1,2024,New Mexico,33.1,Good
+2,2024,New Mexico,33.9,Good
+3,2024,New Mexico,40.2,Good
+4,2024,New Mexico,46.4,Good
+5,2024,New Mexico,56.5,Moderate
+6,2024,New Mexico,52.1,Moderate
+7,2024,New Mexico,64.3,Moderate
+8,2024,New Mexico,50.6,Moderate
+9,2024,New Mexico,45.5,Good
+10,2024,New Mexico,46.5,Good
+11,2024,New Mexico,36.9,Good
+12,2024,New Mexico,39.7,Good
+1,2025,New Mexico,39.3,Good
+2,2025,New Mexico,43.9,Good
+3,2025,New Mexico,56.4,Moderate
+4,2025,New Mexico,52.1,Moderate
+5,2025,New Mexico,47.1,Good
+6,2025,New Mexico,46.7,Good
+1,2020,New York,40.8,Good
+2,2020,New York,40.1,Good
+3,2020,New York,37.0,Good
+4,2020,New York,37.7,Good
+5,2020,New York,36.0,Good
+6,2020,New York,41.3,Good
+7,2020,New York,43.2,Good
+8,2020,New York,39.1,Good
+9,2020,New York,32.8,Good
+10,2020,New York,30.4,Good
+11,2020,New York,37.2,Good
+12,2020,New York,37.1,Good
+1,2021,New York,39.6,Good
+2,2021,New York,41.3,Good
+3,2021,New York,40.2,Good
+4,2021,New York,40.2,Good
+5,2021,New York,42.7,Good
+6,2021,New York,46.0,Good
+7,2021,New York,44.9,Good
+8,2021,New York,43.1,Good
+9,2021,New York,33.0,Good
+10,2021,New York,31.9,Good
+11,2021,New York,34.1,Good
+12,2021,New York,39.0,Good
+1,2022,New York,43.0,Good
+2,2022,New York,41.0,Good
+3,2022,New York,40.7,Good
+4,2022,New York,37.5,Good
+5,2022,New York,39.1,Good
+6,2022,New York,41.8,Good
+7,2022,New York,45.4,Good
+8,2022,New York,39.8,Good
+9,2022,New York,30.6,Good
+10,2022,New York,34.0,Good
+11,2022,New York,35.2,Good
+12,2022,New York,36.8,Good
+1,2023,New York,38.1,Good
+2,2023,New York,40.8,Good
+3,2023,New York,40.2,Good
+4,2023,New York,47.0,Good
+5,2023,New York,43.3,Good
+6,2023,New York,58.3,Moderate
+7,2023,New York,51.8,Moderate
+8,2023,New York,37.7,Good
+9,2023,New York,36.9,Good
+10,2023,New York,31.7,Good
+11,2023,New York,33.4,Good
+12,2023,New York,36.1,Good
+1,2024,New York,36.5,Good
+2,2024,New York,37.3,Good
+3,2024,New York,36.3,Good
+4,2024,New York,38.8,Good
+5,2024,New York,39.4,Good
+6,2024,New York,47.4,Good
+7,2024,New York,47.0,Good
+8,2024,New York,41.4,Good
+9,2024,New York,35.1,Good
+10,2024,New York,34.7,Good
+11,2024,New York,30.8,Good
+12,2024,New York,34.7,Good
+1,2025,New York,38.7,Good
+2,2025,New York,38.2,Good
+3,2025,New York,38.5,Good
+4,2025,New York,40.5,Good
+5,2025,New York,8.0,Good
+6,2025,New York,7.3,Good
+7,2025,New York,2.1,Good
+1,2020,North Carolina,28.1,Good
+2,2020,North Carolina,29.5,Good
+3,2020,North Carolina,39.5,Good
+4,2020,North Carolina,42.0,Good
+5,2020,North Carolina,37.7,Good
+6,2020,North Carolina,41.4,Good
+7,2020,North Carolina,40.7,Good
+8,2020,North Carolina,35.7,Good
+9,2020,North Carolina,32.7,Good
+10,2020,North Carolina,34.6,Good
+11,2020,North Carolina,34.9,Good
+12,2020,North Carolina,35.4,Good
+1,2021,North Carolina,34.1,Good
+2,2021,North Carolina,32.4,Good
+3,2021,North Carolina,42.6,Good
+4,2021,North Carolina,49.6,Good
+5,2021,North Carolina,46.9,Good
+6,2021,North Carolina,37.7,Good
+7,2021,North Carolina,45.0,Good
+8,2021,North Carolina,42.0,Good
+9,2021,North Carolina,39.6,Good
+10,2021,North Carolina,35.8,Good
+11,2021,North Carolina,35.8,Good
+12,2021,North Carolina,38.8,Good
+1,2022,North Carolina,35.3,Good
+2,2022,North Carolina,38.3,Good
+3,2022,North Carolina,43.9,Good
+4,2022,North Carolina,45.2,Good
+5,2022,North Carolina,43.0,Good
+6,2022,North Carolina,50.0,Good
+7,2022,North Carolina,39.6,Good
+8,2022,North Carolina,37.2,Good
+9,2022,North Carolina,37.5,Good
+10,2022,North Carolina,37.7,Good
+11,2022,North Carolina,33.5,Good
+12,2022,North Carolina,35.4,Good
+1,2023,North Carolina,32.9,Good
+2,2023,North Carolina,35.1,Good
+3,2023,North Carolina,45.1,Good
+4,2023,North Carolina,49.0,Good
+5,2023,North Carolina,44.9,Good
+6,2023,North Carolina,58.4,Moderate
+7,2023,North Carolina,47.7,Good
+8,2023,North Carolina,44.5,Good
+9,2023,North Carolina,39.3,Good
+10,2023,North Carolina,37.0,Good
+11,2023,North Carolina,38.3,Good
+12,2023,North Carolina,33.3,Good
+1,2024,North Carolina,30.3,Good
+2,2024,North Carolina,38.3,Good
+3,2024,North Carolina,42.7,Good
+4,2024,North Carolina,46.2,Good
+5,2024,North Carolina,41.3,Good
+6,2024,North Carolina,47.8,Good
+7,2024,North Carolina,41.4,Good
+8,2024,North Carolina,43.7,Good
+9,2024,North Carolina,35.8,Good
+10,2024,North Carolina,40.1,Good
+11,2024,North Carolina,35.0,Good
+12,2024,North Carolina,36.0,Good
+1,2025,North Carolina,35.3,Good
+2,2025,North Carolina,36.7,Good
+3,2025,North Carolina,45.7,Good
+4,2025,North Carolina,41.1,Good
+5,2025,North Carolina,33.7,Good
+6,2025,North Carolina,54.8,Moderate
+7,2025,North Carolina,3.0,Good
+1,2020,North Dakota,35.0,Good
+2,2020,North Dakota,34.8,Good
+3,2020,North Dakota,36.0,Good
+4,2020,North Dakota,39.1,Good
+5,2020,North Dakota,39.6,Good
+6,2020,North Dakota,41.4,Good
+7,2020,North Dakota,35.1,Good
+8,2020,North Dakota,40.3,Good
+9,2020,North Dakota,38.3,Good
+10,2020,North Dakota,34.2,Good
+11,2020,North Dakota,34.8,Good
+12,2020,North Dakota,32.6,Good
+1,2021,North Dakota,38.2,Good
+2,2021,North Dakota,35.0,Good
+3,2021,North Dakota,38.8,Good
+4,2021,North Dakota,41.7,Good
+5,2021,North Dakota,42.5,Good
+6,2021,North Dakota,47.4,Good
+7,2021,North Dakota,74.6,Moderate
+8,2021,North Dakota,67.1,Moderate
+9,2021,North Dakota,42.1,Good
+10,2021,North Dakota,41.0,Good
+11,2021,North Dakota,29.0,Good
+12,2021,North Dakota,34.0,Good
+1,2022,North Dakota,34.4,Good
+2,2022,North Dakota,35.5,Good
+3,2022,North Dakota,38.8,Good
+4,2022,North Dakota,38.7,Good
+5,2022,North Dakota,39.1,Good
+6,2022,North Dakota,42.7,Good
+7,2022,North Dakota,41.8,Good
+8,2022,North Dakota,45.3,Good
+9,2022,North Dakota,44.0,Good
+10,2022,North Dakota,45.2,Good
+11,2022,North Dakota,37.9,Good
+12,2022,North Dakota,37.3,Good
+1,2023,North Dakota,43.2,Good
+2,2023,North Dakota,37.9,Good
+3,2023,North Dakota,46.4,Good
+4,2023,North Dakota,41.7,Good
+5,2023,North Dakota,65.5,Moderate
+6,2023,North Dakota,69.1,Moderate
+7,2023,North Dakota,57.6,Moderate
+8,2023,North Dakota,60.8,Moderate
+9,2023,North Dakota,68.7,Moderate
+10,2023,North Dakota,30.2,Good
+11,2023,North Dakota,33.5,Good
+12,2023,North Dakota,28.2,Good
+1,2024,North Dakota,33.8,Good
+2,2024,North Dakota,34.1,Good
+3,2024,North Dakota,37.5,Good
+4,2024,North Dakota,39.6,Good
+5,2024,North Dakota,44.5,Good
+6,2024,North Dakota,40.7,Good
+7,2024,North Dakota,66.4,Moderate
+8,2024,North Dakota,50.8,Moderate
+9,2024,North Dakota,52.1,Moderate
+10,2024,North Dakota,39.7,Good
+11,2024,North Dakota,31.4,Good
+12,2024,North Dakota,32.7,Good
+1,2025,North Dakota,34.4,Good
+2,2025,North Dakota,34.9,Good
+3,2025,North Dakota,36.4,Good
+4,2025,North Dakota,40.5,Good
+5,2025,North Dakota,2.0,Good
+1,2020,Ohio,34.8,Good
+2,2020,Ohio,38.5,Good
+3,2020,Ohio,36.5,Good
+4,2020,Ohio,39.5,Good
+5,2020,Ohio,38.0,Good
+6,2020,Ohio,47.8,Good
+7,2020,Ohio,50.6,Moderate
+8,2020,Ohio,42.1,Good
+9,2020,Ohio,38.1,Good
+10,2020,Ohio,32.2,Good
+11,2020,Ohio,39.5,Good
+12,2020,Ohio,39.2,Good
+1,2021,Ohio,40.3,Good
+2,2021,Ohio,47.0,Good
+3,2021,Ohio,42.7,Good
+4,2021,Ohio,44.1,Good
+5,2021,Ohio,45.2,Good
+6,2021,Ohio,47.5,Good
+7,2021,Ohio,49.4,Good
+8,2021,Ohio,46.6,Good
+9,2021,Ohio,41.1,Good
+10,2021,Ohio,35.4,Good
+11,2021,Ohio,38.7,Good
+12,2021,Ohio,39.4,Good
+1,2022,Ohio,43.7,Good
+2,2022,Ohio,42.3,Good
+3,2022,Ohio,42.2,Good
+4,2022,Ohio,39.5,Good
+5,2022,Ohio,43.3,Good
+6,2022,Ohio,57.0,Moderate
+7,2022,Ohio,47.3,Good
+8,2022,Ohio,41.1,Good
+9,2022,Ohio,36.7,Good
+10,2022,Ohio,37.7,Good
+11,2022,Ohio,41.8,Good
+12,2022,Ohio,41.2,Good
+1,2023,Ohio,40.3,Good
+2,2023,Ohio,40.7,Good
+3,2023,Ohio,42.4,Good
+4,2023,Ohio,49.3,Good
+5,2023,Ohio,51.4,Moderate
+6,2023,Ohio,71.7,Moderate
+7,2023,Ohio,54.6,Moderate
+8,2023,Ohio,48.1,Good
+9,2023,Ohio,40.3,Good
+10,2023,Ohio,35.5,Good
+11,2023,Ohio,44.8,Good
+12,2023,Ohio,40.9,Good
+1,2024,Ohio,37.2,Good
+2,2024,Ohio,45.0,Good
+3,2024,Ohio,39.2,Good
+4,2024,Ohio,43.0,Good
+5,2024,Ohio,48.3,Good
+6,2024,Ohio,52.4,Moderate
+7,2024,Ohio,50.9,Moderate
+8,2024,Ohio,49.1,Good
+9,2024,Ohio,42.4,Good
+10,2024,Ohio,42.4,Good
+11,2024,Ohio,35.3,Good
+12,2024,Ohio,38.9,Good
+1,2025,Ohio,42.0,Good
+2,2025,Ohio,43.1,Good
+3,2025,Ohio,43.8,Good
+4,2025,Ohio,44.4,Good
+5,2025,Ohio,39.6,Good
+6,2025,Ohio,3.7,Good
+1,2020,Oklahoma,34.4,Good
+2,2020,Oklahoma,36.1,Good
+3,2020,Oklahoma,40.1,Good
+4,2020,Oklahoma,44.9,Good
+5,2020,Oklahoma,41.3,Good
+6,2020,Oklahoma,53.6,Moderate
+7,2020,Oklahoma,46.8,Good
+8,2020,Oklahoma,48.9,Good
+9,2020,Oklahoma,43.4,Good
+10,2020,Oklahoma,39.4,Good
+11,2020,Oklahoma,40.6,Good
+12,2020,Oklahoma,40.2,Good
+1,2021,Oklahoma,41.9,Good
+2,2021,Oklahoma,46.3,Good
+3,2021,Oklahoma,49.0,Good
+4,2021,Oklahoma,50.3,Moderate
+5,2021,Oklahoma,40.9,Good
+6,2021,Oklahoma,49.5,Good
+7,2021,Oklahoma,53.3,Moderate
+8,2021,Oklahoma,51.6,Moderate
+9,2021,Oklahoma,54.6,Moderate
+10,2021,Oklahoma,42.7,Good
+11,2021,Oklahoma,38.6,Good
+12,2021,Oklahoma,44.1,Good
+1,2022,Oklahoma,41.2,Good
+2,2022,Oklahoma,39.2,Good
+3,2022,Oklahoma,50.5,Moderate
+4,2022,Oklahoma,46.6,Good
+5,2022,Oklahoma,45.4,Good
+6,2022,Oklahoma,53.3,Moderate
+7,2022,Oklahoma,59.2,Moderate
+8,2022,Oklahoma,51.1,Moderate
+9,2022,Oklahoma,52.2,Moderate
+10,2022,Oklahoma,47.5,Good
+11,2022,Oklahoma,37.0,Good
+12,2022,Oklahoma,37.0,Good
+1,2023,Oklahoma,43.2,Good
+2,2023,Oklahoma,43.2,Good
+3,2023,Oklahoma,45.2,Good
+4,2023,Oklahoma,48.8,Good
+5,2023,Oklahoma,54.5,Moderate
+6,2023,Oklahoma,62.1,Moderate
+7,2023,Oklahoma,53.4,Moderate
+8,2023,Oklahoma,61.8,Moderate
+9,2023,Oklahoma,60.4,Moderate
+10,2023,Oklahoma,39.4,Good
+11,2023,Oklahoma,39.7,Good
+12,2023,Oklahoma,33.6,Good
+1,2024,Oklahoma,35.8,Good
+2,2024,Oklahoma,40.2,Good
+3,2024,Oklahoma,46.5,Good
+4,2024,Oklahoma,49.7,Good
+5,2024,Oklahoma,52.0,Moderate
+6,2024,Oklahoma,50.2,Moderate
+7,2024,Oklahoma,54.7,Moderate
+8,2024,Oklahoma,58.8,Moderate
+9,2024,Oklahoma,46.0,Good
+10,2024,Oklahoma,56.3,Moderate
+11,2024,Oklahoma,34.4,Good
+12,2024,Oklahoma,39.6,Good
+1,2025,Oklahoma,35.9,Good
+2,2025,Oklahoma,43.5,Good
+3,2025,Oklahoma,50.8,Moderate
+4,2025,Oklahoma,48.4,Good
+5,2025,Oklahoma,47.3,Good
+6,2025,Oklahoma,33.9,Good
+1,2020,Oregon,34.7,Good
+2,2020,Oregon,40.8,Good
+3,2020,Oregon,33.8,Good
+4,2020,Oregon,27.4,Good
+5,2020,Oregon,25.7,Good
+6,2020,Oregon,22.1,Good
+7,2020,Oregon,32.7,Good
+8,2020,Oregon,39.5,Good
+9,2020,Oregon,148.9,Unhealthy for Sensitive Groups
+10,2020,Oregon,47.3,Good
+11,2020,Oregon,48.1,Good
+12,2020,Oregon,50.1,Moderate
+1,2021,Oregon,43.1,Good
+2,2021,Oregon,35.3,Good
+3,2021,Oregon,36.7,Good
+4,2021,Oregon,29.4,Good
+5,2021,Oregon,26.1,Good
+6,2021,Oregon,28.6,Good
+7,2021,Oregon,43.4,Good
+8,2021,Oregon,67.7,Moderate
+9,2021,Oregon,53.2,Moderate
+10,2021,Oregon,32.4,Good
+11,2021,Oregon,42.6,Good
+12,2021,Oregon,37.1,Good
+1,2022,Oregon,47.6,Good
+2,2022,Oregon,44.3,Good
+3,2022,Oregon,29.6,Good
+4,2022,Oregon,24.0,Good
+5,2022,Oregon,23.2,Good
+6,2022,Oregon,22.6,Good
+7,2022,Oregon,33.4,Good
+8,2022,Oregon,41.9,Good
+9,2022,Oregon,58.3,Moderate
+10,2022,Oregon,59.1,Moderate
+11,2022,Oregon,51.5,Moderate
+12,2022,Oregon,43.8,Good
+1,2023,Oregon,39.9,Good
+2,2023,Oregon,40.4,Good
+3,2023,Oregon,30.4,Good
+4,2023,Oregon,25.1,Good
+5,2023,Oregon,33.3,Good
+6,2023,Oregon,30.9,Good
+7,2023,Oregon,39.6,Good
+8,2023,Oregon,69.1,Moderate
+9,2023,Oregon,38.8,Good
+10,2023,Oregon,40.3,Good
+11,2023,Oregon,51.7,Moderate
+12,2023,Oregon,44.1,Good
+1,2024,Oregon,37.1,Good
+2,2024,Oregon,32.2,Good
+3,2024,Oregon,28.3,Good
+4,2024,Oregon,23.6,Good
+5,2024,Oregon,27.2,Good
+6,2024,Oregon,26.2,Good
+7,2024,Oregon,57.1,Moderate
+8,2024,Oregon,50.2,Moderate
+9,2024,Oregon,42.5,Good
+10,2024,Oregon,37.4,Good
+11,2024,Oregon,40.4,Good
+12,2024,Oregon,43.3,Good
+1,2025,Oregon,49.7,Good
+2,2025,Oregon,38.3,Good
+3,2025,Oregon,26.0,Good
+4,2025,Oregon,2.0,Good
+1,2020,Pennsylvania,39.6,Good
+2,2020,Pennsylvania,42.5,Good
+3,2020,Pennsylvania,40.7,Good
+4,2020,Pennsylvania,41.6,Good
+5,2020,Pennsylvania,39.0,Good
+6,2020,Pennsylvania,43.9,Good
+7,2020,Pennsylvania,48.9,Good
+8,2020,Pennsylvania,44.1,Good
+9,2020,Pennsylvania,37.6,Good
+10,2020,Pennsylvania,35.7,Good
+11,2020,Pennsylvania,43.1,Good
+12,2020,Pennsylvania,42.1,Good
+1,2021,Pennsylvania,41.9,Good
+2,2021,Pennsylvania,46.2,Good
+3,2021,Pennsylvania,43.6,Good
+4,2021,Pennsylvania,44.8,Good
+5,2021,Pennsylvania,44.8,Good
+6,2021,Pennsylvania,47.1,Good
+7,2021,Pennsylvania,54.5,Moderate
+8,2021,Pennsylvania,49.2,Good
+9,2021,Pennsylvania,40.4,Good
+10,2021,Pennsylvania,38.6,Good
+11,2021,Pennsylvania,43.7,Good
+12,2021,Pennsylvania,48.1,Good
+1,2022,Pennsylvania,47.5,Good
+2,2022,Pennsylvania,46.1,Good
+3,2022,Pennsylvania,44.9,Good
+4,2022,Pennsylvania,41.8,Good
+5,2022,Pennsylvania,43.8,Good
+6,2022,Pennsylvania,50.2,Moderate
+7,2022,Pennsylvania,49.3,Good
+8,2022,Pennsylvania,43.2,Good
+9,2022,Pennsylvania,37.1,Good
+10,2022,Pennsylvania,37.8,Good
+11,2022,Pennsylvania,45.4,Good
+12,2022,Pennsylvania,47.7,Good
+1,2023,Pennsylvania,45.6,Good
+2,2023,Pennsylvania,48.9,Good
+3,2023,Pennsylvania,44.1,Good
+4,2023,Pennsylvania,53.0,Moderate
+5,2023,Pennsylvania,50.4,Moderate
+6,2023,Pennsylvania,72.8,Moderate
+7,2023,Pennsylvania,54.5,Moderate
+8,2023,Pennsylvania,45.5,Good
+9,2023,Pennsylvania,39.2,Good
+10,2023,Pennsylvania,34.5,Good
+11,2023,Pennsylvania,41.3,Good
+12,2023,Pennsylvania,41.4,Good
+1,2024,Pennsylvania,37.6,Good
+2,2024,Pennsylvania,42.3,Good
+3,2024,Pennsylvania,38.1,Good
+4,2024,Pennsylvania,43.1,Good
+5,2024,Pennsylvania,42.9,Good
+6,2024,Pennsylvania,49.9,Good
+7,2024,Pennsylvania,51.4,Moderate
+8,2024,Pennsylvania,46.6,Good
+9,2024,Pennsylvania,39.3,Good
+10,2024,Pennsylvania,39.0,Good
+11,2024,Pennsylvania,33.9,Good
+12,2024,Pennsylvania,40.3,Good
+1,2025,Pennsylvania,41.8,Good
+2,2025,Pennsylvania,40.1,Good
+3,2025,Pennsylvania,42.7,Good
+4,2025,Pennsylvania,32.5,Good
+1,2020,Puerto Rico,16.8,Good
+2,2020,Puerto Rico,22.4,Good
+3,2020,Puerto Rico,21.5,Good
+4,2020,Puerto Rico,16.7,Good
+5,2020,Puerto Rico,23.4,Good
+6,2020,Puerto Rico,20.8,Good
+7,2020,Puerto Rico,28.3,Good
+8,2020,Puerto Rico,36.7,Good
+9,2020,Puerto Rico,32.5,Good
+10,2020,Puerto Rico,25.8,Good
+11,2020,Puerto Rico,17.6,Good
+12,2020,Puerto Rico,16.2,Good
+1,2021,Puerto Rico,19.2,Good
+2,2021,Puerto Rico,33.2,Good
+3,2021,Puerto Rico,29.4,Good
+4,2021,Puerto Rico,35.5,Good
+5,2021,Puerto Rico,33.9,Good
+6,2021,Puerto Rico,38.7,Good
+7,2021,Puerto Rico,39.2,Good
+8,2021,Puerto Rico,43.7,Good
+9,2021,Puerto Rico,37.0,Good
+10,2021,Puerto Rico,39.7,Good
+11,2021,Puerto Rico,26.4,Good
+12,2021,Puerto Rico,20.0,Good
+1,2022,Puerto Rico,18.1,Good
+2,2022,Puerto Rico,24.1,Good
+3,2022,Puerto Rico,21.7,Good
+4,2022,Puerto Rico,24.7,Good
+5,2022,Puerto Rico,32.4,Good
+6,2022,Puerto Rico,34.5,Good
+7,2022,Puerto Rico,35.7,Good
+8,2022,Puerto Rico,26.9,Good
+9,2022,Puerto Rico,24.9,Good
+10,2022,Puerto Rico,28.7,Good
+11,2022,Puerto Rico,26.6,Good
+12,2022,Puerto Rico,22.1,Good
+1,2023,Puerto Rico,29.3,Good
+2,2023,Puerto Rico,29.3,Good
+3,2023,Puerto Rico,32.2,Good
+4,2023,Puerto Rico,38.4,Good
+5,2023,Puerto Rico,36.9,Good
+6,2023,Puerto Rico,42.7,Good
+7,2023,Puerto Rico,35.0,Good
+8,2023,Puerto Rico,28.2,Good
+9,2023,Puerto Rico,21.7,Good
+10,2023,Puerto Rico,27.7,Good
+11,2023,Puerto Rico,22.4,Good
+12,2023,Puerto Rico,24.5,Good
+1,2024,Puerto Rico,27.0,Good
+2,2024,Puerto Rico,26.7,Good
+3,2024,Puerto Rico,26.3,Good
+4,2024,Puerto Rico,34.7,Good
+5,2024,Puerto Rico,36.8,Good
+6,2024,Puerto Rico,26.7,Good
+7,2024,Puerto Rico,27.5,Good
+8,2024,Puerto Rico,19.3,Good
+9,2024,Puerto Rico,18.8,Good
+10,2024,Puerto Rico,27.2,Good
+11,2024,Puerto Rico,17.9,Good
+12,2024,Puerto Rico,20.3,Good
+1,2025,Puerto Rico,23.4,Good
+2,2025,Puerto Rico,26.7,Good
+3,2025,Puerto Rico,24.4,Good
+4,2025,Puerto Rico,2.0,Good
+1,2020,Rhode Island,32.2,Good
+2,2020,Rhode Island,31.9,Good
+3,2020,Rhode Island,41.7,Good
+4,2020,Rhode Island,42.4,Good
+5,2020,Rhode Island,39.4,Good
+6,2020,Rhode Island,45.3,Good
+7,2020,Rhode Island,48.6,Good
+8,2020,Rhode Island,47.6,Good
+9,2020,Rhode Island,38.4,Good
+10,2020,Rhode Island,27.1,Good
+11,2020,Rhode Island,34.5,Good
+12,2020,Rhode Island,35.0,Good
+1,2021,Rhode Island,33.3,Good
+2,2021,Rhode Island,35.2,Good
+3,2021,Rhode Island,43.3,Good
+4,2021,Rhode Island,43.6,Good
+5,2021,Rhode Island,44.4,Good
+6,2021,Rhode Island,53.3,Moderate
+7,2021,Rhode Island,50.2,Moderate
+8,2021,Rhode Island,49.4,Good
+9,2021,Rhode Island,36.3,Good
+10,2021,Rhode Island,23.8,Good
+11,2021,Rhode Island,25.4,Good
+12,2021,Rhode Island,31.2,Good
+1,2022,Rhode Island,33.4,Good
+2,2022,Rhode Island,28.4,Good
+3,2022,Rhode Island,42.2,Good
+4,2022,Rhode Island,42.0,Good
+5,2022,Rhode Island,40.9,Good
+6,2022,Rhode Island,41.3,Good
+7,2022,Rhode Island,51.8,Moderate
+8,2022,Rhode Island,42.9,Good
+9,2022,Rhode Island,33.9,Good
+10,2022,Rhode Island,23.8,Good
+11,2022,Rhode Island,29.3,Good
+12,2022,Rhode Island,32.1,Good
+1,2023,Rhode Island,30.5,Good
+2,2023,Rhode Island,36.0,Good
+3,2023,Rhode Island,41.6,Good
+4,2023,Rhode Island,50.5,Moderate
+5,2023,Rhode Island,45.8,Good
+6,2023,Rhode Island,51.7,Moderate
+7,2023,Rhode Island,51.2,Moderate
+8,2023,Rhode Island,42.5,Good
+9,2023,Rhode Island,46.7,Good
+10,2023,Rhode Island,40.9,Good
+11,2023,Rhode Island,44.9,Good
+12,2023,Rhode Island,32.0,Good
+1,2024,Rhode Island,27.9,Good
+2,2024,Rhode Island,27.7,Good
+3,2024,Rhode Island,38.3,Good
+4,2024,Rhode Island,38.1,Good
+5,2024,Rhode Island,35.4,Good
+6,2024,Rhode Island,43.5,Good
+7,2024,Rhode Island,44.4,Good
+8,2024,Rhode Island,46.1,Good
+9,2024,Rhode Island,34.3,Good
+10,2024,Rhode Island,28.7,Good
+11,2024,Rhode Island,24.8,Good
+12,2024,Rhode Island,30.3,Good
+1,2025,Rhode Island,32.3,Good
+2,2025,Rhode Island,30.0,Good
+3,2025,Rhode Island,39.5,Good
+4,2025,Rhode Island,42.1,Good
+5,2025,Rhode Island,35.5,Good
+6,2025,Rhode Island,16.5,Good
+1,2020,South Carolina,34.6,Good
+2,2020,South Carolina,36.2,Good
+3,2020,South Carolina,40.9,Good
+4,2020,South Carolina,42.4,Good
+5,2020,South Carolina,38.7,Good
+6,2020,South Carolina,39.9,Good
+7,2020,South Carolina,41.1,Good
+8,2020,South Carolina,37.2,Good
+9,2020,South Carolina,35.1,Good
+10,2020,South Carolina,36.8,Good
+11,2020,South Carolina,38.4,Good
+12,2020,South Carolina,43.2,Good
+1,2021,South Carolina,37.9,Good
+2,2021,South Carolina,36.7,Good
+3,2021,South Carolina,42.8,Good
+4,2021,South Carolina,50.5,Moderate
+5,2021,South Carolina,47.6,Good
+6,2021,South Carolina,37.1,Good
+7,2021,South Carolina,42.3,Good
+8,2021,South Carolina,41.1,Good
+9,2021,South Carolina,42.0,Good
+10,2021,South Carolina,37.1,Good
+11,2021,South Carolina,40.5,Good
+12,2021,South Carolina,44.1,Good
+1,2022,South Carolina,40.5,Good
+2,2022,South Carolina,43.0,Good
+3,2022,South Carolina,43.4,Good
+4,2022,South Carolina,45.8,Good
+5,2022,South Carolina,45.0,Good
+6,2022,South Carolina,49.9,Good
+7,2022,South Carolina,37.1,Good
+8,2022,South Carolina,36.7,Good
+9,2022,South Carolina,39.8,Good
+10,2022,South Carolina,39.8,Good
+11,2022,South Carolina,41.8,Good
+12,2022,South Carolina,44.2,Good
+1,2023,South Carolina,40.9,Good
+2,2023,South Carolina,42.3,Good
+3,2023,South Carolina,47.9,Good
+4,2023,South Carolina,48.3,Good
+5,2023,South Carolina,46.6,Good
+6,2023,South Carolina,57.1,Moderate
+7,2023,South Carolina,49.0,Good
+8,2023,South Carolina,46.6,Good
+9,2023,South Carolina,41.9,Good
+10,2023,South Carolina,38.5,Good
+11,2023,South Carolina,47.1,Good
+12,2023,South Carolina,38.8,Good
+1,2024,South Carolina,37.2,Good
+2,2024,South Carolina,47.9,Good
+3,2024,South Carolina,46.7,Good
+4,2024,South Carolina,49.6,Good
+5,2024,South Carolina,44.6,Good
+6,2024,South Carolina,50.5,Moderate
+7,2024,South Carolina,43.2,Good
+8,2024,South Carolina,44.8,Good
+9,2024,South Carolina,39.5,Good
+10,2024,South Carolina,44.9,Good
+11,2024,South Carolina,40.0,Good
+12,2024,South Carolina,42.6,Good
+1,2025,South Carolina,41.9,Good
+2,2025,South Carolina,47.0,Good
+3,2025,South Carolina,49.5,Good
+4,2025,South Carolina,47.1,Good
+5,2025,South Carolina,43.4,Good
+6,2025,South Carolina,44.5,Good
+1,2020,South Dakota,35.1,Good
+2,2020,South Dakota,36.8,Good
+3,2020,South Dakota,34.3,Good
+4,2020,South Dakota,37.7,Good
+5,2020,South Dakota,33.4,Good
+6,2020,South Dakota,45.7,Good
+7,2020,South Dakota,38.8,Good
+8,2020,South Dakota,42.0,Good
+9,2020,South Dakota,41.7,Good
+10,2020,South Dakota,36.0,Good
+11,2020,South Dakota,32.5,Good
+12,2020,South Dakota,34.0,Good
+1,2021,South Dakota,36.9,Good
+2,2021,South Dakota,36.4,Good
+3,2021,South Dakota,36.3,Good
+4,2021,South Dakota,35.0,Good
+5,2021,South Dakota,35.0,Good
+6,2021,South Dakota,45.0,Good
+7,2021,South Dakota,66.0,Moderate
+8,2021,South Dakota,51.1,Moderate
+9,2021,South Dakota,39.5,Good
+10,2021,South Dakota,29.2,Good
+11,2021,South Dakota,27.9,Good
+12,2021,South Dakota,29.2,Good
+1,2022,South Dakota,32.8,Good
+2,2022,South Dakota,33.7,Good
+3,2022,South Dakota,35.3,Good
+4,2022,South Dakota,34.1,Good
+5,2022,South Dakota,34.5,Good
+6,2022,South Dakota,41.9,Good
+7,2022,South Dakota,40.9,Good
+8,2022,South Dakota,39.3,Good
+9,2022,South Dakota,41.5,Good
+10,2022,South Dakota,39.4,Good
+11,2022,South Dakota,32.0,Good
+12,2022,South Dakota,32.7,Good
+1,2023,South Dakota,35.8,Good
+2,2023,South Dakota,36.7,Good
+3,2023,South Dakota,42.5,Good
+4,2023,South Dakota,40.0,Good
+5,2023,South Dakota,57.7,Moderate
+6,2023,South Dakota,63.9,Moderate
+7,2023,South Dakota,50.1,Moderate
+8,2023,South Dakota,47.1,Good
+9,2023,South Dakota,51.8,Moderate
+10,2023,South Dakota,28.8,Good
+11,2023,South Dakota,33.0,Good
+12,2023,South Dakota,29.5,Good
+1,2024,South Dakota,32.3,Good
+2,2024,South Dakota,30.4,Good
+3,2024,South Dakota,33.2,Good
+4,2024,South Dakota,31.9,Good
+5,2024,South Dakota,39.0,Good
+6,2024,South Dakota,34.9,Good
+7,2024,South Dakota,52.8,Moderate
+8,2024,South Dakota,43.1,Good
+9,2024,South Dakota,44.8,Good
+10,2024,South Dakota,48.1,Good
+11,2024,South Dakota,30.3,Good
+12,2024,South Dakota,34.0,Good
+1,2025,South Dakota,33.3,Good
+2,2025,South Dakota,37.6,Good
+3,2025,South Dakota,35.0,Good
+4,2025,South Dakota,3.0,Good
+1,2020,Tennessee,31.9,Good
+2,2020,Tennessee,31.5,Good
+3,2020,Tennessee,35.4,Good
+4,2020,Tennessee,39.6,Good
+5,2020,Tennessee,37.4,Good
+6,2020,Tennessee,43.9,Good
+7,2020,Tennessee,43.0,Good
+8,2020,Tennessee,38.4,Good
+9,2020,Tennessee,36.6,Good
+10,2020,Tennessee,35.7,Good
+11,2020,Tennessee,36.7,Good
+12,2020,Tennessee,40.9,Good
+1,2021,Tennessee,35.9,Good
+2,2021,Tennessee,41.4,Good
+3,2021,Tennessee,40.1,Good
+4,2021,Tennessee,44.5,Good
+5,2021,Tennessee,45.0,Good
+6,2021,Tennessee,42.5,Good
+7,2021,Tennessee,50.6,Moderate
+8,2021,Tennessee,43.7,Good
+9,2021,Tennessee,39.7,Good
+10,2021,Tennessee,35.3,Good
+11,2021,Tennessee,36.8,Good
+12,2021,Tennessee,38.7,Good
+1,2022,Tennessee,35.8,Good
+2,2022,Tennessee,38.1,Good
+3,2022,Tennessee,41.3,Good
+4,2022,Tennessee,41.6,Good
+5,2022,Tennessee,42.9,Good
+6,2022,Tennessee,52.2,Moderate
+7,2022,Tennessee,44.5,Good
+8,2022,Tennessee,39.0,Good
+9,2022,Tennessee,37.9,Good
+10,2022,Tennessee,39.1,Good
+11,2022,Tennessee,38.2,Good
+12,2022,Tennessee,32.6,Good
+1,2023,Tennessee,34.9,Good
+2,2023,Tennessee,39.6,Good
+3,2023,Tennessee,43.6,Good
+4,2023,Tennessee,44.8,Good
+5,2023,Tennessee,46.8,Good
+6,2023,Tennessee,60.8,Moderate
+7,2023,Tennessee,48.7,Good
+8,2023,Tennessee,44.0,Good
+9,2023,Tennessee,44.8,Good
+10,2023,Tennessee,37.1,Good
+11,2023,Tennessee,38.8,Good
+12,2023,Tennessee,34.1,Good
+1,2024,Tennessee,31.8,Good
+2,2024,Tennessee,40.2,Good
+3,2024,Tennessee,40.4,Good
+4,2024,Tennessee,43.4,Good
+5,2024,Tennessee,41.0,Good
+6,2024,Tennessee,48.2,Good
+7,2024,Tennessee,44.5,Good
+8,2024,Tennessee,50.7,Moderate
+9,2024,Tennessee,35.7,Good
+10,2024,Tennessee,41.8,Good
+11,2024,Tennessee,32.9,Good
+12,2024,Tennessee,33.3,Good
+1,2025,Tennessee,34.2,Good
+2,2025,Tennessee,34.9,Good
+3,2025,Tennessee,42.7,Good
+4,2025,Tennessee,46.7,Good
+5,2025,Tennessee,39.3,Good
+1,2020,Texas,33.5,Good
+2,2020,Texas,35.1,Good
+3,2020,Texas,38.7,Good
+4,2020,Texas,45.4,Good
+5,2020,Texas,45.6,Good
+6,2020,Texas,49.0,Good
+7,2020,Texas,45.0,Good
+8,2020,Texas,48.2,Good
+9,2020,Texas,41.3,Good
+10,2020,Texas,40.6,Good
+11,2020,Texas,37.5,Good
+12,2020,Texas,34.6,Good
+1,2021,Texas,36.4,Good
+2,2021,Texas,37.2,Good
+3,2021,Texas,43.9,Good
+4,2021,Texas,45.6,Good
+5,2021,Texas,41.8,Good
+6,2021,Texas,45.0,Good
+7,2021,Texas,46.2,Good
+8,2021,Texas,43.9,Good
+9,2021,Texas,50.7,Moderate
+10,2021,Texas,41.5,Good
+11,2021,Texas,36.7,Good
+12,2021,Texas,37.8,Good
+1,2022,Texas,37.4,Good
+2,2022,Texas,37.0,Good
+3,2022,Texas,45.2,Good
+4,2022,Texas,47.8,Good
+5,2022,Texas,51.6,Moderate
+6,2022,Texas,54.5,Moderate
+7,2022,Texas,48.9,Good
+8,2022,Texas,41.1,Good
+9,2022,Texas,48.7,Good
+10,2022,Texas,45.7,Good
+11,2022,Texas,34.1,Good
+12,2022,Texas,34.4,Good
+1,2023,Texas,37.0,Good
+2,2023,Texas,39.1,Good
+3,2023,Texas,44.4,Good
+4,2023,Texas,44.1,Good
+5,2023,Texas,53.2,Moderate
+6,2023,Texas,51.6,Moderate
+7,2023,Texas,50.1,Moderate
+8,2023,Texas,58.3,Moderate
+9,2023,Texas,54.0,Moderate
+10,2023,Texas,37.6,Good
+11,2023,Texas,36.2,Good
+12,2023,Texas,35.9,Good
+1,2024,Texas,36.4,Good
+2,2024,Texas,40.0,Good
+3,2024,Texas,43.7,Good
+4,2024,Texas,50.0,Good
+5,2024,Texas,60.8,Moderate
+6,2024,Texas,50.6,Moderate
+7,2024,Texas,50.5,Moderate
+8,2024,Texas,53.0,Moderate
+9,2024,Texas,43.7,Good
+10,2024,Texas,51.6,Moderate
+11,2024,Texas,37.4,Good
+12,2024,Texas,36.0,Good
+1,2025,Texas,36.0,Good
+2,2025,Texas,38.6,Good
+3,2025,Texas,52.4,Moderate
+4,2025,Texas,48.4,Good
+5,2025,Texas,2.5,Good
+1,2020,Utah,41.6,Good
+2,2020,Utah,41.5,Good
+3,2020,Utah,40.9,Good
+4,2020,Utah,44.7,Good
+5,2020,Utah,50.7,Moderate
+6,2020,Utah,48.3,Good
+7,2020,Utah,54.5,Moderate
+8,2020,Utah,67.9,Moderate
+9,2020,Utah,54.3,Moderate
+10,2020,Utah,46.4,Good
+11,2020,Utah,38.1,Good
+12,2020,Utah,42.7,Good
+1,2021,Utah,45.6,Good
+2,2021,Utah,38.8,Good
+3,2021,Utah,42.6,Good
+4,2021,Utah,47.3,Good
+5,2021,Utah,51.4,Moderate
+6,2021,Utah,58.4,Moderate
+7,2021,Utah,75.8,Moderate
+8,2021,Utah,76.8,Moderate
+9,2021,Utah,57.9,Moderate
+10,2021,Utah,37.8,Good
+11,2021,Utah,36.3,Good
+12,2021,Utah,41.1,Good
+1,2022,Utah,46.9,Good
+2,2022,Utah,43.3,Good
+3,2022,Utah,42.3,Good
+4,2022,Utah,48.2,Good
+5,2022,Utah,47.8,Good
+6,2022,Utah,57.2,Moderate
+7,2022,Utah,57.7,Moderate
+8,2022,Utah,55.5,Moderate
+9,2022,Utah,51.6,Moderate
+10,2022,Utah,39.9,Good
+11,2022,Utah,38.2,Good
+12,2022,Utah,43.3,Good
+1,2023,Utah,43.2,Good
+2,2023,Utah,61.9,Moderate
+3,2023,Utah,46.3,Good
+4,2023,Utah,48.1,Good
+5,2023,Utah,53.5,Moderate
+6,2023,Utah,57.0,Moderate
+7,2023,Utah,55.9,Moderate
+8,2023,Utah,51.8,Moderate
+9,2023,Utah,43.6,Good
+10,2023,Utah,38.4,Good
+11,2023,Utah,39.6,Good
+12,2023,Utah,43.2,Good
+1,2024,Utah,41.4,Good
+2,2024,Utah,36.7,Good
+3,2024,Utah,41.7,Good
+4,2024,Utah,48.9,Good
+5,2024,Utah,52.3,Moderate
+6,2024,Utah,55.0,Moderate
+7,2024,Utah,73.4,Moderate
+8,2024,Utah,55.3,Moderate
+9,2024,Utah,52.8,Moderate
+10,2024,Utah,44.7,Good
+11,2024,Utah,37.3,Good
+12,2024,Utah,43.2,Good
+1,2025,Utah,40.4,Good
+2,2025,Utah,41.5,Good
+3,2025,Utah,45.6,Good
+4,2025,Utah,54.4,Moderate
+5,2025,Utah,63.2,Moderate
+6,2025,Utah,63.2,Moderate
+7,2025,Utah,1.3,Good
+1,2020,Vermont,39.6,Good
+2,2020,Vermont,46.1,Good
+3,2020,Vermont,38.8,Good
+4,2020,Vermont,38.2,Good
+5,2020,Vermont,37.1,Good
+6,2020,Vermont,35.6,Good
+7,2020,Vermont,38.5,Good
+8,2020,Vermont,35.4,Good
+9,2020,Vermont,31.9,Good
+10,2020,Vermont,30.6,Good
+11,2020,Vermont,38.5,Good
+12,2020,Vermont,41.8,Good
+1,2021,Vermont,42.5,Good
+2,2021,Vermont,42.5,Good
+3,2021,Vermont,41.1,Good
+4,2021,Vermont,37.9,Good
+5,2021,Vermont,38.3,Good
+6,2021,Vermont,41.6,Good
+7,2021,Vermont,41.9,Good
+8,2021,Vermont,41.6,Good
+9,2021,Vermont,29.9,Good
+10,2021,Vermont,30.1,Good
+11,2021,Vermont,36.5,Good
+12,2021,Vermont,38.4,Good
+1,2022,Vermont,45.1,Good
+2,2022,Vermont,40.3,Good
+3,2022,Vermont,41.5,Good
+4,2022,Vermont,37.8,Good
+5,2022,Vermont,40.1,Good
+6,2022,Vermont,38.6,Good
+7,2022,Vermont,41.2,Good
+8,2022,Vermont,37.8,Good
+9,2022,Vermont,30.4,Good
+10,2022,Vermont,34.8,Good
+11,2022,Vermont,34.7,Good
+12,2022,Vermont,36.2,Good
+1,2023,Vermont,34.9,Good
+2,2023,Vermont,40.0,Good
+3,2023,Vermont,40.9,Good
+4,2023,Vermont,45.0,Good
+5,2023,Vermont,40.7,Good
+6,2023,Vermont,50.3,Moderate
+7,2023,Vermont,52.7,Moderate
+8,2023,Vermont,37.0,Good
+9,2023,Vermont,37.8,Good
+10,2023,Vermont,29.3,Good
+11,2023,Vermont,34.1,Good
+12,2023,Vermont,37.9,Good
+1,2024,Vermont,33.1,Good
+2,2024,Vermont,38.7,Good
+3,2024,Vermont,32.4,Good
+4,2024,Vermont,37.3,Good
+5,2024,Vermont,37.2,Good
+6,2024,Vermont,40.1,Good
+7,2024,Vermont,41.3,Good
+8,2024,Vermont,40.0,Good
+9,2024,Vermont,33.6,Good
+10,2024,Vermont,33.0,Good
+11,2024,Vermont,31.7,Good
+12,2024,Vermont,34.7,Good
+1,2025,Vermont,38.7,Good
+2,2025,Vermont,40.2,Good
+3,2025,Vermont,42.7,Good
+4,2025,Vermont,0.0,Good
+1,2020,Virgin Islands,19.7,Good
+2,2020,Virgin Islands,30.5,Good
+3,2020,Virgin Islands,19.7,Good
+4,2020,Virgin Islands,23.3,Good
+5,2020,Virgin Islands,32.9,Good
+6,2020,Virgin Islands,39.4,Good
+7,2020,Virgin Islands,37.7,Good
+8,2020,Virgin Islands,35.1,Good
+9,2020,Virgin Islands,39.9,Good
+10,2020,Virgin Islands,43.9,Good
+11,2020,Virgin Islands,32.8,Good
+12,2020,Virgin Islands,21.3,Good
+1,2021,Virgin Islands,16.1,Good
+2,2021,Virgin Islands,25.8,Good
+3,2021,Virgin Islands,24.6,Good
+4,2021,Virgin Islands,30.4,Good
+5,2021,Virgin Islands,33.8,Good
+6,2021,Virgin Islands,37.5,Good
+7,2021,Virgin Islands,37.5,Good
+8,2021,Virgin Islands,37.9,Good
+9,2021,Virgin Islands,30.8,Good
+10,2021,Virgin Islands,39.1,Good
+11,2021,Virgin Islands,14.4,Good
+12,2021,Virgin Islands,18.6,Good
+1,2022,Virgin Islands,12.6,Good
+2,2022,Virgin Islands,22.6,Good
+3,2022,Virgin Islands,20.5,Good
+4,2022,Virgin Islands,20.5,Good
+5,2022,Virgin Islands,31.8,Good
+6,2022,Virgin Islands,41.1,Good
+7,2022,Virgin Islands,43.4,Good
+8,2022,Virgin Islands,33.5,Good
+9,2022,Virgin Islands,19.6,Good
+10,2022,Virgin Islands,32.2,Good
+11,2022,Virgin Islands,24.7,Good
+12,2022,Virgin Islands,17.7,Good
+1,2023,Virgin Islands,17.8,Good
+2,2023,Virgin Islands,20.4,Good
+3,2023,Virgin Islands,18.1,Good
+4,2023,Virgin Islands,28.0,Good
+5,2023,Virgin Islands,29.3,Good
+6,2023,Virgin Islands,33.4,Good
+7,2023,Virgin Islands,52.9,Moderate
+8,2023,Virgin Islands,32.9,Good
+9,2023,Virgin Islands,32.0,Good
+10,2023,Virgin Islands,20.9,Good
+11,2023,Virgin Islands,29.5,Good
+12,2023,Virgin Islands,13.2,Good
+1,2024,Virgin Islands,11.0,Good
+2,2024,Virgin Islands,25.4,Good
+3,2024,Virgin Islands,16.0,Good
+4,2024,Virgin Islands,24.3,Good
+5,2024,Virgin Islands,33.0,Good
+6,2024,Virgin Islands,37.7,Good
+7,2024,Virgin Islands,40.1,Good
+8,2024,Virgin Islands,29.7,Good
+9,2024,Virgin Islands,19.9,Good
+10,2024,Virgin Islands,26.9,Good
+1,2020,Virginia,29.3,Good
+2,2020,Virginia,30.1,Good
+3,2020,Virginia,35.8,Good
+4,2020,Virginia,38.0,Good
+5,2020,Virginia,35.0,Good
+6,2020,Virginia,38.3,Good
+7,2020,Virginia,41.4,Good
+8,2020,Virginia,34.2,Good
+9,2020,Virginia,30.6,Good
+10,2020,Virginia,29.8,Good
+11,2020,Virginia,33.8,Good
+12,2020,Virginia,31.8,Good
+1,2021,Virginia,31.0,Good
+2,2021,Virginia,33.5,Good
+3,2021,Virginia,38.0,Good
+4,2021,Virginia,41.7,Good
+5,2021,Virginia,40.9,Good
+6,2021,Virginia,35.7,Good
+7,2021,Virginia,43.8,Good
+8,2021,Virginia,39.9,Good
+9,2021,Virginia,35.8,Good
+10,2021,Virginia,31.4,Good
+11,2021,Virginia,31.4,Good
+12,2021,Virginia,33.6,Good
+1,2022,Virginia,33.6,Good
+2,2022,Virginia,33.9,Good
+3,2022,Virginia,38.5,Good
+4,2022,Virginia,39.0,Good
+5,2022,Virginia,36.8,Good
+6,2022,Virginia,43.0,Good
+7,2022,Virginia,38.4,Good
+8,2022,Virginia,34.7,Good
+9,2022,Virginia,34.0,Good
+10,2022,Virginia,31.5,Good
+11,2022,Virginia,30.7,Good
+12,2022,Virginia,31.7,Good
+1,2023,Virginia,32.2,Good
+2,2023,Virginia,36.0,Good
+3,2023,Virginia,40.2,Good
+4,2023,Virginia,45.8,Good
+5,2023,Virginia,42.3,Good
+6,2023,Virginia,57.8,Moderate
+7,2023,Virginia,45.1,Good
+8,2023,Virginia,41.6,Good
+9,2023,Virginia,36.1,Good
+10,2023,Virginia,33.4,Good
+11,2023,Virginia,37.4,Good
+12,2023,Virginia,32.9,Good
+1,2024,Virginia,30.9,Good
+2,2024,Virginia,37.4,Good
+3,2024,Virginia,38.2,Good
+4,2024,Virginia,41.4,Good
+5,2024,Virginia,38.6,Good
+6,2024,Virginia,43.8,Good
+7,2024,Virginia,42.4,Good
+8,2024,Virginia,42.9,Good
+9,2024,Virginia,34.2,Good
+10,2024,Virginia,36.5,Good
+11,2024,Virginia,31.1,Good
+12,2024,Virginia,34.2,Good
+1,2025,Virginia,35.7,Good
+2,2025,Virginia,34.1,Good
+3,2025,Virginia,41.0,Good
+4,2025,Virginia,42.6,Good
+5,2025,Virginia,36.2,Good
+6,2025,Virginia,43.9,Good
+7,2025,Virginia,2.4,Good
+1,2020,Washington,28.5,Good
+2,2020,Washington,31.8,Good
+3,2020,Washington,29.7,Good
+4,2020,Washington,26.7,Good
+5,2020,Washington,24.1,Good
+6,2020,Washington,21.4,Good
+7,2020,Washington,29.8,Good
+8,2020,Washington,32.8,Good
+9,2020,Washington,109.8,Unhealthy for Sensitive Groups
+10,2020,Washington,38.3,Good
+11,2020,Washington,39.2,Good
+12,2020,Washington,40.7,Good
+1,2021,Washington,39.8,Good
+2,2021,Washington,30.2,Good
+3,2021,Washington,32.7,Good
+4,2021,Washington,30.5,Good
+5,2021,Washington,25.9,Good
+6,2021,Washington,29.4,Good
+7,2021,Washington,44.8,Good
+8,2021,Washington,55.9,Moderate
+9,2021,Washington,36.7,Good
+10,2021,Washington,30.4,Good
+11,2021,Washington,34.3,Good
+12,2021,Washington,30.7,Good
+1,2022,Washington,41.7,Good
+2,2022,Washington,37.3,Good
+3,2022,Washington,27.8,Good
+4,2022,Washington,25.6,Good
+5,2022,Washington,23.4,Good
+6,2022,Washington,24.1,Good
+7,2022,Washington,31.0,Good
+8,2022,Washington,35.4,Good
+9,2022,Washington,52.1,Moderate
+10,2022,Washington,59.0,Moderate
+11,2022,Washington,48.0,Good
+12,2022,Washington,39.9,Good
+1,2023,Washington,35.5,Good
+2,2023,Washington,32.6,Good
+3,2023,Washington,27.4,Good
+4,2023,Washington,25.4,Good
+5,2023,Washington,32.5,Good
+6,2023,Washington,31.4,Good
+7,2023,Washington,33.4,Good
+8,2023,Washington,55.9,Moderate
+9,2023,Washington,34.0,Good
+10,2023,Washington,35.7,Good
+11,2023,Washington,45.3,Good
+12,2023,Washington,35.2,Good
+1,2024,Washington,34.6,Good
+2,2024,Washington,28.0,Good
+3,2024,Washington,25.1,Good
+4,2024,Washington,21.6,Good
+5,2024,Washington,24.0,Good
+6,2024,Washington,24.4,Good
+7,2024,Washington,42.2,Good
+8,2024,Washington,38.4,Good
+9,2024,Washington,32.4,Good
+10,2024,Washington,30.2,Good
+11,2024,Washington,36.0,Good
+12,2024,Washington,35.0,Good
+1,2025,Washington,42.1,Good
+2,2025,Washington,30.9,Good
+3,2025,Washington,21.4,Good
+4,2025,Washington,40.2,Good
+1,2020,West Virginia,33.4,Good
+2,2020,West Virginia,34.1,Good
+3,2020,West Virginia,33.7,Good
+4,2020,West Virginia,38.3,Good
+5,2020,West Virginia,35.5,Good
+6,2020,West Virginia,39.4,Good
+7,2020,West Virginia,43.0,Good
+8,2020,West Virginia,38.9,Good
+9,2020,West Virginia,32.0,Good
+10,2020,West Virginia,28.6,Good
+11,2020,West Virginia,32.4,Good
+12,2020,West Virginia,31.2,Good
+1,2021,West Virginia,35.1,Good
+2,2021,West Virginia,39.1,Good
+3,2021,West Virginia,40.9,Good
+4,2021,West Virginia,43.6,Good
+5,2021,West Virginia,40.9,Good
+6,2021,West Virginia,40.1,Good
+7,2021,West Virginia,44.6,Good
+8,2021,West Virginia,41.0,Good
+9,2021,West Virginia,36.5,Good
+10,2021,West Virginia,29.8,Good
+11,2021,West Virginia,33.6,Good
+12,2021,West Virginia,35.4,Good
+1,2022,West Virginia,38.2,Good
+2,2022,West Virginia,37.8,Good
+3,2022,West Virginia,39.7,Good
+4,2022,West Virginia,37.3,Good
+5,2022,West Virginia,37.8,Good
+6,2022,West Virginia,46.2,Good
+7,2022,West Virginia,41.4,Good
+8,2022,West Virginia,37.0,Good
+9,2022,West Virginia,31.8,Good
+10,2022,West Virginia,31.7,Good
+11,2022,West Virginia,33.6,Good
+12,2022,West Virginia,33.6,Good
+1,2023,West Virginia,32.7,Good
+2,2023,West Virginia,36.2,Good
+3,2023,West Virginia,39.7,Good
+4,2023,West Virginia,45.9,Good
+5,2023,West Virginia,44.0,Good
+6,2023,West Virginia,58.8,Moderate
+7,2023,West Virginia,46.7,Good
+8,2023,West Virginia,39.8,Good
+9,2023,West Virginia,35.0,Good
+10,2023,West Virginia,30.9,Good
+11,2023,West Virginia,38.5,Good
+12,2023,West Virginia,32.7,Good
+1,2024,West Virginia,32.5,Good
+2,2024,West Virginia,41.5,Good
+3,2024,West Virginia,36.9,Good
+4,2024,West Virginia,41.0,Good
+5,2024,West Virginia,41.1,Good
+6,2024,West Virginia,46.5,Good
+7,2024,West Virginia,47.6,Good
+8,2024,West Virginia,46.7,Good
+9,2024,West Virginia,36.5,Good
+10,2024,West Virginia,37.6,Good
+11,2024,West Virginia,31.3,Good
+12,2024,West Virginia,36.3,Good
+1,2025,West Virginia,38.3,Good
+2,2025,West Virginia,39.5,Good
+3,2025,West Virginia,42.2,Good
+4,2025,West Virginia,42.0,Good
+1,2020,Wisconsin,43.9,Good
+2,2020,Wisconsin,40.5,Good
+3,2020,Wisconsin,41.7,Good
+4,2020,Wisconsin,42.0,Good
+5,2020,Wisconsin,40.2,Good
+6,2020,Wisconsin,51.4,Moderate
+7,2020,Wisconsin,41.7,Good
+8,2020,Wisconsin,39.7,Good
+9,2020,Wisconsin,32.9,Good
+10,2020,Wisconsin,33.7,Good
+11,2020,Wisconsin,44.3,Good
+12,2020,Wisconsin,43.8,Good
+1,2021,Wisconsin,47.1,Good
+2,2021,Wisconsin,48.0,Good
+3,2021,Wisconsin,42.2,Good
+4,2021,Wisconsin,41.5,Good
+5,2021,Wisconsin,42.2,Good
+6,2021,Wisconsin,51.8,Moderate
+7,2021,Wisconsin,50.4,Moderate
+8,2021,Wisconsin,51.2,Moderate
+9,2021,Wisconsin,38.1,Good
+10,2021,Wisconsin,33.9,Good
+11,2021,Wisconsin,37.0,Good
+12,2021,Wisconsin,42.7,Good
+1,2022,Wisconsin,44.3,Good
+2,2022,Wisconsin,42.1,Good
+3,2022,Wisconsin,37.4,Good
+4,2022,Wisconsin,38.0,Good
+5,2022,Wisconsin,44.3,Good
+6,2022,Wisconsin,49.3,Good
+7,2022,Wisconsin,40.6,Good
+8,2022,Wisconsin,37.7,Good
+9,2022,Wisconsin,36.0,Good
+10,2022,Wisconsin,39.0,Good
+11,2022,Wisconsin,40.4,Good
+12,2022,Wisconsin,42.1,Good
+1,2023,Wisconsin,46.3,Good
+2,2023,Wisconsin,41.0,Good
+3,2023,Wisconsin,40.4,Good
+4,2023,Wisconsin,47.5,Good
+5,2023,Wisconsin,58.0,Moderate
+6,2023,Wisconsin,82.9,Moderate
+7,2023,Wisconsin,51.4,Moderate
+8,2023,Wisconsin,47.2,Good
+9,2023,Wisconsin,42.0,Good
+10,2023,Wisconsin,33.2,Good
+11,2023,Wisconsin,34.6,Good
+12,2023,Wisconsin,38.2,Good
+1,2024,Wisconsin,37.8,Good
+2,2024,Wisconsin,37.9,Good
+3,2024,Wisconsin,33.6,Good
+4,2024,Wisconsin,40.0,Good
+5,2024,Wisconsin,43.3,Good
+6,2024,Wisconsin,41.0,Good
+7,2024,Wisconsin,42.6,Good
+8,2024,Wisconsin,40.9,Good
+9,2024,Wisconsin,42.9,Good
+10,2024,Wisconsin,36.0,Good
+11,2024,Wisconsin,27.4,Good
+12,2024,Wisconsin,35.7,Good
+1,2025,Wisconsin,32.1,Good
+2,2025,Wisconsin,38.1,Good
+3,2025,Wisconsin,34.0,Good
+4,2025,Wisconsin,38.3,Good
+1,2020,Wyoming,35.6,Good
+2,2020,Wyoming,39.7,Good
+3,2020,Wyoming,37.5,Good
+4,2020,Wyoming,41.1,Good
+5,2020,Wyoming,42.5,Good
+6,2020,Wyoming,40.8,Good
+7,2020,Wyoming,42.0,Good
+8,2020,Wyoming,51.9,Moderate
+9,2020,Wyoming,45.4,Good
+10,2020,Wyoming,37.1,Good
+11,2020,Wyoming,31.3,Good
+12,2020,Wyoming,31.4,Good
+1,2021,Wyoming,32.1,Good
+2,2021,Wyoming,34.2,Good
+3,2021,Wyoming,37.4,Good
+4,2021,Wyoming,36.8,Good
+5,2021,Wyoming,36.1,Good
+6,2021,Wyoming,44.1,Good
+7,2021,Wyoming,64.7,Moderate
+8,2021,Wyoming,60.1,Moderate
+9,2021,Wyoming,47.9,Good
+10,2021,Wyoming,32.3,Good
+11,2021,Wyoming,32.4,Good
+12,2021,Wyoming,36.5,Good
+1,2022,Wyoming,36.1,Good
+2,2022,Wyoming,37.7,Good
+3,2022,Wyoming,36.9,Good
+4,2022,Wyoming,41.6,Good
+5,2022,Wyoming,39.5,Good
+6,2022,Wyoming,42.1,Good
+7,2022,Wyoming,45.2,Good
+8,2022,Wyoming,42.6,Good
+9,2022,Wyoming,42.5,Good
+10,2022,Wyoming,34.4,Good
+11,2022,Wyoming,33.2,Good
+12,2022,Wyoming,35.2,Good
+1,2023,Wyoming,33.3,Good
+2,2023,Wyoming,40.8,Good
+3,2023,Wyoming,42.1,Good
+4,2023,Wyoming,45.0,Good
+5,2023,Wyoming,46.1,Good
+6,2023,Wyoming,39.4,Good
+7,2023,Wyoming,40.8,Good
+8,2023,Wyoming,40.2,Good
+9,2023,Wyoming,39.1,Good
+10,2023,Wyoming,30.0,Good
+11,2023,Wyoming,33.3,Good
+12,2023,Wyoming,32.2,Good
+1,2024,Wyoming,32.4,Good
+2,2024,Wyoming,32.1,Good
+3,2024,Wyoming,34.2,Good
+4,2024,Wyoming,39.2,Good
+5,2024,Wyoming,40.2,Good
+6,2024,Wyoming,41.2,Good
+7,2024,Wyoming,57.0,Moderate
+8,2024,Wyoming,45.2,Good
+9,2024,Wyoming,42.0,Good
+10,2024,Wyoming,39.8,Good
+11,2024,Wyoming,28.9,Good
+12,2024,Wyoming,32.7,Good
+1,2025,Wyoming,33.1,Good
+2,2025,Wyoming,35.5,Good
+3,2025,Wyoming,35.2,Good
+4,2025,Wyoming,34.1,Good
+5,2025,Wyoming,13.4,Good
+6,2025,Wyoming,20.3,Good

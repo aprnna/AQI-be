@@ -1,0 +1,3318 @@
+Month,Year,State Name,Mean
+1,2020,Alabama,14.0
+2,2020,Alabama,12.0
+3,2020,Alabama,17.0
+4,2020,Alabama,17.6
+5,2020,Alabama,16.2
+6,2020,Alabama,23.2
+7,2020,Alabama,20.9
+8,2020,Alabama,20.4
+9,2020,Alabama,20.6
+10,2020,Alabama,20.2
+11,2020,Alabama,19.1
+12,2020,Alabama,19.1
+1,2021,Alabama,16.6
+2,2021,Alabama,16.6
+3,2021,Alabama,21.6
+4,2021,Alabama,21.2
+5,2021,Alabama,16.8
+6,2021,Alabama,17.1
+7,2021,Alabama,22.7
+8,2021,Alabama,21.9
+9,2021,Alabama,19.9
+10,2021,Alabama,17.5
+11,2021,Alabama,16.9
+12,2021,Alabama,16.7
+1,2022,Alabama,14.5
+2,2022,Alabama,17.9
+3,2022,Alabama,20.2
+4,2022,Alabama,20.3
+5,2022,Alabama,20.6
+6,2022,Alabama,22.6
+7,2022,Alabama,17.2
+8,2022,Alabama,16.3
+9,2022,Alabama,19.1
+10,2022,Alabama,20.5
+11,2022,Alabama,15.5
+12,2022,Alabama,13.3
+1,2023,Alabama,12.4
+2,2023,Alabama,17.6
+3,2023,Alabama,20.4
+4,2023,Alabama,18.3
+5,2023,Alabama,18.9
+6,2023,Alabama,23.9
+7,2023,Alabama,23.2
+8,2023,Alabama,22.0
+9,2023,Alabama,21.8
+10,2023,Alabama,20.6
+11,2023,Alabama,20.5
+12,2023,Alabama,15.2
+1,2024,Alabama,13.0
+2,2024,Alabama,18.9
+3,2024,Alabama,17.9
+4,2024,Alabama,19.9
+5,2024,Alabama,17.0
+6,2024,Alabama,18.8
+7,2024,Alabama,18.2
+8,2024,Alabama,25.0
+9,2024,Alabama,17.1
+10,2024,Alabama,26.0
+11,2024,Alabama,15.4
+12,2024,Alabama,15.2
+1,2025,Alabama,15.7
+2,2025,Alabama,17.2
+3,2025,Alabama,23.4
+1,2020,Alaska,10.7
+2,2020,Alaska,7.3
+3,2020,Alaska,10.1
+4,2020,Alaska,13.7
+5,2020,Alaska,14.7
+6,2020,Alaska,9.0
+7,2020,Alaska,8.9
+8,2020,Alaska,8.5
+9,2020,Alaska,9.2
+10,2020,Alaska,13.0
+11,2020,Alaska,12.4
+12,2020,Alaska,8.8
+1,2021,Alaska,11.6
+2,2021,Alaska,9.0
+3,2021,Alaska,8.5
+4,2021,Alaska,21.9
+5,2021,Alaska,14.2
+6,2021,Alaska,9.1
+7,2021,Alaska,11.1
+8,2021,Alaska,8.4
+9,2021,Alaska,9.7
+10,2021,Alaska,13.2
+11,2021,Alaska,11.2
+12,2021,Alaska,9.3
+1,2022,Alaska,10.5
+2,2022,Alaska,6.2
+3,2022,Alaska,12.7
+4,2022,Alaska,22.3
+5,2022,Alaska,14.6
+6,2022,Alaska,23.4
+7,2022,Alaska,15.3
+8,2022,Alaska,6.9
+9,2022,Alaska,6.7
+10,2022,Alaska,14.3
+11,2022,Alaska,9.7
+12,2022,Alaska,10.7
+1,2023,Alaska,9.2
+2,2023,Alaska,6.7
+3,2023,Alaska,13.2
+4,2023,Alaska,18.0
+5,2023,Alaska,15.2
+6,2023,Alaska,9.9
+7,2023,Alaska,9.1
+8,2023,Alaska,14.4
+9,2023,Alaska,8.6
+10,2023,Alaska,16.0
+11,2023,Alaska,8.0
+12,2023,Alaska,9.0
+1,2024,Alaska,11.2
+2,2024,Alaska,10.2
+3,2024,Alaska,11.5
+4,2024,Alaska,23.4
+5,2024,Alaska,11.5
+6,2024,Alaska,15.9
+7,2024,Alaska,7.9
+8,2024,Alaska,8.6
+9,2024,Alaska,7.7
+10,2024,Alaska,15.7
+11,2024,Alaska,12.7
+12,2024,Alaska,10.9
+1,2025,Alaska,9.2
+2,2025,Alaska,13.7
+3,2025,Alaska,23.0
+1,2020,Arizona,20.1
+2,2020,Arizona,22.1
+3,2020,Arizona,14.4
+4,2020,Arizona,23.0
+5,2020,Arizona,30.9
+6,2020,Arizona,33.6
+7,2020,Arizona,31.4
+8,2020,Arizona,43.5
+9,2020,Arizona,41.4
+10,2020,Arizona,49.3
+11,2020,Arizona,43.3
+12,2020,Arizona,29.9
+1,2021,Arizona,29.9
+2,2021,Arizona,28.5
+3,2021,Arizona,27.2
+4,2021,Arizona,32.4
+5,2021,Arizona,32.3
+6,2021,Arizona,37.5
+7,2021,Arizona,30.0
+8,2021,Arizona,23.9
+9,2021,Arizona,27.3
+10,2021,Arizona,36.9
+11,2021,Arizona,43.3
+12,2021,Arizona,25.8
+1,2022,Arizona,23.4
+2,2022,Arizona,27.8
+3,2022,Arizona,28.7
+4,2022,Arizona,38.2
+5,2022,Arizona,39.5
+6,2022,Arizona,35.0
+7,2022,Arizona,30.8
+8,2022,Arizona,23.6
+9,2022,Arizona,23.3
+10,2022,Arizona,23.2
+11,2022,Arizona,27.2
+12,2022,Arizona,19.6
+1,2023,Arizona,17.1
+2,2023,Arizona,22.0
+3,2023,Arizona,18.2
+4,2023,Arizona,33.9
+5,2023,Arizona,29.3
+6,2023,Arizona,31.9
+7,2023,Arizona,40.8
+8,2023,Arizona,28.1
+9,2023,Arizona,28.1
+10,2023,Arizona,39.9
+11,2023,Arizona,29.1
+12,2023,Arizona,25.3
+1,2024,Arizona,19.9
+2,2024,Arizona,17.0
+3,2024,Arizona,17.6
+4,2024,Arizona,23.3
+5,2024,Arizona,29.9
+6,2024,Arizona,34.1
+7,2024,Arizona,35.3
+8,2024,Arizona,24.0
+9,2024,Arizona,33.3
+10,2024,Arizona,46.9
+11,2024,Arizona,35.8
+12,2024,Arizona,47.6
+1,2025,Arizona,46.9
+2,2025,Arizona,39.3
+3,2025,Arizona,31.0
+4,2025,Arizona,27.3
+5,2025,Arizona,29.5
+6,2025,Arizona,26.0
+1,2020,Arkansas,10.5
+2,2020,Arkansas,8.7
+3,2020,Arkansas,13.5
+4,2020,Arkansas,13.4
+5,2020,Arkansas,10.7
+6,2020,Arkansas,18.8
+7,2020,Arkansas,18.8
+8,2020,Arkansas,16.5
+9,2020,Arkansas,18.2
+10,2020,Arkansas,17.9
+11,2020,Arkansas,14.9
+12,2020,Arkansas,17.2
+1,2021,Arkansas,11.7
+2,2021,Arkansas,13.9
+3,2021,Arkansas,15.4
+4,2021,Arkansas,16.4
+5,2021,Arkansas,14.2
+6,2021,Arkansas,15.2
+7,2021,Arkansas,19.9
+8,2021,Arkansas,22.0
+9,2021,Arkansas,18.2
+10,2021,Arkansas,12.2
+11,2021,Arkansas,15.6
+12,2021,Arkansas,12.4
+1,2022,Arkansas,14.2
+2,2022,Arkansas,15.2
+3,2022,Arkansas,12.5
+4,2022,Arkansas,16.4
+5,2022,Arkansas,13.4
+6,2022,Arkansas,19.8
+7,2022,Arkansas,18.0
+8,2022,Arkansas,14.2
+9,2022,Arkansas,20.7
+10,2022,Arkansas,16.8
+11,2022,Arkansas,15.6
+12,2022,Arkansas,11.6
+1,2023,Arkansas,12.1
+2,2023,Arkansas,13.1
+3,2023,Arkansas,14.4
+4,2023,Arkansas,12.1
+5,2023,Arkansas,19.5
+6,2023,Arkansas,23.5
+7,2023,Arkansas,18.1
+8,2023,Arkansas,20.2
+9,2023,Arkansas,24.8
+10,2023,Arkansas,18.5
+11,2023,Arkansas,17.2
+12,2023,Arkansas,14.0
+1,2024,Arkansas,11.1
+2,2024,Arkansas,17.2
+3,2024,Arkansas,15.1
+4,2024,Arkansas,16.3
+5,2024,Arkansas,15.9
+6,2024,Arkansas,17.9
+7,2024,Arkansas,17.2
+8,2024,Arkansas,24.9
+9,2024,Arkansas,17.0
+10,2024,Arkansas,27.0
+11,2024,Arkansas,13.1
+12,2024,Arkansas,15.4
+1,2025,Arkansas,12.8
+2,2025,Arkansas,11.5
+3,2025,Arkansas,18.4
+4,2025,Arkansas,18.5
+5,2025,Arkansas,17.5
+6,2025,Arkansas,16.3
+1,2020,California,17.9
+2,2020,California,24.2
+3,2020,California,12.5
+4,2020,California,15.4
+5,2020,California,23.6
+6,2020,California,26.6
+7,2020,California,26.5
+8,2020,California,42.5
+9,2020,California,74.8
+10,2020,California,56.6
+11,2020,California,30.3
+12,2020,California,25.5
+1,2021,California,19.4
+2,2021,California,20.1
+3,2021,California,19.9
+4,2021,California,28.6
+5,2021,California,30.2
+6,2021,California,28.6
+7,2021,California,28.2
+8,2021,California,42.1
+9,2021,California,41.5
+10,2021,California,34.1
+11,2021,California,25.0
+12,2021,California,17.3
+1,2022,California,21.5
+2,2022,California,26.8
+3,2022,California,23.4
+4,2022,California,30.9
+5,2022,California,38.0
+6,2022,California,33.7
+7,2022,California,26.3
+8,2022,California,32.0
+9,2022,California,32.1
+10,2022,California,34.3
+11,2022,California,24.8
+12,2022,California,17.3
+1,2023,California,15.3
+2,2023,California,21.0
+3,2023,California,11.8
+4,2023,California,24.4
+5,2023,California,23.1
+6,2023,California,23.5
+7,2023,California,30.2
+8,2023,California,25.8
+9,2023,California,30.9
+10,2023,California,29.6
+11,2023,California,25.3
+12,2023,California,21.4
+1,2024,California,14.9
+2,2024,California,11.8
+3,2024,California,16.0
+4,2024,California,18.2
+5,2024,California,23.8
+6,2024,California,28.7
+7,2024,California,28.7
+8,2024,California,28.7
+9,2024,California,31.7
+10,2024,California,36.8
+11,2024,California,23.8
+12,2024,California,23.6
+1,2025,California,23.4
+2,2025,California,14.3
+3,2025,California,15.2
+4,2025,California,23.0
+5,2025,California,30.0
+6,2025,California,25.5
+1,2020,Colorado,18.7
+2,2020,Colorado,15.4
+3,2020,Colorado,15.8
+4,2020,Colorado,16.0
+5,2020,Colorado,17.2
+6,2020,Colorado,25.5
+7,2020,Colorado,21.5
+8,2020,Colorado,33.3
+9,2020,Colorado,32.0
+10,2020,Colorado,30.4
+11,2020,Colorado,19.1
+12,2020,Colorado,15.4
+1,2021,Colorado,18.9
+2,2021,Colorado,15.5
+3,2021,Colorado,20.6
+4,2021,Colorado,18.6
+5,2021,Colorado,16.3
+6,2021,Colorado,26.5
+7,2021,Colorado,25.5
+8,2021,Colorado,33.5
+9,2021,Colorado,26.1
+10,2021,Colorado,19.0
+11,2021,Colorado,22.8
+12,2021,Colorado,20.4
+1,2022,Colorado,19.9
+2,2022,Colorado,17.8
+3,2022,Colorado,19.4
+4,2022,Colorado,32.3
+5,2022,Colorado,29.7
+6,2022,Colorado,27.6
+7,2022,Colorado,19.8
+8,2022,Colorado,19.3
+9,2022,Colorado,24.3
+10,2022,Colorado,21.3
+11,2022,Colorado,18.5
+12,2022,Colorado,20.2
+1,2023,Colorado,15.8
+2,2023,Colorado,19.6
+3,2023,Colorado,19.5
+4,2023,Colorado,23.6
+5,2023,Colorado,18.5
+6,2023,Colorado,17.0
+7,2023,Colorado,22.7
+8,2023,Colorado,20.8
+9,2023,Colorado,20.9
+10,2023,Colorado,20.0
+11,2023,Colorado,21.0
+12,2023,Colorado,18.7
+1,2024,Colorado,17.4
+2,2024,Colorado,15.8
+3,2024,Colorado,16.8
+4,2024,Colorado,17.3
+5,2024,Colorado,16.9
+6,2024,Colorado,22.7
+7,2024,Colorado,23.8
+8,2024,Colorado,18.3
+9,2024,Colorado,23.0
+10,2024,Colorado,35.5
+11,2024,Colorado,17.5
+12,2024,Colorado,20.6
+1,2025,Colorado,16.6
+2,2025,Colorado,19.8
+3,2025,Colorado,24.4
+4,2025,Colorado,21.0
+5,2025,Colorado,17.4
+1,2020,Connecticut,13.8
+2,2020,Connecticut,12.4
+3,2020,Connecticut,9.9
+4,2020,Connecticut,10.4
+5,2020,Connecticut,11.5
+6,2020,Connecticut,15.6
+7,2020,Connecticut,16.7
+8,2020,Connecticut,16.4
+9,2020,Connecticut,15.0
+10,2020,Connecticut,12.5
+11,2020,Connecticut,15.5
+12,2020,Connecticut,14.3
+1,2021,Connecticut,12.9
+2,2021,Connecticut,13.7
+3,2021,Connecticut,14.2
+4,2021,Connecticut,13.0
+5,2021,Connecticut,13.9
+6,2021,Connecticut,17.2
+7,2021,Connecticut,19.4
+8,2021,Connecticut,15.8
+9,2021,Connecticut,13.3
+10,2021,Connecticut,12.6
+11,2021,Connecticut,12.9
+12,2021,Connecticut,13.5
+1,2022,Connecticut,16.3
+2,2022,Connecticut,14.9
+3,2022,Connecticut,14.0
+4,2022,Connecticut,10.5
+5,2022,Connecticut,12.8
+6,2022,Connecticut,13.5
+7,2022,Connecticut,15.6
+8,2022,Connecticut,13.4
+9,2022,Connecticut,11.4
+10,2022,Connecticut,13.9
+11,2022,Connecticut,12.7
+12,2022,Connecticut,12.2
+1,2023,Connecticut,10.4
+2,2023,Connecticut,13.8
+3,2023,Connecticut,10.4
+4,2023,Connecticut,14.2
+5,2023,Connecticut,15.5
+6,2023,Connecticut,26.3
+7,2023,Connecticut,20.5
+8,2023,Connecticut,13.2
+9,2023,Connecticut,14.5
+10,2023,Connecticut,13.2
+11,2023,Connecticut,11.1
+12,2023,Connecticut,11.8
+1,2024,Connecticut,10.9
+2,2024,Connecticut,11.1
+3,2024,Connecticut,7.4
+4,2024,Connecticut,9.6
+5,2024,Connecticut,10.8
+6,2024,Connecticut,14.7
+7,2024,Connecticut,15.5
+8,2024,Connecticut,16.5
+9,2024,Connecticut,11.2
+10,2024,Connecticut,12.9
+11,2024,Connecticut,8.9
+12,2024,Connecticut,11.0
+1,2025,Connecticut,13.1
+2,2025,Connecticut,11.5
+3,2025,Connecticut,9.7
+1,2022,Country Of Mexico,66.6
+2,2022,Country Of Mexico,55.6
+3,2022,Country Of Mexico,48.7
+4,2022,Country Of Mexico,49.5
+5,2022,Country Of Mexico,51.8
+6,2022,Country Of Mexico,38.2
+7,2022,Country Of Mexico,23.7
+8,2022,Country Of Mexico,21.6
+9,2022,Country Of Mexico,42.4
+10,2022,Country Of Mexico,54.5
+11,2022,Country Of Mexico,76.7
+12,2022,Country Of Mexico,57.0
+1,2023,Country Of Mexico,48.3
+2,2023,Country Of Mexico,48.3
+3,2023,Country Of Mexico,45.0
+4,2023,Country Of Mexico,58.5
+5,2023,Country Of Mexico,46.1
+6,2023,Country Of Mexico,50.7
+7,2023,Country Of Mexico,33.1
+8,2023,Country Of Mexico,32.4
+9,2023,Country Of Mexico,65.6
+10,2023,Country Of Mexico,70.3
+11,2023,Country Of Mexico,75.1
+12,2023,Country Of Mexico,79.5
+1,2024,Country Of Mexico,61.6
+2,2024,Country Of Mexico,65.4
+3,2024,Country Of Mexico,51.6
+4,2024,Country Of Mexico,49.2
+5,2024,Country Of Mexico,66.0
+6,2024,Country Of Mexico,47.8
+7,2024,Country Of Mexico,38.5
+8,2024,Country Of Mexico,45.0
+9,2024,Country Of Mexico,68.8
+10,2024,Country Of Mexico,109.5
+11,2024,Country Of Mexico,89.6
+12,2024,Country Of Mexico,127.0
+1,2025,Country Of Mexico,80.6
+2,2025,Country Of Mexico,102.2
+3,2025,Country Of Mexico,65.2
+4,2025,Country Of Mexico,60.5
+5,2025,Country Of Mexico,61.9
+6,2025,Country Of Mexico,56.5
+1,2020,District Of Columbia,15.5
+2,2020,District Of Columbia,13.3
+3,2020,District Of Columbia,12.0
+4,2020,District Of Columbia,12.1
+5,2020,District Of Columbia,15.0
+6,2020,District Of Columbia,13.9
+7,2020,District Of Columbia,14.9
+8,2020,District Of Columbia,12.9
+9,2020,District Of Columbia,15.3
+10,2020,District Of Columbia,16.7
+11,2020,District Of Columbia,21.4
+12,2020,District Of Columbia,15.1
+1,2021,District Of Columbia,14.7
+2,2021,District Of Columbia,15.9
+3,2021,District Of Columbia,14.9
+4,2021,District Of Columbia,16.7
+5,2021,District Of Columbia,21.0
+6,2021,District Of Columbia,17.3
+7,2021,District Of Columbia,19.7
+8,2021,District Of Columbia,15.0
+9,2021,District Of Columbia,12.8
+10,2021,District Of Columbia,12.1
+11,2021,District Of Columbia,13.3
+12,2021,District Of Columbia,15.4
+1,2022,District Of Columbia,13.9
+2,2022,District Of Columbia,13.3
+3,2022,District Of Columbia,13.4
+4,2022,District Of Columbia,12.7
+5,2022,District Of Columbia,17.9
+6,2022,District Of Columbia,16.7
+7,2022,District Of Columbia,13.1
+8,2022,District Of Columbia,11.1
+9,2022,District Of Columbia,10.7
+10,2022,District Of Columbia,11.1
+11,2022,District Of Columbia,15.7
+12,2022,District Of Columbia,16.5
+1,2023,District Of Columbia,13.1
+2,2023,District Of Columbia,14.9
+3,2023,District Of Columbia,12.4
+4,2023,District Of Columbia,17.3
+5,2023,District Of Columbia,18.7
+6,2023,District Of Columbia,39.5
+7,2023,District Of Columbia,18.4
+8,2023,District Of Columbia,16.5
+9,2023,District Of Columbia,15.0
+10,2023,District Of Columbia,15.4
+11,2023,District Of Columbia,16.4
+12,2023,District Of Columbia,14.7
+1,2024,District Of Columbia,12.7
+2,2024,District Of Columbia,15.3
+3,2024,District Of Columbia,12.3
+4,2024,District Of Columbia,13.9
+5,2024,District Of Columbia,13.2
+6,2024,District Of Columbia,15.7
+7,2024,District Of Columbia,13.7
+8,2024,District Of Columbia,15.9
+9,2024,District Of Columbia,13.9
+10,2024,District Of Columbia,17.3
+11,2024,District Of Columbia,11.8
+12,2024,District Of Columbia,13.8
+1,2025,District Of Columbia,14.8
+2,2025,District Of Columbia,12.7
+3,2025,District Of Columbia,13.1
+1,2020,Florida,18.7
+2,2020,Florida,16.5
+3,2020,Florida,20.2
+4,2020,Florida,18.9
+5,2020,Florida,17.3
+6,2020,Florida,19.9
+7,2020,Florida,23.4
+8,2020,Florida,18.3
+9,2020,Florida,19.7
+10,2020,Florida,16.7
+11,2020,Florida,16.1
+12,2020,Florida,14.0
+1,2021,Florida,15.9
+2,2021,Florida,16.0
+3,2021,Florida,18.3
+4,2021,Florida,20.0
+5,2021,Florida,19.1
+6,2021,Florida,18.2
+7,2021,Florida,17.5
+8,2021,Florida,20.2
+9,2021,Florida,17.6
+10,2021,Florida,16.2
+11,2021,Florida,14.9
+12,2021,Florida,16.0
+1,2022,Florida,16.2
+2,2022,Florida,17.7
+3,2022,Florida,20.3
+4,2022,Florida,20.6
+5,2022,Florida,19.4
+6,2022,Florida,20.8
+7,2022,Florida,20.3
+8,2022,Florida,20.0
+9,2022,Florida,14.5
+10,2022,Florida,17.1
+11,2022,Florida,16.5
+12,2022,Florida,16.9
+1,2023,Florida,16.8
+2,2023,Florida,20.0
+3,2023,Florida,21.9
+4,2023,Florida,19.2
+5,2023,Florida,18.6
+6,2023,Florida,18.0
+7,2023,Florida,22.6
+8,2023,Florida,21.0
+9,2023,Florida,15.1
+10,2023,Florida,19.1
+11,2023,Florida,15.5
+12,2023,Florida,14.9
+1,2024,Florida,15.9
+2,2024,Florida,17.4
+3,2024,Florida,17.7
+4,2024,Florida,19.7
+5,2024,Florida,20.5
+6,2024,Florida,16.4
+7,2024,Florida,22.7
+8,2024,Florida,17.3
+9,2024,Florida,15.1
+10,2024,Florida,20.1
+11,2024,Florida,18.5
+12,2024,Florida,16.0
+1,2025,Florida,14.8
+2,2025,Florida,17.9
+3,2025,Florida,20.9
+1,2020,Georgia,10.4
+2,2020,Georgia,9.4
+3,2020,Georgia,14.5
+4,2020,Georgia,12.2
+5,2020,Georgia,12.5
+6,2020,Georgia,17.6
+7,2020,Georgia,16.5
+8,2020,Georgia,17.1
+9,2020,Georgia,15.5
+10,2020,Georgia,15.6
+11,2020,Georgia,12.8
+12,2020,Georgia,13.9
+1,2021,Georgia,11.2
+2,2021,Georgia,11.6
+3,2021,Georgia,16.6
+4,2021,Georgia,15.9
+5,2021,Georgia,14.3
+6,2021,Georgia,11.6
+7,2021,Georgia,19.6
+8,2021,Georgia,22.9
+9,2021,Georgia,18.8
+10,2021,Georgia,19.2
+11,2021,Georgia,18.3
+12,2021,Georgia,19.9
+1,2022,Georgia,15.1
+2,2022,Georgia,18.5
+3,2022,Georgia,18.6
+4,2022,Georgia,18.9
+5,2022,Georgia,18.7
+6,2022,Georgia,24.0
+7,2022,Georgia,18.4
+8,2022,Georgia,18.0
+9,2022,Georgia,17.3
+10,2022,Georgia,18.5
+11,2022,Georgia,15.7
+12,2022,Georgia,15.1
+1,2023,Georgia,13.9
+2,2023,Georgia,16.4
+3,2023,Georgia,19.9
+4,2023,Georgia,18.2
+5,2023,Georgia,17.2
+6,2023,Georgia,24.5
+7,2023,Georgia,22.1
+8,2023,Georgia,19.4
+9,2023,Georgia,18.1
+10,2023,Georgia,16.5
+11,2023,Georgia,18.6
+12,2023,Georgia,15.5
+1,2024,Georgia,11.2
+2,2024,Georgia,16.4
+3,2024,Georgia,15.4
+4,2024,Georgia,18.3
+5,2024,Georgia,15.2
+6,2024,Georgia,17.3
+7,2024,Georgia,15.9
+8,2024,Georgia,20.7
+9,2024,Georgia,15.6
+10,2024,Georgia,22.2
+11,2024,Georgia,15.9
+12,2024,Georgia,16.8
+1,2025,Georgia,15.3
+2,2025,Georgia,19.9
+3,2025,Georgia,17.9
+4,2025,Georgia,18.4
+5,2025,Georgia,15.7
+1,2020,Hawaii,14.0
+2,2020,Hawaii,14.1
+3,2020,Hawaii,11.5
+4,2020,Hawaii,11.0
+5,2020,Hawaii,10.3
+6,2020,Hawaii,9.5
+7,2020,Hawaii,8.9
+8,2020,Hawaii,9.2
+9,2020,Hawaii,9.7
+10,2020,Hawaii,10.9
+11,2020,Hawaii,12.1
+12,2020,Hawaii,13.4
+1,2021,Hawaii,11.3
+2,2021,Hawaii,13.6
+3,2021,Hawaii,13.2
+4,2021,Hawaii,10.4
+5,2021,Hawaii,11.6
+6,2021,Hawaii,8.3
+7,2021,Hawaii,9.2
+8,2021,Hawaii,11.4
+9,2021,Hawaii,9.6
+10,2021,Hawaii,9.9
+11,2021,Hawaii,11.0
+12,2021,Hawaii,11.3
+1,2022,Hawaii,12.1
+2,2022,Hawaii,12.3
+3,2022,Hawaii,14.5
+4,2022,Hawaii,19.7
+5,2022,Hawaii,16.3
+6,2022,Hawaii,12.3
+7,2022,Hawaii,13.8
+8,2022,Hawaii,13.0
+9,2022,Hawaii,10.3
+10,2022,Hawaii,10.9
+11,2022,Hawaii,16.6
+12,2022,Hawaii,15.7
+1,2023,Hawaii,14.6
+2,2023,Hawaii,18.7
+3,2023,Hawaii,16.4
+4,2023,Hawaii,14.2
+5,2023,Hawaii,14.4
+6,2023,Hawaii,11.0
+7,2023,Hawaii,13.7
+8,2023,Hawaii,18.2
+9,2023,Hawaii,14.2
+10,2023,Hawaii,10.5
+11,2023,Hawaii,13.6
+12,2023,Hawaii,12.4
+1,2024,Hawaii,17.5
+2,2024,Hawaii,13.9
+3,2024,Hawaii,14.0
+4,2024,Hawaii,15.4
+5,2024,Hawaii,13.8
+6,2024,Hawaii,12.6
+7,2024,Hawaii,10.9
+8,2024,Hawaii,12.0
+9,2024,Hawaii,11.8
+10,2024,Hawaii,12.3
+11,2024,Hawaii,13.7
+12,2024,Hawaii,13.5
+1,2025,Hawaii,13.4
+2,2025,Hawaii,12.9
+3,2025,Hawaii,13.8
+1,2020,Idaho,9.8
+2,2020,Idaho,15.3
+3,2020,Idaho,13.9
+4,2020,Idaho,14.5
+5,2020,Idaho,14.4
+6,2020,Idaho,14.0
+7,2020,Idaho,21.3
+8,2020,Idaho,36.4
+9,2020,Idaho,53.5
+10,2020,Idaho,28.6
+11,2020,Idaho,18.9
+12,2020,Idaho,17.1
+1,2021,Idaho,14.5
+2,2021,Idaho,12.8
+3,2021,Idaho,21.2
+4,2021,Idaho,22.8
+5,2021,Idaho,19.2
+6,2021,Idaho,27.3
+7,2021,Idaho,46.8
+8,2021,Idaho,48.2
+9,2021,Idaho,33.0
+10,2021,Idaho,17.7
+11,2021,Idaho,16.0
+12,2021,Idaho,12.8
+1,2022,Idaho,16.5
+2,2022,Idaho,18.6
+3,2022,Idaho,17.1
+4,2022,Idaho,15.1
+5,2022,Idaho,11.4
+6,2022,Idaho,16.2
+7,2022,Idaho,31.5
+8,2022,Idaho,35.5
+9,2022,Idaho,43.1
+10,2022,Idaho,27.9
+11,2022,Idaho,18.1
+12,2022,Idaho,12.0
+1,2023,Idaho,120.7
+2,2023,Idaho,15.7
+3,2023,Idaho,11.3
+4,2023,Idaho,14.8
+5,2023,Idaho,19.2
+6,2023,Idaho,16.1
+7,2023,Idaho,25.2
+8,2023,Idaho,27.2
+9,2023,Idaho,18.7
+10,2023,Idaho,15.7
+11,2023,Idaho,20.1
+12,2023,Idaho,13.4
+1,2024,Idaho,13.5
+2,2024,Idaho,10.4
+3,2024,Idaho,12.4
+4,2024,Idaho,15.9
+5,2024,Idaho,12.6
+6,2024,Idaho,17.6
+7,2024,Idaho,37.0
+8,2024,Idaho,37.5
+9,2024,Idaho,30.9
+10,2024,Idaho,26.3
+11,2024,Idaho,13.7
+12,2024,Idaho,13.4
+1,2025,Idaho,17.6
+2,2025,Idaho,12.1
+3,2025,Idaho,15.2
+4,2025,Idaho,21.5
+5,2025,Idaho,17.6
+6,2025,Idaho,25.0
+1,2020,Illinois,23.8
+2,2020,Illinois,24.1
+3,2020,Illinois,22.5
+4,2020,Illinois,28.1
+5,2020,Illinois,24.9
+6,2020,Illinois,39.2
+7,2020,Illinois,35.4
+8,2020,Illinois,37.4
+9,2020,Illinois,38.8
+10,2020,Illinois,36.7
+11,2020,Illinois,39.8
+12,2020,Illinois,33.4
+1,2021,Illinois,25.2
+2,2021,Illinois,30.5
+3,2021,Illinois,36.0
+4,2021,Illinois,36.3
+5,2021,Illinois,33.5
+6,2021,Illinois,31.4
+7,2021,Illinois,30.7
+8,2021,Illinois,38.8
+9,2021,Illinois,32.3
+10,2021,Illinois,30.6
+11,2021,Illinois,34.9
+12,2021,Illinois,27.6
+1,2022,Illinois,31.6
+2,2022,Illinois,28.8
+3,2022,Illinois,26.8
+4,2022,Illinois,29.4
+5,2022,Illinois,33.1
+6,2022,Illinois,36.6
+7,2022,Illinois,30.8
+8,2022,Illinois,30.8
+9,2022,Illinois,32.7
+10,2022,Illinois,38.1
+11,2022,Illinois,30.0
+12,2022,Illinois,22.1
+1,2023,Illinois,18.4
+2,2023,Illinois,19.7
+3,2023,Illinois,17.1
+4,2023,Illinois,26.3
+5,2023,Illinois,30.0
+6,2023,Illinois,41.5
+7,2023,Illinois,32.2
+8,2023,Illinois,31.6
+9,2023,Illinois,25.8
+10,2023,Illinois,28.2
+11,2023,Illinois,31.2
+12,2023,Illinois,21.3
+1,2024,Illinois,15.9
+2,2024,Illinois,24.9
+3,2024,Illinois,20.4
+4,2024,Illinois,18.9
+5,2024,Illinois,21.6
+6,2024,Illinois,25.3
+7,2024,Illinois,22.6
+8,2024,Illinois,23.7
+9,2024,Illinois,26.4
+10,2024,Illinois,36.8
+11,2024,Illinois,16.2
+12,2024,Illinois,20.0
+1,2025,Illinois,18.0
+2,2025,Illinois,16.9
+3,2025,Illinois,24.7
+4,2025,Illinois,15.6
+5,2025,Illinois,15.0
+6,2025,Illinois,28.3
+1,2020,Indiana,14.1
+2,2020,Indiana,15.5
+3,2020,Indiana,14.5
+4,2020,Indiana,20.1
+5,2020,Indiana,17.6
+6,2020,Indiana,23.8
+7,2020,Indiana,21.4
+8,2020,Indiana,22.3
+9,2020,Indiana,22.6
+10,2020,Indiana,17.6
+11,2020,Indiana,19.2
+12,2020,Indiana,18.7
+1,2021,Indiana,13.4
+2,2021,Indiana,16.0
+3,2021,Indiana,20.3
+4,2021,Indiana,22.4
+5,2021,Indiana,18.4
+6,2021,Indiana,21.5
+7,2021,Indiana,27.3
+8,2021,Indiana,24.0
+9,2021,Indiana,22.7
+10,2021,Indiana,19.0
+11,2021,Indiana,20.0
+12,2021,Indiana,16.0
+1,2022,Indiana,17.8
+2,2022,Indiana,16.7
+3,2022,Indiana,18.3
+4,2022,Indiana,17.4
+5,2022,Indiana,22.0
+6,2022,Indiana,29.0
+7,2022,Indiana,22.6
+8,2022,Indiana,19.3
+9,2022,Indiana,21.6
+10,2022,Indiana,26.5
+11,2022,Indiana,21.4
+12,2022,Indiana,17.7
+1,2023,Indiana,14.5
+2,2023,Indiana,16.2
+3,2023,Indiana,14.6
+4,2023,Indiana,21.7
+5,2023,Indiana,27.7
+6,2023,Indiana,40.3
+7,2023,Indiana,26.3
+8,2023,Indiana,24.9
+9,2023,Indiana,19.4
+10,2023,Indiana,19.7
+11,2023,Indiana,21.9
+12,2023,Indiana,15.5
+1,2024,Indiana,11.2
+2,2024,Indiana,19.1
+3,2024,Indiana,18.4
+4,2024,Indiana,17.0
+5,2024,Indiana,19.8
+6,2024,Indiana,22.1
+7,2024,Indiana,21.3
+8,2024,Indiana,22.7
+9,2024,Indiana,23.4
+10,2024,Indiana,29.8
+11,2024,Indiana,13.0
+12,2024,Indiana,15.1
+1,2025,Indiana,14.9
+2,2025,Indiana,15.3
+3,2025,Indiana,20.3
+4,2025,Indiana,18.6
+5,2025,Indiana,20.4
+6,2025,Indiana,32.1
+1,2020,Iowa,22.9
+2,2020,Iowa,19.1
+3,2020,Iowa,19.8
+4,2020,Iowa,24.4
+5,2020,Iowa,25.1
+6,2020,Iowa,35.5
+7,2020,Iowa,31.7
+8,2020,Iowa,31.2
+9,2020,Iowa,29.3
+10,2020,Iowa,29.9
+11,2020,Iowa,26.6
+12,2020,Iowa,27.9
+1,2021,Iowa,17.7
+2,2021,Iowa,20.9
+3,2021,Iowa,22.6
+4,2021,Iowa,31.3
+5,2021,Iowa,22.9
+6,2021,Iowa,30.8
+7,2021,Iowa,31.5
+8,2021,Iowa,33.2
+9,2021,Iowa,34.6
+10,2021,Iowa,21.8
+11,2021,Iowa,28.8
+12,2021,Iowa,27.1
+1,2022,Iowa,19.9
+2,2022,Iowa,21.8
+3,2022,Iowa,17.7
+4,2022,Iowa,20.9
+5,2022,Iowa,31.4
+6,2022,Iowa,29.0
+7,2022,Iowa,26.6
+8,2022,Iowa,24.2
+9,2022,Iowa,27.0
+10,2022,Iowa,37.3
+11,2022,Iowa,24.2
+12,2022,Iowa,25.0
+1,2023,Iowa,17.3
+2,2023,Iowa,17.9
+3,2023,Iowa,16.7
+4,2023,Iowa,28.4
+5,2023,Iowa,35.0
+6,2023,Iowa,44.9
+7,2023,Iowa,33.7
+8,2023,Iowa,32.8
+9,2023,Iowa,29.6
+10,2023,Iowa,27.5
+11,2023,Iowa,28.4
+12,2023,Iowa,19.8
+1,2024,Iowa,14.9
+2,2024,Iowa,27.7
+3,2024,Iowa,21.7
+4,2024,Iowa,20.9
+5,2024,Iowa,25.4
+6,2024,Iowa,25.9
+7,2024,Iowa,23.9
+8,2024,Iowa,26.4
+9,2024,Iowa,29.1
+10,2024,Iowa,40.9
+11,2024,Iowa,18.6
+12,2024,Iowa,19.0
+1,2025,Iowa,21.8
+2,2025,Iowa,18.6
+3,2025,Iowa,24.4
+4,2025,Iowa,28.1
+5,2025,Iowa,29.5
+6,2025,Iowa,32.4
+1,2020,Kansas,11.4
+2,2020,Kansas,11.9
+3,2020,Kansas,14.1
+4,2020,Kansas,19.5
+5,2020,Kansas,15.4
+6,2020,Kansas,33.7
+7,2020,Kansas,23.7
+8,2020,Kansas,27.2
+9,2020,Kansas,27.8
+10,2020,Kansas,32.2
+11,2020,Kansas,21.4
+12,2020,Kansas,19.5
+1,2021,Kansas,17.0
+2,2021,Kansas,14.9
+3,2021,Kansas,19.8
+4,2021,Kansas,22.4
+5,2021,Kansas,15.7
+6,2021,Kansas,26.0
+7,2021,Kansas,29.6
+8,2021,Kansas,31.2
+9,2021,Kansas,31.7
+10,2021,Kansas,22.4
+11,2021,Kansas,26.3
+12,2021,Kansas,38.5
+1,2022,Kansas,20.6
+2,2022,Kansas,21.3
+3,2022,Kansas,22.1
+4,2022,Kansas,33.9
+5,2022,Kansas,23.9
+6,2022,Kansas,35.0
+7,2022,Kansas,27.5
+8,2022,Kansas,27.5
+9,2022,Kansas,28.1
+10,2022,Kansas,36.3
+11,2022,Kansas,18.5
+12,2022,Kansas,24.8
+1,2023,Kansas,16.3
+2,2023,Kansas,19.9
+3,2023,Kansas,19.9
+4,2023,Kansas,29.1
+5,2023,Kansas,25.2
+6,2023,Kansas,26.1
+7,2023,Kansas,27.9
+8,2023,Kansas,32.2
+9,2023,Kansas,37.6
+10,2023,Kansas,26.1
+11,2023,Kansas,24.0
+12,2023,Kansas,12.6
+1,2024,Kansas,16.0
+2,2024,Kansas,19.0
+3,2024,Kansas,24.7
+4,2024,Kansas,31.3
+5,2024,Kansas,19.1
+6,2024,Kansas,24.0
+7,2024,Kansas,29.1
+8,2024,Kansas,26.0
+9,2024,Kansas,28.9
+10,2024,Kansas,47.5
+11,2024,Kansas,12.3
+12,2024,Kansas,20.6
+1,2025,Kansas,14.3
+2,2025,Kansas,16.9
+3,2025,Kansas,37.3
+1,2020,Kentucky,13.3
+2,2020,Kentucky,11.6
+3,2020,Kentucky,13.7
+4,2020,Kentucky,15.1
+5,2020,Kentucky,14.2
+6,2020,Kentucky,20.9
+7,2020,Kentucky,18.4
+8,2020,Kentucky,17.1
+9,2020,Kentucky,17.9
+10,2020,Kentucky,14.3
+11,2020,Kentucky,18.2
+12,2020,Kentucky,17.8
+1,2021,Kentucky,13.6
+2,2021,Kentucky,16.9
+3,2021,Kentucky,17.7
+4,2021,Kentucky,18.4
+5,2021,Kentucky,17.5
+6,2021,Kentucky,17.0
+7,2021,Kentucky,24.0
+8,2021,Kentucky,20.2
+9,2021,Kentucky,17.6
+10,2021,Kentucky,15.1
+11,2021,Kentucky,15.9
+12,2021,Kentucky,16.1
+1,2022,Kentucky,15.7
+2,2022,Kentucky,16.3
+3,2022,Kentucky,16.6
+4,2022,Kentucky,16.5
+5,2022,Kentucky,17.4
+6,2022,Kentucky,22.0
+7,2022,Kentucky,18.9
+8,2022,Kentucky,17.2
+9,2022,Kentucky,16.9
+10,2022,Kentucky,20.5
+11,2022,Kentucky,17.7
+12,2022,Kentucky,14.2
+1,2023,Kentucky,13.6
+2,2023,Kentucky,16.4
+3,2023,Kentucky,15.3
+4,2023,Kentucky,18.0
+5,2023,Kentucky,20.6
+6,2023,Kentucky,35.5
+7,2023,Kentucky,23.3
+8,2023,Kentucky,20.9
+9,2023,Kentucky,18.5
+10,2023,Kentucky,17.0
+11,2023,Kentucky,19.4
+12,2023,Kentucky,14.4
+1,2024,Kentucky,10.0
+2,2024,Kentucky,16.6
+3,2024,Kentucky,13.4
+4,2024,Kentucky,14.7
+5,2024,Kentucky,14.9
+6,2024,Kentucky,18.3
+7,2024,Kentucky,17.5
+8,2024,Kentucky,20.5
+9,2024,Kentucky,14.5
+10,2024,Kentucky,23.6
+11,2024,Kentucky,12.0
+12,2024,Kentucky,12.8
+1,2025,Kentucky,13.6
+2,2025,Kentucky,12.9
+3,2025,Kentucky,20.0
+1,2020,Louisiana,11.8
+2,2020,Louisiana,12.1
+3,2020,Louisiana,17.9
+4,2020,Louisiana,17.0
+5,2020,Louisiana,14.6
+6,2020,Louisiana,20.6
+7,2020,Louisiana,23.6
+8,2020,Louisiana,17.8
+9,2020,Louisiana,18.4
+10,2020,Louisiana,18.9
+11,2020,Louisiana,16.8
+12,2020,Louisiana,13.6
+1,2021,Louisiana,16.7
+2,2021,Louisiana,12.9
+3,2021,Louisiana,17.8
+4,2021,Louisiana,16.6
+5,2021,Louisiana,15.2
+6,2021,Louisiana,14.3
+7,2021,Louisiana,19.0
+8,2021,Louisiana,21.0
+9,2021,Louisiana,16.7
+10,2021,Louisiana,16.2
+11,2021,Louisiana,17.5
+12,2021,Louisiana,15.8
+1,2022,Louisiana,14.2
+2,2022,Louisiana,15.6
+3,2022,Louisiana,18.7
+4,2022,Louisiana,21.9
+5,2022,Louisiana,19.4
+6,2022,Louisiana,27.4
+7,2022,Louisiana,17.7
+8,2022,Louisiana,15.5
+9,2022,Louisiana,20.7
+10,2022,Louisiana,22.3
+11,2022,Louisiana,16.3
+12,2022,Louisiana,14.7
+1,2023,Louisiana,16.0
+2,2023,Louisiana,18.0
+3,2023,Louisiana,19.8
+4,2023,Louisiana,17.2
+5,2023,Louisiana,20.8
+6,2023,Louisiana,21.3
+7,2023,Louisiana,26.7
+8,2023,Louisiana,25.3
+9,2023,Louisiana,19.2
+10,2023,Louisiana,21.1
+11,2023,Louisiana,16.0
+12,2023,Louisiana,16.3
+1,2024,Louisiana,14.2
+2,2024,Louisiana,17.6
+3,2024,Louisiana,15.3
+4,2024,Louisiana,20.1
+5,2024,Louisiana,20.8
+6,2024,Louisiana,19.1
+7,2024,Louisiana,23.5
+8,2024,Louisiana,25.4
+9,2024,Louisiana,17.1
+10,2024,Louisiana,24.2
+11,2024,Louisiana,14.6
+12,2024,Louisiana,14.3
+1,2025,Louisiana,12.2
+2,2025,Louisiana,13.2
+3,2025,Louisiana,22.6
+4,2025,Louisiana,19.7
+5,2025,Louisiana,14.2
+6,2025,Louisiana,20.4
+1,2020,Maine,13.9
+2,2020,Maine,19.2
+3,2020,Maine,18.1
+4,2020,Maine,15.7
+5,2020,Maine,13.3
+6,2020,Maine,13.0
+7,2020,Maine,11.0
+8,2020,Maine,10.1
+9,2020,Maine,9.3
+10,2020,Maine,8.1
+11,2020,Maine,10.5
+12,2020,Maine,11.7
+1,2021,Maine,11.0
+2,2021,Maine,14.2
+3,2021,Maine,23.0
+4,2021,Maine,15.1
+5,2021,Maine,14.8
+6,2021,Maine,15.0
+7,2021,Maine,11.8
+8,2021,Maine,15.4
+9,2021,Maine,9.2
+10,2021,Maine,11.7
+11,2021,Maine,12.6
+12,2021,Maine,8.0
+1,2022,Maine,11.1
+2,2022,Maine,13.3
+3,2022,Maine,11.1
+4,2022,Maine,16.6
+5,2022,Maine,13.3
+6,2022,Maine,9.9
+7,2022,Maine,10.9
+8,2022,Maine,10.5
+9,2022,Maine,9.7
+10,2022,Maine,10.9
+11,2022,Maine,10.0
+12,2022,Maine,8.9
+1,2023,Maine,7.2
+2,2023,Maine,13.6
+3,2023,Maine,18.5
+4,2023,Maine,19.5
+5,2023,Maine,15.6
+6,2023,Maine,15.4
+7,2023,Maine,18.0
+8,2023,Maine,13.6
+9,2023,Maine,17.4
+10,2023,Maine,12.5
+11,2023,Maine,11.6
+12,2023,Maine,13.9
+1,2024,Maine,12.4
+2,2024,Maine,15.5
+3,2024,Maine,12.2
+4,2024,Maine,15.4
+5,2024,Maine,12.5
+6,2024,Maine,12.5
+7,2024,Maine,13.1
+8,2024,Maine,14.6
+9,2024,Maine,10.7
+10,2024,Maine,8.9
+11,2024,Maine,6.9
+12,2024,Maine,10.7
+1,2025,Maine,14.4
+2,2025,Maine,15.7
+3,2025,Maine,13.6
+4,2025,Maine,9.9
+5,2025,Maine,8.4
+6,2025,Maine,15.5
+1,2020,Maryland,7.8
+2,2020,Maryland,7.9
+3,2020,Maryland,7.7
+4,2020,Maryland,6.6
+5,2020,Maryland,10.8
+6,2020,Maryland,10.3
+7,2020,Maryland,13.7
+8,2020,Maryland,12.6
+9,2020,Maryland,12.4
+10,2020,Maryland,9.3
+11,2020,Maryland,9.3
+12,2020,Maryland,9.2
+1,2021,Maryland,7.5
+2,2021,Maryland,10.3
+3,2021,Maryland,12.7
+4,2021,Maryland,11.4
+5,2021,Maryland,9.9
+6,2021,Maryland,11.0
+7,2021,Maryland,15.0
+8,2021,Maryland,12.0
+9,2021,Maryland,11.9
+10,2021,Maryland,7.1
+11,2021,Maryland,9.6
+12,2021,Maryland,10.4
+1,2022,Maryland,7.3
+2,2022,Maryland,8.1
+3,2022,Maryland,9.4
+4,2022,Maryland,8.9
+5,2022,Maryland,10.2
+6,2022,Maryland,12.0
+7,2022,Maryland,14.4
+8,2022,Maryland,10.6
+9,2022,Maryland,9.2
+10,2022,Maryland,7.5
+11,2022,Maryland,7.8
+12,2022,Maryland,8.5
+1,2023,Maryland,7.0
+2,2023,Maryland,8.7
+3,2023,Maryland,6.8
+4,2023,Maryland,10.4
+5,2023,Maryland,14.2
+6,2023,Maryland,28.0
+7,2023,Maryland,17.9
+8,2023,Maryland,11.6
+9,2023,Maryland,10.6
+10,2023,Maryland,9.0
+11,2023,Maryland,7.9
+12,2023,Maryland,10.4
+1,2024,Maryland,9.3
+2,2024,Maryland,9.5
+3,2024,Maryland,6.9
+4,2024,Maryland,10.2
+5,2024,Maryland,9.7
+6,2024,Maryland,12.9
+7,2024,Maryland,13.3
+8,2024,Maryland,14.7
+9,2024,Maryland,8.5
+10,2024,Maryland,10.5
+11,2024,Maryland,8.1
+12,2024,Maryland,8.6
+1,2025,Maryland,9.1
+2,2025,Maryland,8.5
+3,2025,Maryland,8.1
+4,2025,Maryland,12.0
+5,2025,Maryland,10.6
+6,2025,Maryland,14.8
+1,2020,Massachusetts,11.7
+2,2020,Massachusetts,7.4
+3,2020,Massachusetts,10.0
+4,2020,Massachusetts,8.4
+5,2020,Massachusetts,11.7
+6,2020,Massachusetts,13.2
+7,2020,Massachusetts,14.5
+8,2020,Massachusetts,14.3
+9,2020,Massachusetts,13.8
+10,2020,Massachusetts,11.7
+11,2020,Massachusetts,10.8
+12,2020,Massachusetts,11.0
+1,2021,Massachusetts,11.1
+2,2021,Massachusetts,11.7
+3,2021,Massachusetts,14.6
+4,2021,Massachusetts,12.2
+5,2021,Massachusetts,16.8
+6,2021,Massachusetts,17.7
+7,2021,Massachusetts,16.8
+8,2021,Massachusetts,17.8
+9,2021,Massachusetts,14.6
+10,2021,Massachusetts,11.1
+11,2021,Massachusetts,12.6
+12,2021,Massachusetts,11.7
+1,2022,Massachusetts,18.8
+2,2022,Massachusetts,18.8
+3,2022,Massachusetts,14.1
+4,2022,Massachusetts,8.1
+5,2022,Massachusetts,10.9
+6,2022,Massachusetts,13.4
+7,2022,Massachusetts,12.8
+8,2022,Massachusetts,10.9
+9,2022,Massachusetts,8.1
+10,2022,Massachusetts,9.0
+11,2022,Massachusetts,9.0
+12,2022,Massachusetts,8.9
+1,2023,Massachusetts,11.0
+2,2023,Massachusetts,10.2
+3,2023,Massachusetts,12.5
+4,2023,Massachusetts,14.5
+5,2023,Massachusetts,14.5
+6,2023,Massachusetts,19.0
+7,2023,Massachusetts,19.2
+8,2023,Massachusetts,12.7
+9,2023,Massachusetts,14.8
+10,2023,Massachusetts,11.6
+11,2023,Massachusetts,8.8
+12,2023,Massachusetts,9.0
+1,2024,Massachusetts,12.9
+2,2024,Massachusetts,11.3
+3,2024,Massachusetts,7.2
+4,2024,Massachusetts,8.7
+5,2024,Massachusetts,10.1
+6,2024,Massachusetts,12.5
+7,2024,Massachusetts,14.1
+8,2024,Massachusetts,15.1
+9,2024,Massachusetts,11.1
+10,2024,Massachusetts,10.4
+11,2024,Massachusetts,6.9
+12,2024,Massachusetts,9.9
+1,2025,Massachusetts,13.9
+2,2025,Massachusetts,11.5
+3,2025,Massachusetts,8.7
+4,2025,Massachusetts,9.4
+1,2020,Michigan,13.3
+2,2020,Michigan,19.0
+3,2020,Michigan,15.6
+4,2020,Michigan,13.2
+5,2020,Michigan,16.7
+6,2020,Michigan,26.5
+7,2020,Michigan,24.4
+8,2020,Michigan,19.3
+9,2020,Michigan,20.2
+10,2020,Michigan,16.3
+11,2020,Michigan,16.6
+12,2020,Michigan,16.1
+1,2021,Michigan,15.8
+2,2021,Michigan,20.0
+3,2021,Michigan,23.6
+4,2021,Michigan,22.6
+5,2021,Michigan,22.7
+6,2021,Michigan,21.3
+7,2021,Michigan,22.3
+8,2021,Michigan,22.4
+9,2021,Michigan,19.4
+10,2021,Michigan,17.2
+11,2021,Michigan,17.4
+12,2021,Michigan,17.8
+1,2022,Michigan,21.3
+2,2022,Michigan,17.7
+3,2022,Michigan,20.1
+4,2022,Michigan,16.7
+5,2022,Michigan,21.1
+6,2022,Michigan,26.2
+7,2022,Michigan,21.4
+8,2022,Michigan,17.6
+9,2022,Michigan,19.0
+10,2022,Michigan,23.9
+11,2022,Michigan,22.9
+12,2022,Michigan,18.0
+1,2023,Michigan,17.7
+2,2023,Michigan,18.2
+3,2023,Michigan,16.2
+4,2023,Michigan,21.6
+5,2023,Michigan,27.2
+6,2023,Michigan,49.8
+7,2023,Michigan,25.6
+8,2023,Michigan,21.4
+9,2023,Michigan,18.2
+10,2023,Michigan,15.1
+11,2023,Michigan,19.8
+12,2023,Michigan,17.1
+1,2024,Michigan,14.9
+2,2024,Michigan,20.8
+3,2024,Michigan,14.7
+4,2024,Michigan,13.5
+5,2024,Michigan,17.8
+6,2024,Michigan,17.1
+7,2024,Michigan,17.4
+8,2024,Michigan,18.2
+9,2024,Michigan,17.8
+10,2024,Michigan,22.4
+11,2024,Michigan,11.0
+12,2024,Michigan,14.4
+1,2025,Michigan,14.8
+2,2025,Michigan,16.2
+3,2025,Michigan,17.8
+1,2020,Minnesota,15.6
+2,2020,Minnesota,21.0
+3,2020,Minnesota,17.7
+4,2020,Minnesota,19.2
+5,2020,Minnesota,18.6
+6,2020,Minnesota,27.3
+7,2020,Minnesota,23.8
+8,2020,Minnesota,24.3
+9,2020,Minnesota,22.2
+10,2020,Minnesota,21.4
+11,2020,Minnesota,24.6
+12,2020,Minnesota,20.4
+1,2021,Minnesota,16.7
+2,2021,Minnesota,19.9
+3,2021,Minnesota,23.1
+4,2021,Minnesota,19.4
+5,2021,Minnesota,18.8
+6,2021,Minnesota,25.1
+7,2021,Minnesota,35.9
+8,2021,Minnesota,28.0
+9,2021,Minnesota,24.0
+10,2021,Minnesota,19.0
+11,2021,Minnesota,21.4
+12,2021,Minnesota,19.2
+1,2022,Minnesota,17.5
+2,2022,Minnesota,19.0
+3,2022,Minnesota,13.8
+4,2022,Minnesota,11.4
+5,2022,Minnesota,18.9
+6,2022,Minnesota,26.4
+7,2022,Minnesota,19.6
+8,2022,Minnesota,18.4
+9,2022,Minnesota,25.7
+10,2022,Minnesota,31.4
+11,2022,Minnesota,18.9
+12,2022,Minnesota,11.7
+1,2023,Minnesota,14.5
+2,2023,Minnesota,15.1
+3,2023,Minnesota,13.0
+4,2023,Minnesota,19.6
+5,2023,Minnesota,27.5
+6,2023,Minnesota,36.6
+7,2023,Minnesota,24.2
+8,2023,Minnesota,27.8
+9,2023,Minnesota,23.4
+10,2023,Minnesota,19.2
+11,2023,Minnesota,24.8
+12,2023,Minnesota,18.3
+1,2024,Minnesota,15.3
+2,2024,Minnesota,15.3
+3,2024,Minnesota,15.7
+4,2024,Minnesota,13.4
+5,2024,Minnesota,18.7
+6,2024,Minnesota,15.3
+7,2024,Minnesota,21.0
+8,2024,Minnesota,18.9
+9,2024,Minnesota,28.7
+10,2024,Minnesota,39.7
+11,2024,Minnesota,10.1
+12,2024,Minnesota,13.7
+1,2025,Minnesota,13.7
+2,2025,Minnesota,16.7
+3,2025,Minnesota,15.7
+1,2020,Mississippi,14.0
+2,2020,Mississippi,10.7
+3,2020,Mississippi,18.3
+4,2020,Mississippi,17.6
+5,2020,Mississippi,16.6
+6,2020,Mississippi,26.4
+7,2020,Mississippi,23.6
+8,2020,Mississippi,20.3
+9,2020,Mississippi,22.7
+10,2020,Mississippi,20.0
+11,2020,Mississippi,22.0
+12,2020,Mississippi,18.0
+1,2021,Mississippi,17.0
+2,2021,Mississippi,16.3
+3,2021,Mississippi,19.5
+4,2021,Mississippi,19.9
+5,2021,Mississippi,18.3
+6,2021,Mississippi,17.3
+7,2021,Mississippi,23.7
+8,2021,Mississippi,24.2
+9,2021,Mississippi,19.0
+10,2021,Mississippi,19.2
+11,2021,Mississippi,20.5
+12,2021,Mississippi,19.3
+1,2022,Mississippi,14.5
+2,2022,Mississippi,20.1
+3,2022,Mississippi,18.6
+4,2022,Mississippi,18.0
+5,2022,Mississippi,20.1
+6,2022,Mississippi,30.7
+7,2022,Mississippi,18.2
+8,2022,Mississippi,14.7
+9,2022,Mississippi,22.4
+10,2022,Mississippi,24.0
+11,2022,Mississippi,17.4
+12,2022,Mississippi,16.4
+1,2023,Mississippi,14.5
+2,2023,Mississippi,19.2
+3,2023,Mississippi,21.4
+4,2023,Mississippi,17.8
+5,2023,Mississippi,23.2
+6,2023,Mississippi,22.0
+7,2023,Mississippi,26.5
+8,2023,Mississippi,28.3
+9,2023,Mississippi,19.7
+10,2023,Mississippi,23.0
+11,2023,Mississippi,19.3
+12,2023,Mississippi,15.0
+1,2024,Mississippi,11.0
+2,2024,Mississippi,15.3
+3,2024,Mississippi,12.7
+4,2024,Mississippi,16.3
+5,2024,Mississippi,17.2
+6,2024,Mississippi,16.3
+7,2024,Mississippi,20.0
+8,2024,Mississippi,26.3
+9,2024,Mississippi,15.0
+10,2024,Mississippi,29.0
+11,2024,Mississippi,14.4
+12,2024,Mississippi,15.5
+1,2025,Mississippi,14.3
+2,2025,Mississippi,15.1
+3,2025,Mississippi,22.3
+4,2025,Mississippi,19.1
+5,2025,Mississippi,15.1
+1,2020,Missouri,14.8
+2,2020,Missouri,17.5
+3,2020,Missouri,18.9
+4,2020,Missouri,21.2
+5,2020,Missouri,15.7
+6,2020,Missouri,28.7
+7,2020,Missouri,22.9
+8,2020,Missouri,24.5
+9,2020,Missouri,26.0
+10,2020,Missouri,28.2
+11,2020,Missouri,23.3
+12,2020,Missouri,25.5
+1,2021,Missouri,17.3
+2,2021,Missouri,16.5
+3,2021,Missouri,24.9
+4,2021,Missouri,23.7
+5,2021,Missouri,19.2
+6,2021,Missouri,26.1
+7,2021,Missouri,29.0
+8,2021,Missouri,28.4
+9,2021,Missouri,27.2
+10,2021,Missouri,21.5
+11,2021,Missouri,25.3
+12,2021,Missouri,29.6
+1,2022,Missouri,21.9
+2,2022,Missouri,25.0
+3,2022,Missouri,23.1
+4,2022,Missouri,21.9
+5,2022,Missouri,22.0
+6,2022,Missouri,34.2
+7,2022,Missouri,28.0
+8,2022,Missouri,25.1
+9,2022,Missouri,27.6
+10,2022,Missouri,33.0
+11,2022,Missouri,21.5
+12,2022,Missouri,18.4
+1,2023,Missouri,17.5
+2,2023,Missouri,21.8
+3,2023,Missouri,18.3
+4,2023,Missouri,26.3
+5,2023,Missouri,28.5
+6,2023,Missouri,34.4
+7,2023,Missouri,28.1
+8,2023,Missouri,26.1
+9,2023,Missouri,28.3
+10,2023,Missouri,24.5
+11,2023,Missouri,27.6
+12,2023,Missouri,15.8
+1,2024,Missouri,14.5
+2,2024,Missouri,30.5
+3,2024,Missouri,24.8
+4,2024,Missouri,23.5
+5,2024,Missouri,21.0
+6,2024,Missouri,25.0
+7,2024,Missouri,26.8
+8,2024,Missouri,27.4
+9,2024,Missouri,24.3
+10,2024,Missouri,40.9
+11,2024,Missouri,15.0
+12,2024,Missouri,19.2
+1,2025,Missouri,19.5
+2,2025,Missouri,19.8
+3,2025,Missouri,45.1
+1,2020,Montana,10.3
+2,2020,Montana,13.6
+3,2020,Montana,14.9
+4,2020,Montana,12.8
+5,2020,Montana,9.9
+6,2020,Montana,13.0
+7,2020,Montana,20.2
+8,2020,Montana,27.6
+9,2020,Montana,41.7
+10,2020,Montana,19.8
+11,2020,Montana,18.4
+12,2020,Montana,13.9
+1,2021,Montana,14.8
+2,2021,Montana,10.5
+3,2021,Montana,20.2
+4,2021,Montana,16.9
+5,2021,Montana,13.3
+6,2021,Montana,19.4
+7,2021,Montana,40.0
+8,2021,Montana,36.4
+9,2021,Montana,27.6
+10,2021,Montana,18.0
+11,2021,Montana,16.7
+12,2021,Montana,10.6
+1,2022,Montana,12.4
+2,2022,Montana,12.9
+3,2022,Montana,16.6
+4,2022,Montana,14.5
+5,2022,Montana,11.1
+6,2022,Montana,13.6
+7,2022,Montana,18.3
+8,2022,Montana,22.8
+9,2022,Montana,33.0
+10,2022,Montana,21.0
+11,2022,Montana,16.1
+12,2022,Montana,12.1
+1,2023,Montana,11.8
+2,2023,Montana,12.5
+3,2023,Montana,15.0
+4,2023,Montana,14.3
+5,2023,Montana,22.9
+6,2023,Montana,16.0
+7,2023,Montana,23.6
+8,2023,Montana,25.8
+9,2023,Montana,18.9
+10,2023,Montana,14.3
+11,2023,Montana,15.2
+12,2023,Montana,14.6
+1,2024,Montana,12.3
+2,2024,Montana,12.6
+3,2024,Montana,16.4
+4,2024,Montana,14.5
+5,2024,Montana,11.4
+6,2024,Montana,13.2
+7,2024,Montana,26.7
+8,2024,Montana,20.9
+9,2024,Montana,24.2
+10,2024,Montana,17.2
+11,2024,Montana,13.5
+12,2024,Montana,13.0
+1,2025,Montana,16.9
+2,2025,Montana,12.7
+3,2025,Montana,13.3
+1,2020,Nebraska,12.1
+2,2020,Nebraska,15.6
+3,2020,Nebraska,12.7
+4,2020,Nebraska,20.1
+5,2020,Nebraska,12.8
+6,2020,Nebraska,23.2
+7,2020,Nebraska,21.4
+8,2020,Nebraska,24.7
+9,2020,Nebraska,26.7
+10,2020,Nebraska,26.8
+11,2020,Nebraska,23.9
+12,2020,Nebraska,22.4
+1,2021,Nebraska,13.6
+2,2021,Nebraska,14.2
+3,2021,Nebraska,20.4
+4,2021,Nebraska,21.9
+5,2021,Nebraska,15.1
+6,2021,Nebraska,24.8
+7,2021,Nebraska,30.8
+8,2021,Nebraska,28.2
+9,2021,Nebraska,29.3
+10,2021,Nebraska,22.6
+11,2021,Nebraska,27.0
+12,2021,Nebraska,25.5
+1,2022,Nebraska,18.3
+2,2022,Nebraska,23.6
+3,2022,Nebraska,16.2
+4,2022,Nebraska,22.0
+5,2022,Nebraska,20.3
+6,2022,Nebraska,25.5
+7,2022,Nebraska,23.4
+8,2022,Nebraska,23.3
+9,2022,Nebraska,27.3
+10,2022,Nebraska,39.2
+11,2022,Nebraska,20.6
+12,2022,Nebraska,14.0
+1,2023,Nebraska,12.3
+2,2023,Nebraska,12.9
+3,2023,Nebraska,14.3
+4,2023,Nebraska,22.3
+5,2023,Nebraska,25.3
+6,2023,Nebraska,26.6
+7,2023,Nebraska,21.3
+8,2023,Nebraska,25.0
+9,2023,Nebraska,30.5
+10,2023,Nebraska,21.8
+11,2023,Nebraska,29.6
+12,2023,Nebraska,13.9
+1,2024,Nebraska,9.9
+2,2024,Nebraska,19.1
+3,2024,Nebraska,23.7
+4,2024,Nebraska,21.0
+5,2024,Nebraska,17.9
+6,2024,Nebraska,20.9
+7,2024,Nebraska,28.0
+8,2024,Nebraska,26.6
+9,2024,Nebraska,30.8
+10,2024,Nebraska,45.8
+11,2024,Nebraska,13.4
+12,2024,Nebraska,17.8
+1,2025,Nebraska,17.6
+2,2025,Nebraska,20.0
+3,2025,Nebraska,24.6
+4,2025,Nebraska,22.1
+5,2025,Nebraska,24.4
+6,2025,Nebraska,23.8
+1,2020,Nevada,16.2
+2,2020,Nevada,21.8
+3,2020,Nevada,10.2
+4,2020,Nevada,13.7
+5,2020,Nevada,20.3
+6,2020,Nevada,27.2
+7,2020,Nevada,23.8
+8,2020,Nevada,36.5
+9,2020,Nevada,50.7
+10,2020,Nevada,36.7
+11,2020,Nevada,24.7
+12,2020,Nevada,21.8
+1,2021,Nevada,19.0
+2,2021,Nevada,16.8
+3,2021,Nevada,18.4
+4,2021,Nevada,26.7
+5,2021,Nevada,26.1
+6,2021,Nevada,26.6
+7,2021,Nevada,31.0
+8,2021,Nevada,47.4
+9,2021,Nevada,32.0
+10,2021,Nevada,23.5
+11,2021,Nevada,24.5
+12,2021,Nevada,18.3
+1,2022,Nevada,21.8
+2,2022,Nevada,30.4
+3,2022,Nevada,24.1
+4,2022,Nevada,37.3
+5,2022,Nevada,40.9
+6,2022,Nevada,30.4
+7,2022,Nevada,24.3
+8,2022,Nevada,25.0
+9,2022,Nevada,38.3
+10,2022,Nevada,30.7
+11,2022,Nevada,20.9
+12,2022,Nevada,20.1
+1,2023,Nevada,12.5
+2,2023,Nevada,23.9
+3,2023,Nevada,12.0
+4,2023,Nevada,24.6
+5,2023,Nevada,21.9
+6,2023,Nevada,21.8
+7,2023,Nevada,27.5
+8,2023,Nevada,18.9
+9,2023,Nevada,21.8
+10,2023,Nevada,24.8
+11,2023,Nevada,22.0
+12,2023,Nevada,21.2
+1,2024,Nevada,16.6
+2,2024,Nevada,11.4
+3,2024,Nevada,15.9
+4,2024,Nevada,16.5
+5,2024,Nevada,22.9
+6,2024,Nevada,28.9
+7,2024,Nevada,30.1
+8,2024,Nevada,28.0
+9,2024,Nevada,34.1
+10,2024,Nevada,33.5
+11,2024,Nevada,20.0
+12,2024,Nevada,26.7
+1,2025,Nevada,24.2
+2,2025,Nevada,18.5
+3,2025,Nevada,18.8
+4,2025,Nevada,21.3
+5,2025,Nevada,22.7
+1,2020,New Hampshire,13.2
+2,2020,New Hampshire,14.8
+3,2020,New Hampshire,12.7
+4,2020,New Hampshire,12.5
+5,2020,New Hampshire,15.2
+6,2020,New Hampshire,11.8
+7,2020,New Hampshire,13.9
+8,2020,New Hampshire,15.1
+9,2020,New Hampshire,12.7
+10,2020,New Hampshire,10.9
+11,2020,New Hampshire,12.0
+12,2020,New Hampshire,13.0
+1,2021,New Hampshire,10.5
+2,2021,New Hampshire,9.6
+3,2021,New Hampshire,12.8
+4,2021,New Hampshire,11.7
+5,2021,New Hampshire,13.9
+6,2021,New Hampshire,16.3
+7,2021,New Hampshire,17.4
+8,2021,New Hampshire,16.8
+9,2021,New Hampshire,13.6
+10,2021,New Hampshire,12.9
+11,2021,New Hampshire,10.4
+12,2021,New Hampshire,11.5
+1,2022,New Hampshire,13.9
+2,2022,New Hampshire,11.8
+3,2022,New Hampshire,10.8
+4,2022,New Hampshire,10.5
+5,2022,New Hampshire,12.3
+6,2022,New Hampshire,12.5
+7,2022,New Hampshire,15.8
+8,2022,New Hampshire,14.0
+9,2022,New Hampshire,10.3
+10,2022,New Hampshire,12.2
+11,2022,New Hampshire,9.9
+12,2022,New Hampshire,10.2
+1,2023,New Hampshire,7.8
+2,2023,New Hampshire,10.4
+3,2023,New Hampshire,9.3
+4,2023,New Hampshire,10.6
+5,2023,New Hampshire,13.3
+6,2023,New Hampshire,13.8
+7,2023,New Hampshire,16.8
+8,2023,New Hampshire,12.2
+9,2023,New Hampshire,13.4
+10,2023,New Hampshire,9.9
+11,2023,New Hampshire,8.3
+12,2023,New Hampshire,9.1
+1,2024,New Hampshire,8.5
+2,2024,New Hampshire,9.3
+3,2024,New Hampshire,6.4
+4,2024,New Hampshire,8.1
+5,2024,New Hampshire,10.3
+6,2024,New Hampshire,13.4
+7,2024,New Hampshire,14.3
+8,2024,New Hampshire,15.1
+9,2024,New Hampshire,10.2
+10,2024,New Hampshire,9.3
+11,2024,New Hampshire,6.5
+12,2024,New Hampshire,7.5
+1,2025,New Hampshire,9.4
+2,2025,New Hampshire,8.0
+3,2025,New Hampshire,7.1
+1,2020,New Jersey,15.4
+2,2020,New Jersey,15.4
+3,2020,New Jersey,15.7
+7,2020,New Jersey,16.9
+8,2020,New Jersey,15.8
+9,2020,New Jersey,16.8
+10,2020,New Jersey,11.2
+11,2020,New Jersey,14.0
+12,2020,New Jersey,10.0
+1,2021,New Jersey,13.0
+2,2021,New Jersey,14.9
+3,2021,New Jersey,17.3
+4,2021,New Jersey,17.9
+5,2021,New Jersey,16.0
+6,2021,New Jersey,17.2
+7,2021,New Jersey,23.1
+8,2021,New Jersey,15.5
+9,2021,New Jersey,16.3
+10,2021,New Jersey,16.2
+11,2021,New Jersey,18.1
+12,2021,New Jersey,17.2
+1,2022,New Jersey,14.8
+2,2022,New Jersey,18.2
+3,2022,New Jersey,14.9
+4,2022,New Jersey,12.5
+5,2022,New Jersey,16.8
+6,2022,New Jersey,14.8
+7,2022,New Jersey,18.8
+8,2022,New Jersey,16.3
+9,2022,New Jersey,15.3
+10,2022,New Jersey,13.5
+11,2022,New Jersey,13.9
+12,2022,New Jersey,14.4
+1,2023,New Jersey,18.2
+2,2023,New Jersey,13.8
+3,2023,New Jersey,12.8
+4,2023,New Jersey,16.0
+5,2023,New Jersey,23.9
+6,2023,New Jersey,28.8
+7,2023,New Jersey,23.9
+8,2023,New Jersey,16.5
+9,2023,New Jersey,14.4
+10,2023,New Jersey,20.1
+11,2023,New Jersey,10.6
+12,2023,New Jersey,18.5
+1,2024,New Jersey,12.6
+2,2024,New Jersey,11.2
+3,2024,New Jersey,12.4
+4,2024,New Jersey,15.7
+5,2024,New Jersey,16.5
+6,2024,New Jersey,20.1
+7,2024,New Jersey,21.2
+8,2024,New Jersey,18.2
+9,2024,New Jersey,12.9
+10,2024,New Jersey,22.0
+11,2024,New Jersey,17.9
+12,2024,New Jersey,16.3
+1,2020,New Mexico,17.1
+2,2020,New Mexico,17.1
+3,2020,New Mexico,16.8
+4,2020,New Mexico,23.6
+5,2020,New Mexico,32.3
+6,2020,New Mexico,63.5
+7,2020,New Mexico,28.6
+8,2020,New Mexico,31.1
+9,2020,New Mexico,35.7
+10,2020,New Mexico,48.5
+11,2020,New Mexico,33.5
+12,2020,New Mexico,27.4
+1,2021,New Mexico,28.0
+2,2021,New Mexico,23.4
+3,2021,New Mexico,40.6
+4,2021,New Mexico,39.5
+5,2021,New Mexico,40.4
+6,2021,New Mexico,49.1
+7,2021,New Mexico,21.9
+8,2021,New Mexico,23.7
+9,2021,New Mexico,30.2
+10,2021,New Mexico,30.7
+11,2021,New Mexico,36.8
+12,2021,New Mexico,34.3
+1,2022,New Mexico,26.5
+2,2022,New Mexico,37.3
+3,2022,New Mexico,32.4
+4,2022,New Mexico,52.5
+5,2022,New Mexico,52.0
+6,2022,New Mexico,38.6
+7,2022,New Mexico,22.4
+8,2022,New Mexico,17.6
+9,2022,New Mexico,22.3
+10,2022,New Mexico,18.4
+11,2022,New Mexico,26.9
+12,2022,New Mexico,26.6
+1,2023,New Mexico,22.3
+2,2023,New Mexico,35.2
+3,2023,New Mexico,20.0
+4,2023,New Mexico,36.6
+5,2023,New Mexico,26.5
+6,2023,New Mexico,31.9
+7,2023,New Mexico,31.2
+8,2023,New Mexico,23.8
+9,2023,New Mexico,21.0
+10,2023,New Mexico,28.9
+11,2023,New Mexico,22.9
+12,2023,New Mexico,20.8
+1,2024,New Mexico,26.7
+2,2024,New Mexico,23.9
+3,2024,New Mexico,34.0
+4,2024,New Mexico,33.1
+5,2024,New Mexico,30.8
+6,2024,New Mexico,32.1
+7,2024,New Mexico,29.9
+8,2024,New Mexico,25.6
+9,2024,New Mexico,28.8
+10,2024,New Mexico,53.2
+11,2024,New Mexico,24.6
+12,2024,New Mexico,37.7
+1,2025,New Mexico,35.6
+2,2025,New Mexico,42.5
+3,2025,New Mexico,69.6
+1,2020,New York,13.0
+2,2020,New York,9.9
+3,2020,New York,7.4
+4,2020,New York,6.6
+5,2020,New York,12.1
+6,2020,New York,12.1
+7,2020,New York,13.5
+8,2020,New York,12.7
+9,2020,New York,13.2
+10,2020,New York,7.7
+11,2020,New York,9.5
+12,2020,New York,10.6
+1,2021,New York,7.2
+2,2021,New York,12.0
+3,2021,New York,16.8
+4,2021,New York,12.4
+5,2021,New York,15.2
+6,2021,New York,15.7
+7,2021,New York,18.3
+8,2021,New York,14.3
+9,2021,New York,12.4
+10,2021,New York,11.9
+11,2021,New York,12.2
+12,2021,New York,10.9
+1,2022,New York,10.7
+2,2022,New York,14.0
+3,2022,New York,15.8
+4,2022,New York,12.4
+5,2022,New York,12.1
+6,2022,New York,16.7
+7,2022,New York,16.9
+8,2022,New York,12.2
+9,2022,New York,10.2
+10,2022,New York,8.9
+11,2022,New York,9.5
+12,2022,New York,10.1
+1,2023,New York,9.8
+2,2023,New York,9.9
+3,2023,New York,9.7
+4,2023,New York,10.7
+5,2023,New York,18.1
+6,2023,New York,30.1
+7,2023,New York,20.9
+8,2023,New York,15.4
+9,2023,New York,13.7
+10,2023,New York,12.5
+11,2023,New York,7.6
+12,2023,New York,15.0
+1,2024,New York,9.0
+2,2024,New York,12.0
+3,2024,New York,8.6
+4,2024,New York,8.7
+5,2024,New York,11.8
+6,2024,New York,14.5
+7,2024,New York,17.9
+8,2024,New York,14.8
+9,2024,New York,10.9
+10,2024,New York,11.5
+11,2024,New York,10.7
+12,2024,New York,9.0
+1,2025,New York,12.2
+2,2025,New York,12.7
+3,2025,New York,8.9
+1,2020,North Carolina,8.4
+2,2020,North Carolina,9.2
+3,2020,North Carolina,11.7
+4,2020,North Carolina,10.7
+5,2020,North Carolina,9.3
+6,2020,North Carolina,15.4
+7,2020,North Carolina,13.6
+8,2020,North Carolina,13.3
+9,2020,North Carolina,11.4
+10,2020,North Carolina,12.5
+11,2020,North Carolina,12.4
+12,2020,North Carolina,11.4
+1,2021,North Carolina,10.0
+2,2021,North Carolina,8.7
+3,2021,North Carolina,12.9
+4,2021,North Carolina,18.4
+5,2021,North Carolina,15.6
+6,2021,North Carolina,13.0
+7,2021,North Carolina,17.7
+8,2021,North Carolina,18.1
+9,2021,North Carolina,13.2
+10,2021,North Carolina,11.6
+11,2021,North Carolina,13.1
+12,2021,North Carolina,13.7
+1,2022,North Carolina,11.4
+2,2022,North Carolina,12.8
+3,2022,North Carolina,13.2
+4,2022,North Carolina,14.5
+5,2022,North Carolina,14.8
+6,2022,North Carolina,16.0
+7,2022,North Carolina,14.1
+8,2022,North Carolina,13.3
+9,2022,North Carolina,13.8
+10,2022,North Carolina,13.6
+11,2022,North Carolina,12.6
+12,2022,North Carolina,12.3
+1,2023,North Carolina,10.5
+2,2023,North Carolina,12.4
+3,2023,North Carolina,13.5
+4,2023,North Carolina,14.8
+5,2023,North Carolina,14.3
+6,2023,North Carolina,21.3
+7,2023,North Carolina,17.6
+8,2023,North Carolina,15.2
+9,2023,North Carolina,12.1
+10,2023,North Carolina,12.9
+11,2023,North Carolina,15.9
+12,2023,North Carolina,12.0
+1,2024,North Carolina,9.9
+2,2024,North Carolina,13.2
+3,2024,North Carolina,13.3
+4,2024,North Carolina,16.6
+5,2024,North Carolina,12.7
+6,2024,North Carolina,16.1
+7,2024,North Carolina,14.2
+8,2024,North Carolina,16.6
+9,2024,North Carolina,13.5
+10,2024,North Carolina,15.7
+11,2024,North Carolina,12.2
+12,2024,North Carolina,11.9
+1,2025,North Carolina,11.9
+2,2025,North Carolina,12.6
+3,2025,North Carolina,16.1
+4,2025,North Carolina,16.3
+5,2025,North Carolina,12.9
+6,2025,North Carolina,13.5
+1,2020,North Dakota,5.9
+2,2020,North Dakota,6.2
+3,2020,North Dakota,6.7
+4,2020,North Dakota,8.6
+5,2020,North Dakota,10.6
+6,2020,North Dakota,11.6
+7,2020,North Dakota,10.5
+8,2020,North Dakota,14.2
+9,2020,North Dakota,17.0
+10,2020,North Dakota,10.8
+11,2020,North Dakota,8.6
+12,2020,North Dakota,9.0
+1,2021,North Dakota,8.9
+2,2021,North Dakota,8.1
+3,2021,North Dakota,12.6
+4,2021,North Dakota,14.0
+5,2021,North Dakota,16.3
+6,2021,North Dakota,18.9
+7,2021,North Dakota,32.6
+8,2021,North Dakota,33.5
+9,2021,North Dakota,22.6
+10,2021,North Dakota,20.7
+11,2021,North Dakota,11.0
+12,2021,North Dakota,10.2
+1,2022,North Dakota,7.8
+2,2022,North Dakota,10.0
+3,2022,North Dakota,11.0
+4,2022,North Dakota,10.0
+5,2022,North Dakota,11.9
+6,2022,North Dakota,20.0
+7,2022,North Dakota,18.4
+8,2022,North Dakota,23.0
+9,2022,North Dakota,29.5
+10,2022,North Dakota,24.2
+11,2022,North Dakota,12.8
+12,2022,North Dakota,8.6
+1,2023,North Dakota,10.0
+2,2023,North Dakota,8.7
+3,2023,North Dakota,8.8
+4,2023,North Dakota,8.8
+5,2023,North Dakota,27.5
+6,2023,North Dakota,22.5
+7,2023,North Dakota,23.3
+8,2023,North Dakota,29.8
+9,2023,North Dakota,34.4
+10,2023,North Dakota,11.8
+11,2023,North Dakota,9.9
+12,2023,North Dakota,6.8
+1,2024,North Dakota,8.3
+2,2024,North Dakota,8.4
+3,2024,North Dakota,10.1
+4,2024,North Dakota,13.6
+5,2024,North Dakota,14.0
+6,2024,North Dakota,13.0
+7,2024,North Dakota,29.9
+8,2024,North Dakota,25.4
+9,2024,North Dakota,29.5
+10,2024,North Dakota,28.8
+11,2024,North Dakota,10.1
+12,2024,North Dakota,8.0
+1,2025,North Dakota,6.1
+2,2025,North Dakota,6.6
+3,2025,North Dakota,8.2
+4,2025,North Dakota,8.9
+1,2020,Ohio,13.3
+2,2020,Ohio,13.0
+3,2020,Ohio,12.6
+4,2020,Ohio,13.1
+5,2020,Ohio,14.9
+6,2020,Ohio,21.1
+7,2020,Ohio,20.2
+8,2020,Ohio,17.6
+9,2020,Ohio,17.2
+10,2020,Ohio,12.2
+11,2020,Ohio,15.9
+12,2020,Ohio,15.0
+1,2021,Ohio,12.2
+2,2021,Ohio,16.6
+3,2021,Ohio,20.4
+4,2021,Ohio,20.7
+5,2021,Ohio,19.3
+6,2021,Ohio,20.1
+7,2021,Ohio,24.0
+8,2021,Ohio,23.8
+9,2021,Ohio,19.3
+10,2021,Ohio,16.6
+11,2021,Ohio,16.5
+12,2021,Ohio,14.8
+1,2022,Ohio,15.7
+2,2022,Ohio,15.9
+3,2022,Ohio,19.2
+4,2022,Ohio,15.6
+5,2022,Ohio,18.6
+6,2022,Ohio,23.6
+7,2022,Ohio,19.1
+8,2022,Ohio,16.9
+9,2022,Ohio,16.8
+10,2022,Ohio,20.8
+11,2022,Ohio,18.4
+12,2022,Ohio,16.3
+1,2023,Ohio,14.6
+2,2023,Ohio,17.6
+3,2023,Ohio,14.4
+4,2023,Ohio,19.3
+5,2023,Ohio,22.6
+6,2023,Ohio,40.9
+7,2023,Ohio,24.2
+8,2023,Ohio,21.2
+9,2023,Ohio,18.1
+10,2023,Ohio,18.1
+11,2023,Ohio,20.2
+12,2023,Ohio,15.9
+1,2024,Ohio,13.6
+2,2024,Ohio,19.2
+3,2024,Ohio,15.0
+4,2024,Ohio,17.1
+5,2024,Ohio,19.5
+6,2024,Ohio,21.5
+7,2024,Ohio,20.0
+8,2024,Ohio,22.4
+9,2024,Ohio,19.8
+10,2024,Ohio,24.9
+11,2024,Ohio,13.7
+12,2024,Ohio,14.6
+1,2025,Ohio,16.6
+2,2025,Ohio,15.9
+3,2025,Ohio,20.2
+4,2025,Ohio,17.6
+5,2025,Ohio,16.0
+1,2020,Oklahoma,12.5
+2,2020,Oklahoma,13.1
+3,2020,Oklahoma,15.5
+4,2020,Oklahoma,16.8
+5,2020,Oklahoma,14.1
+6,2020,Oklahoma,30.5
+7,2020,Oklahoma,22.3
+8,2020,Oklahoma,20.5
+9,2020,Oklahoma,18.5
+10,2020,Oklahoma,21.4
+11,2020,Oklahoma,16.8
+12,2020,Oklahoma,15.7
+1,2021,Oklahoma,13.8
+2,2021,Oklahoma,14.3
+3,2021,Oklahoma,19.1
+4,2021,Oklahoma,18.9
+5,2021,Oklahoma,12.3
+6,2021,Oklahoma,18.8
+7,2021,Oklahoma,28.4
+8,2021,Oklahoma,29.5
+9,2021,Oklahoma,27.6
+10,2021,Oklahoma,17.8
+11,2021,Oklahoma,20.8
+12,2021,Oklahoma,23.4
+1,2022,Oklahoma,16.1
+2,2022,Oklahoma,15.3
+3,2022,Oklahoma,16.3
+4,2022,Oklahoma,21.4
+5,2022,Oklahoma,18.1
+6,2022,Oklahoma,30.7
+7,2022,Oklahoma,26.4
+8,2022,Oklahoma,26.2
+9,2022,Oklahoma,25.2
+10,2022,Oklahoma,27.7
+11,2022,Oklahoma,15.4
+12,2022,Oklahoma,17.2
+1,2023,Oklahoma,18.9
+2,2023,Oklahoma,22.0
+3,2023,Oklahoma,18.6
+4,2023,Oklahoma,25.1
+5,2023,Oklahoma,24.7
+6,2023,Oklahoma,25.8
+7,2023,Oklahoma,29.1
+8,2023,Oklahoma,29.3
+9,2023,Oklahoma,25.9
+10,2023,Oklahoma,19.6
+11,2023,Oklahoma,20.0
+12,2023,Oklahoma,14.2
+1,2024,Oklahoma,12.8
+2,2024,Oklahoma,20.9
+3,2024,Oklahoma,22.7
+4,2024,Oklahoma,22.4
+5,2024,Oklahoma,19.6
+6,2024,Oklahoma,22.3
+7,2024,Oklahoma,28.6
+8,2024,Oklahoma,29.5
+9,2024,Oklahoma,22.7
+10,2024,Oklahoma,37.4
+11,2024,Oklahoma,12.3
+12,2024,Oklahoma,17.9
+1,2025,Oklahoma,16.4
+2,2025,Oklahoma,16.3
+3,2025,Oklahoma,46.6
+4,2025,Oklahoma,22.8
+5,2025,Oklahoma,22.5
+1,2020,Oregon,11.4
+2,2020,Oregon,18.9
+3,2020,Oregon,14.1
+4,2020,Oregon,11.4
+5,2020,Oregon,10.6
+6,2020,Oregon,10.5
+7,2020,Oregon,21.7
+8,2020,Oregon,25.9
+9,2020,Oregon,107.3
+10,2020,Oregon,28.3
+11,2020,Oregon,23.0
+12,2020,Oregon,23.1
+1,2021,Oregon,11.6
+2,2021,Oregon,10.2
+3,2021,Oregon,14.6
+4,2021,Oregon,18.5
+5,2021,Oregon,9.8
+6,2021,Oregon,11.6
+7,2021,Oregon,18.5
+8,2021,Oregon,32.0
+9,2021,Oregon,26.1
+10,2021,Oregon,11.6
+11,2021,Oregon,10.2
+12,2021,Oregon,7.4
+1,2022,Oregon,14.1
+2,2022,Oregon,14.1
+3,2022,Oregon,10.3
+4,2022,Oregon,7.7
+5,2022,Oregon,6.4
+6,2022,Oregon,7.6
+7,2022,Oregon,11.6
+8,2022,Oregon,16.2
+9,2022,Oregon,43.3
+10,2022,Oregon,64.8
+11,2022,Oregon,13.9
+12,2022,Oregon,11.0
+1,2023,Oregon,9.9
+2,2023,Oregon,12.1
+3,2023,Oregon,7.3
+4,2023,Oregon,6.5
+5,2023,Oregon,13.2
+6,2023,Oregon,13.2
+7,2023,Oregon,14.0
+8,2023,Oregon,32.1
+9,2023,Oregon,12.3
+10,2023,Oregon,12.6
+11,2023,Oregon,13.3
+12,2023,Oregon,11.6
+1,2024,Oregon,7.7
+2,2024,Oregon,8.3
+3,2024,Oregon,9.8
+4,2024,Oregon,8.0
+5,2024,Oregon,7.7
+6,2024,Oregon,8.8
+7,2024,Oregon,17.3
+8,2024,Oregon,20.1
+9,2024,Oregon,14.7
+10,2024,Oregon,14.9
+11,2024,Oregon,9.6
+12,2024,Oregon,11.1
+1,2025,Oregon,15.9
+2,2025,Oregon,10.3
+3,2025,Oregon,6.9
+1,2020,Pennsylvania,12.9
+2,2020,Pennsylvania,11.5
+3,2020,Pennsylvania,11.3
+4,2020,Pennsylvania,10.0
+5,2020,Pennsylvania,12.2
+6,2020,Pennsylvania,16.2
+7,2020,Pennsylvania,19.4
+8,2020,Pennsylvania,16.9
+9,2020,Pennsylvania,16.8
+10,2020,Pennsylvania,14.0
+11,2020,Pennsylvania,17.7
+12,2020,Pennsylvania,12.9
+1,2021,Pennsylvania,12.4
+2,2021,Pennsylvania,12.7
+3,2021,Pennsylvania,17.8
+4,2021,Pennsylvania,16.9
+5,2021,Pennsylvania,17.1
+6,2021,Pennsylvania,18.6
+7,2021,Pennsylvania,23.0
+8,2021,Pennsylvania,20.0
+9,2021,Pennsylvania,16.5
+10,2021,Pennsylvania,14.7
+11,2021,Pennsylvania,14.4
+12,2021,Pennsylvania,14.1
+1,2022,Pennsylvania,13.2
+2,2022,Pennsylvania,14.2
+3,2022,Pennsylvania,14.5
+4,2022,Pennsylvania,13.1
+5,2022,Pennsylvania,15.1
+6,2022,Pennsylvania,18.5
+7,2022,Pennsylvania,17.8
+8,2022,Pennsylvania,15.4
+9,2022,Pennsylvania,14.6
+10,2022,Pennsylvania,15.5
+11,2022,Pennsylvania,14.7
+12,2022,Pennsylvania,13.6
+1,2023,Pennsylvania,11.2
+2,2023,Pennsylvania,15.5
+3,2023,Pennsylvania,12.5
+4,2023,Pennsylvania,16.6
+5,2023,Pennsylvania,18.1
+6,2023,Pennsylvania,34.3
+7,2023,Pennsylvania,20.8
+8,2023,Pennsylvania,18.2
+9,2023,Pennsylvania,14.6
+10,2023,Pennsylvania,14.8
+11,2023,Pennsylvania,17.0
+12,2023,Pennsylvania,15.0
+1,2024,Pennsylvania,12.3
+2,2024,Pennsylvania,16.1
+3,2024,Pennsylvania,11.7
+4,2024,Pennsylvania,13.0
+5,2024,Pennsylvania,15.0
+6,2024,Pennsylvania,17.1
+7,2024,Pennsylvania,15.8
+8,2024,Pennsylvania,17.5
+9,2024,Pennsylvania,13.6
+10,2024,Pennsylvania,18.2
+11,2024,Pennsylvania,12.0
+12,2024,Pennsylvania,13.2
+1,2025,Pennsylvania,15.4
+2,2025,Pennsylvania,13.3
+3,2025,Pennsylvania,15.0
+4,2025,Pennsylvania,11.6
+1,2020,Puerto Rico,20.5
+2,2020,Puerto Rico,26.7
+3,2020,Puerto Rico,18.9
+4,2020,Puerto Rico,20.3
+5,2020,Puerto Rico,36.3
+6,2020,Puerto Rico,62.6
+7,2020,Puerto Rico,38.1
+8,2020,Puerto Rico,35.1
+9,2020,Puerto Rico,38.4
+10,2020,Puerto Rico,24.3
+11,2020,Puerto Rico,17.8
+12,2020,Puerto Rico,25.1
+1,2021,Puerto Rico,23.4
+2,2021,Puerto Rico,18.7
+3,2021,Puerto Rico,22.5
+4,2021,Puerto Rico,24.0
+5,2021,Puerto Rico,30.9
+6,2021,Puerto Rico,28.7
+7,2021,Puerto Rico,34.4
+8,2021,Puerto Rico,38.4
+9,2021,Puerto Rico,28.3
+10,2021,Puerto Rico,28.5
+11,2021,Puerto Rico,19.0
+12,2021,Puerto Rico,19.8
+1,2022,Puerto Rico,18.9
+2,2022,Puerto Rico,24.8
+3,2022,Puerto Rico,15.9
+4,2022,Puerto Rico,23.4
+5,2022,Puerto Rico,22.0
+6,2022,Puerto Rico,34.0
+7,2022,Puerto Rico,35.6
+8,2022,Puerto Rico,24.6
+9,2022,Puerto Rico,31.2
+10,2022,Puerto Rico,37.0
+11,2022,Puerto Rico,17.7
+12,2022,Puerto Rico,16.0
+1,2023,Puerto Rico,28.3
+2,2023,Puerto Rico,28.2
+3,2023,Puerto Rico,32.3
+4,2023,Puerto Rico,38.5
+5,2023,Puerto Rico,37.9
+6,2023,Puerto Rico,48.7
+7,2023,Puerto Rico,43.8
+8,2023,Puerto Rico,28.1
+9,2023,Puerto Rico,26.2
+10,2023,Puerto Rico,24.6
+11,2023,Puerto Rico,28.9
+12,2023,Puerto Rico,25.0
+1,2024,Puerto Rico,21.8
+2,2024,Puerto Rico,22.4
+3,2024,Puerto Rico,22.1
+4,2024,Puerto Rico,26.1
+5,2024,Puerto Rico,29.2
+6,2024,Puerto Rico,24.3
+7,2024,Puerto Rico,27.3
+8,2024,Puerto Rico,22.8
+9,2024,Puerto Rico,19.7
+10,2024,Puerto Rico,24.4
+11,2024,Puerto Rico,17.2
+12,2024,Puerto Rico,21.0
+1,2025,Puerto Rico,25.5
+2,2025,Puerto Rico,25.7
+3,2025,Puerto Rico,21.1
+1,2020,Rhode Island,10.8
+2,2020,Rhode Island,6.9
+3,2020,Rhode Island,9.5
+4,2020,Rhode Island,7.2
+5,2020,Rhode Island,11.1
+6,2020,Rhode Island,13.5
+7,2020,Rhode Island,13.4
+8,2020,Rhode Island,13.3
+9,2020,Rhode Island,13.2
+10,2020,Rhode Island,9.7
+11,2020,Rhode Island,9.8
+12,2020,Rhode Island,8.2
+1,2021,Rhode Island,7.3
+2,2021,Rhode Island,10.5
+3,2021,Rhode Island,10.7
+4,2021,Rhode Island,9.6
+5,2021,Rhode Island,16.1
+6,2021,Rhode Island,14.1
+7,2021,Rhode Island,16.1
+8,2021,Rhode Island,14.0
+9,2021,Rhode Island,12.3
+10,2021,Rhode Island,9.0
+11,2021,Rhode Island,12.9
+12,2021,Rhode Island,9.6
+1,2022,Rhode Island,12.2
+2,2022,Rhode Island,12.1
+3,2022,Rhode Island,9.1
+4,2022,Rhode Island,7.0
+5,2022,Rhode Island,13.4
+6,2022,Rhode Island,9.2
+7,2022,Rhode Island,11.5
+8,2022,Rhode Island,11.4
+9,2022,Rhode Island,8.1
+10,2022,Rhode Island,8.7
+11,2022,Rhode Island,8.2
+12,2022,Rhode Island,6.1
+1,2023,Rhode Island,7.6
+2,2023,Rhode Island,8.1
+3,2023,Rhode Island,6.6
+4,2023,Rhode Island,9.3
+5,2023,Rhode Island,13.6
+6,2023,Rhode Island,13.2
+7,2023,Rhode Island,15.4
+8,2023,Rhode Island,11.6
+9,2023,Rhode Island,13.9
+10,2023,Rhode Island,12.0
+11,2023,Rhode Island,8.1
+12,2023,Rhode Island,10.2
+1,2024,Rhode Island,7.6
+2,2024,Rhode Island,9.1
+3,2024,Rhode Island,6.0
+4,2024,Rhode Island,7.9
+5,2024,Rhode Island,10.4
+6,2024,Rhode Island,11.6
+7,2024,Rhode Island,12.9
+8,2024,Rhode Island,14.6
+9,2024,Rhode Island,10.8
+10,2024,Rhode Island,11.6
+11,2024,Rhode Island,10.3
+12,2024,Rhode Island,12.2
+1,2025,Rhode Island,12.1
+2,2025,Rhode Island,11.6
+3,2025,Rhode Island,7.8
+4,2025,Rhode Island,12.1
+5,2025,Rhode Island,12.2
+6,2025,Rhode Island,20.2
+1,2020,South Carolina,11.2
+2,2020,South Carolina,9.5
+3,2020,South Carolina,14.8
+4,2020,South Carolina,13.3
+5,2020,South Carolina,12.7
+6,2020,South Carolina,15.8
+7,2020,South Carolina,15.7
+8,2020,South Carolina,14.6
+9,2020,South Carolina,14.7
+10,2020,South Carolina,14.3
+11,2020,South Carolina,13.3
+12,2020,South Carolina,12.8
+1,2021,South Carolina,10.2
+2,2021,South Carolina,10.3
+3,2021,South Carolina,15.9
+4,2021,South Carolina,18.7
+5,2021,South Carolina,16.8
+6,2021,South Carolina,15.2
+7,2021,South Carolina,17.5
+8,2021,South Carolina,18.9
+9,2021,South Carolina,14.2
+10,2021,South Carolina,13.3
+11,2021,South Carolina,14.8
+12,2021,South Carolina,15.3
+1,2022,South Carolina,15.3
+2,2022,South Carolina,17.3
+3,2022,South Carolina,16.2
+4,2022,South Carolina,16.8
+5,2022,South Carolina,17.0
+6,2022,South Carolina,17.6
+7,2022,South Carolina,14.5
+8,2022,South Carolina,14.7
+9,2022,South Carolina,15.8
+10,2022,South Carolina,16.6
+11,2022,South Carolina,14.9
+12,2022,South Carolina,14.4
+1,2023,South Carolina,12.0
+2,2023,South Carolina,17.7
+3,2023,South Carolina,19.8
+4,2023,South Carolina,19.6
+5,2023,South Carolina,19.6
+6,2023,South Carolina,22.7
+7,2023,South Carolina,19.9
+8,2023,South Carolina,18.7
+9,2023,South Carolina,15.4
+10,2023,South Carolina,15.2
+11,2023,South Carolina,19.3
+12,2023,South Carolina,13.2
+1,2024,South Carolina,11.3
+2,2024,South Carolina,16.4
+3,2024,South Carolina,15.8
+4,2024,South Carolina,17.6
+5,2024,South Carolina,14.9
+6,2024,South Carolina,18.3
+7,2024,South Carolina,15.0
+8,2024,South Carolina,19.7
+9,2024,South Carolina,16.2
+10,2024,South Carolina,21.7
+11,2024,South Carolina,16.7
+12,2024,South Carolina,15.3
+1,2025,South Carolina,14.4
+2,2025,South Carolina,18.7
+3,2025,South Carolina,20.2
+4,2025,South Carolina,19.8
+5,2025,South Carolina,18.1
+1,2020,South Dakota,11.1
+2,2020,South Dakota,12.4
+3,2020,South Dakota,12.2
+4,2020,South Dakota,16.2
+5,2020,South Dakota,14.0
+6,2020,South Dakota,25.8
+7,2020,South Dakota,19.8
+8,2020,South Dakota,27.0
+9,2020,South Dakota,31.0
+10,2020,South Dakota,25.8
+11,2020,South Dakota,19.7
+12,2020,South Dakota,21.1
+1,2021,South Dakota,14.9
+2,2021,South Dakota,15.7
+3,2021,South Dakota,16.2
+4,2021,South Dakota,17.4
+5,2021,South Dakota,18.6
+6,2021,South Dakota,27.0
+7,2021,South Dakota,36.7
+8,2021,South Dakota,30.0
+9,2021,South Dakota,27.6
+10,2021,South Dakota,18.5
+11,2021,South Dakota,19.4
+12,2021,South Dakota,13.6
+1,2022,South Dakota,15.0
+2,2022,South Dakota,15.8
+3,2022,South Dakota,16.8
+4,2022,South Dakota,16.6
+5,2022,South Dakota,13.7
+6,2022,South Dakota,23.6
+7,2022,South Dakota,16.3
+8,2022,South Dakota,21.0
+9,2022,South Dakota,28.5
+10,2022,South Dakota,31.4
+11,2022,South Dakota,18.9
+12,2022,South Dakota,15.7
+1,2023,South Dakota,11.3
+2,2023,South Dakota,13.4
+3,2023,South Dakota,12.3
+4,2023,South Dakota,16.0
+5,2023,South Dakota,29.2
+6,2023,South Dakota,24.9
+7,2023,South Dakota,26.3
+8,2023,South Dakota,27.2
+9,2023,South Dakota,28.3
+10,2023,South Dakota,20.1
+11,2023,South Dakota,20.9
+12,2023,South Dakota,15.0
+1,2024,South Dakota,9.9
+2,2024,South Dakota,10.6
+3,2024,South Dakota,16.3
+4,2024,South Dakota,14.6
+5,2024,South Dakota,17.6
+6,2024,South Dakota,15.8
+7,2024,South Dakota,25.7
+8,2024,South Dakota,20.5
+9,2024,South Dakota,31.0
+10,2024,South Dakota,44.5
+11,2024,South Dakota,12.6
+12,2024,South Dakota,13.6
+1,2025,South Dakota,12.8
+2,2025,South Dakota,13.7
+3,2025,South Dakota,13.8
+1,2020,Tennessee,10.9
+2,2020,Tennessee,9.4
+3,2020,Tennessee,12.7
+4,2020,Tennessee,13.6
+5,2020,Tennessee,13.1
+6,2020,Tennessee,21.7
+7,2020,Tennessee,20.6
+8,2020,Tennessee,17.5
+9,2020,Tennessee,17.8
+10,2020,Tennessee,19.5
+11,2020,Tennessee,18.5
+12,2020,Tennessee,16.2
+1,2021,Tennessee,13.0
+2,2021,Tennessee,15.8
+3,2021,Tennessee,17.9
+4,2021,Tennessee,17.8
+5,2021,Tennessee,17.4
+6,2021,Tennessee,17.1
+7,2021,Tennessee,24.3
+8,2021,Tennessee,21.3
+9,2021,Tennessee,18.5
+10,2021,Tennessee,17.5
+11,2021,Tennessee,16.6
+12,2021,Tennessee,17.7
+1,2022,Tennessee,15.0
+2,2022,Tennessee,17.6
+3,2022,Tennessee,17.0
+4,2022,Tennessee,16.9
+5,2022,Tennessee,18.4
+6,2022,Tennessee,26.2
+7,2022,Tennessee,18.3
+8,2022,Tennessee,16.3
+9,2022,Tennessee,19.9
+10,2022,Tennessee,22.1
+11,2022,Tennessee,17.1
+12,2022,Tennessee,13.8
+1,2023,Tennessee,14.2
+2,2023,Tennessee,19.5
+3,2023,Tennessee,16.9
+4,2023,Tennessee,18.8
+5,2023,Tennessee,20.8
+6,2023,Tennessee,27.5
+7,2023,Tennessee,22.3
+8,2023,Tennessee,20.6
+9,2023,Tennessee,22.0
+10,2023,Tennessee,22.1
+11,2023,Tennessee,18.8
+12,2023,Tennessee,14.6
+1,2024,Tennessee,12.2
+2,2024,Tennessee,17.7
+3,2024,Tennessee,17.0
+4,2024,Tennessee,18.2
+5,2024,Tennessee,17.1
+6,2024,Tennessee,21.0
+7,2024,Tennessee,21.0
+8,2024,Tennessee,28.6
+9,2024,Tennessee,17.8
+10,2024,Tennessee,30.9
+11,2024,Tennessee,15.4
+12,2024,Tennessee,14.1
+1,2025,Tennessee,13.7
+2,2025,Tennessee,13.9
+3,2025,Tennessee,18.3
+4,2025,Tennessee,17.6
+5,2025,Tennessee,12.3
+1,2020,Texas,16.1
+2,2020,Texas,22.2
+3,2020,Texas,19.0
+4,2020,Texas,24.4
+5,2020,Texas,22.9
+6,2020,Texas,33.1
+7,2020,Texas,41.8
+8,2020,Texas,26.8
+9,2020,Texas,25.0
+10,2020,Texas,33.1
+11,2020,Texas,26.3
+12,2020,Texas,27.6
+1,2021,Texas,28.3
+2,2021,Texas,19.5
+3,2021,Texas,37.0
+4,2021,Texas,26.8
+5,2021,Texas,22.0
+6,2021,Texas,29.6
+7,2021,Texas,21.7
+8,2021,Texas,21.8
+9,2021,Texas,32.9
+10,2021,Texas,31.3
+11,2021,Texas,32.6
+12,2021,Texas,31.0
+1,2022,Texas,25.2
+2,2022,Texas,33.4
+3,2022,Texas,32.7
+4,2022,Texas,35.2
+5,2022,Texas,32.3
+6,2022,Texas,36.2
+7,2022,Texas,30.7
+8,2022,Texas,23.4
+9,2022,Texas,33.1
+10,2022,Texas,39.7
+11,2022,Texas,25.0
+12,2022,Texas,26.3
+1,2023,Texas,30.0
+2,2023,Texas,28.8
+3,2023,Texas,30.6
+4,2023,Texas,27.1
+5,2023,Texas,31.4
+6,2023,Texas,30.6
+7,2023,Texas,42.4
+8,2023,Texas,38.6
+9,2023,Texas,31.9
+10,2023,Texas,32.4
+11,2023,Texas,25.4
+12,2023,Texas,26.8
+1,2024,Texas,35.0
+2,2024,Texas,30.0
+3,2024,Texas,37.8
+4,2024,Texas,40.8
+5,2024,Texas,46.1
+6,2024,Texas,39.1
+7,2024,Texas,40.6
+8,2024,Texas,38.7
+9,2024,Texas,26.9
+10,2024,Texas,40.3
+11,2024,Texas,23.6
+12,2024,Texas,27.4
+1,2025,Texas,30.6
+2,2025,Texas,40.1
+3,2025,Texas,91.4
+4,2025,Texas,23.8
+1,2020,Utah,15.3
+2,2020,Utah,15.9
+3,2020,Utah,11.0
+4,2020,Utah,12.7
+5,2020,Utah,20.8
+6,2020,Utah,18.2
+7,2020,Utah,27.0
+8,2020,Utah,41.3
+9,2020,Utah,38.5
+10,2020,Utah,32.6
+11,2020,Utah,21.5
+12,2020,Utah,23.9
+1,2021,Utah,19.5
+2,2021,Utah,15.5
+3,2021,Utah,19.1
+4,2021,Utah,19.3
+5,2021,Utah,21.4
+6,2021,Utah,29.2
+7,2021,Utah,33.7
+8,2021,Utah,41.0
+9,2021,Utah,31.5
+10,2021,Utah,11.5
+11,2021,Utah,16.5
+12,2021,Utah,17.6
+1,2022,Utah,24.5
+2,2022,Utah,17.9
+3,2022,Utah,14.5
+4,2022,Utah,26.5
+5,2022,Utah,21.2
+6,2022,Utah,31.3
+7,2022,Utah,26.2
+8,2022,Utah,21.2
+9,2022,Utah,26.5
+10,2022,Utah,22.3
+11,2022,Utah,16.4
+12,2022,Utah,20.5
+1,2023,Utah,13.5
+2,2023,Utah,24.5
+3,2023,Utah,10.0
+4,2023,Utah,17.5
+5,2023,Utah,20.2
+6,2023,Utah,18.7
+7,2023,Utah,25.3
+8,2023,Utah,18.5
+9,2023,Utah,17.3
+10,2023,Utah,15.6
+11,2023,Utah,19.5
+12,2023,Utah,21.2
+1,2024,Utah,16.0
+2,2024,Utah,9.7
+3,2024,Utah,13.3
+4,2024,Utah,17.7
+5,2024,Utah,15.7
+6,2024,Utah,24.5
+7,2024,Utah,28.8
+8,2024,Utah,22.3
+9,2024,Utah,24.9
+10,2024,Utah,25.5
+11,2024,Utah,12.9
+12,2024,Utah,21.8
+1,2025,Utah,18.8
+2,2025,Utah,17.2
+3,2025,Utah,17.3
+4,2025,Utah,16.7
+5,2025,Utah,21.1
+6,2025,Utah,28.6
+1,2020,Vermont,6.3
+2,2020,Vermont,7.1
+3,2020,Vermont,6.7
+4,2020,Vermont,4.2
+5,2020,Vermont,7.1
+6,2020,Vermont,8.8
+7,2020,Vermont,11.3
+8,2020,Vermont,9.4
+9,2020,Vermont,7.1
+10,2020,Vermont,5.9
+11,2020,Vermont,7.6
+12,2020,Vermont,7.5
+1,2021,Vermont,4.6
+2,2021,Vermont,5.7
+3,2021,Vermont,11.9
+4,2021,Vermont,7.7
+5,2021,Vermont,9.6
+6,2021,Vermont,11.9
+7,2021,Vermont,9.4
+8,2021,Vermont,11.6
+9,2021,Vermont,7.3
+10,2021,Vermont,6.5
+11,2021,Vermont,8.5
+12,2021,Vermont,5.3
+1,2022,Vermont,8.2
+2,2022,Vermont,7.9
+3,2022,Vermont,7.6
+4,2022,Vermont,5.9
+5,2022,Vermont,7.9
+6,2022,Vermont,9.8
+7,2022,Vermont,8.9
+8,2022,Vermont,8.6
+9,2022,Vermont,6.2
+10,2022,Vermont,5.2
+11,2022,Vermont,6.2
+12,2022,Vermont,5.0
+1,2023,Vermont,4.2
+2,2023,Vermont,5.2
+3,2023,Vermont,6.8
+4,2023,Vermont,4.9
+5,2023,Vermont,9.5
+6,2023,Vermont,12.4
+7,2023,Vermont,16.1
+8,2023,Vermont,9.0
+9,2023,Vermont,10.7
+10,2023,Vermont,8.9
+11,2023,Vermont,6.6
+12,2023,Vermont,8.1
+1,2024,Vermont,4.8
+2,2024,Vermont,7.4
+3,2024,Vermont,6.3
+4,2024,Vermont,5.1
+5,2024,Vermont,9.1
+6,2024,Vermont,10.5
+7,2024,Vermont,12.3
+8,2024,Vermont,11.4
+9,2024,Vermont,9.4
+10,2024,Vermont,7.4
+11,2024,Vermont,4.7
+12,2024,Vermont,5.7
+1,2025,Vermont,6.2
+2,2025,Vermont,4.9
+3,2025,Vermont,8.6
+1,2020,Virginia,6.0
+2,2020,Virginia,5.1
+3,2020,Virginia,6.9
+4,2020,Virginia,6.8
+5,2020,Virginia,8.5
+6,2020,Virginia,10.6
+7,2020,Virginia,12.9
+8,2020,Virginia,11.3
+9,2020,Virginia,10.8
+10,2020,Virginia,8.3
+11,2020,Virginia,9.2
+12,2020,Virginia,7.6
+1,2021,Virginia,11.3
+2,2021,Virginia,11.7
+3,2021,Virginia,11.3
+4,2021,Virginia,13.6
+5,2021,Virginia,14.0
+6,2021,Virginia,14.5
+7,2021,Virginia,20.5
+8,2021,Virginia,17.7
+9,2021,Virginia,14.7
+10,2021,Virginia,12.3
+11,2021,Virginia,13.0
+12,2021,Virginia,14.5
+1,2022,Virginia,12.7
+2,2022,Virginia,12.6
+3,2022,Virginia,12.5
+4,2022,Virginia,11.8
+5,2022,Virginia,13.4
+6,2022,Virginia,15.1
+7,2022,Virginia,14.8
+8,2022,Virginia,12.9
+9,2022,Virginia,12.5
+10,2022,Virginia,12.3
+11,2022,Virginia,12.2
+12,2022,Virginia,12.0
+1,2023,Virginia,10.6
+2,2023,Virginia,12.6
+3,2023,Virginia,12.2
+4,2023,Virginia,15.5
+5,2023,Virginia,15.8
+6,2023,Virginia,29.9
+7,2023,Virginia,18.6
+8,2023,Virginia,15.6
+9,2023,Virginia,12.4
+10,2023,Virginia,12.0
+11,2023,Virginia,14.0
+12,2023,Virginia,11.5
+1,2024,Virginia,9.8
+2,2024,Virginia,12.2
+3,2024,Virginia,10.6
+4,2024,Virginia,13.2
+5,2024,Virginia,12.8
+6,2024,Virginia,15.4
+7,2024,Virginia,14.8
+8,2024,Virginia,17.8
+9,2024,Virginia,13.3
+10,2024,Virginia,15.6
+11,2024,Virginia,11.1
+12,2024,Virginia,12.1
+1,2025,Virginia,11.3
+2,2025,Virginia,10.8
+3,2025,Virginia,12.6
+4,2025,Virginia,13.6
+5,2025,Virginia,11.8
+6,2025,Virginia,17.4
+1,2020,Washington,11.7
+2,2020,Washington,23.2
+3,2020,Washington,18.5
+4,2020,Washington,18.3
+5,2020,Washington,13.6
+6,2020,Washington,13.9
+7,2020,Washington,21.0
+8,2020,Washington,24.7
+9,2020,Washington,118.9
+10,2020,Washington,29.5
+11,2020,Washington,16.3
+12,2020,Washington,13.7
+1,2021,Washington,16.2
+2,2021,Washington,15.2
+3,2021,Washington,25.0
+4,2021,Washington,21.1
+5,2021,Washington,18.6
+6,2021,Washington,19.7
+7,2021,Washington,31.0
+8,2021,Washington,47.0
+9,2021,Washington,27.7
+10,2021,Washington,13.9
+11,2021,Washington,10.4
+12,2021,Washington,9.5
+1,2022,Washington,12.4
+2,2022,Washington,19.7
+3,2022,Washington,15.3
+4,2022,Washington,11.1
+5,2022,Washington,8.2
+6,2022,Washington,11.7
+7,2022,Washington,17.8
+8,2022,Washington,27.9
+9,2022,Washington,37.3
+10,2022,Washington,28.2
+11,2022,Washington,17.1
+12,2022,Washington,9.6
+1,2023,Washington,13.8
+2,2023,Washington,21.8
+3,2023,Washington,14.3
+4,2023,Washington,10.4
+5,2023,Washington,19.4
+6,2023,Washington,18.6
+7,2023,Washington,22.7
+8,2023,Washington,40.7
+9,2023,Washington,18.3
+10,2023,Washington,16.7
+11,2023,Washington,15.0
+12,2023,Washington,9.6
+1,2024,Washington,10.3
+2,2024,Washington,11.3
+3,2024,Washington,12.4
+4,2024,Washington,14.0
+5,2024,Washington,13.2
+6,2024,Washington,15.0
+7,2024,Washington,23.7
+8,2024,Washington,22.1
+9,2024,Washington,23.0
+10,2024,Washington,16.9
+11,2024,Washington,12.1
+12,2024,Washington,10.3
+1,2025,Washington,16.9
+2,2025,Washington,12.8
+3,2025,Washington,11.3
+1,2020,West Virginia,12.2
+2,2020,West Virginia,11.1
+3,2020,West Virginia,12.6
+4,2020,West Virginia,11.5
+5,2020,West Virginia,12.9
+6,2020,West Virginia,14.9
+7,2020,West Virginia,16.5
+8,2020,West Virginia,13.8
+9,2020,West Virginia,14.4
+10,2020,West Virginia,13.1
+11,2020,West Virginia,15.0
+12,2020,West Virginia,10.2
+1,2021,West Virginia,9.5
+2,2021,West Virginia,11.1
+3,2021,West Virginia,15.1
+4,2021,West Virginia,16.6
+5,2021,West Virginia,15.0
+6,2021,West Virginia,17.6
+7,2021,West Virginia,20.0
+8,2021,West Virginia,20.9
+9,2021,West Virginia,17.0
+10,2021,West Virginia,14.7
+11,2021,West Virginia,15.1
+12,2021,West Virginia,15.0
+1,2022,West Virginia,13.9
+2,2022,West Virginia,14.2
+3,2022,West Virginia,15.2
+4,2022,West Virginia,13.6
+5,2022,West Virginia,15.5
+6,2022,West Virginia,21.4
+7,2022,West Virginia,18.4
+8,2022,West Virginia,16.0
+9,2022,West Virginia,14.5
+10,2022,West Virginia,16.8
+11,2022,West Virginia,13.7
+12,2022,West Virginia,13.1
+1,2023,West Virginia,11.8
+2,2023,West Virginia,16.0
+3,2023,West Virginia,12.6
+4,2023,West Virginia,18.6
+5,2023,West Virginia,20.5
+6,2023,West Virginia,40.4
+7,2023,West Virginia,22.8
+8,2023,West Virginia,19.5
+9,2023,West Virginia,13.5
+10,2023,West Virginia,14.3
+11,2023,West Virginia,17.2
+12,2023,West Virginia,12.0
+1,2024,West Virginia,9.9
+2,2024,West Virginia,14.7
+3,2024,West Virginia,11.0
+4,2024,West Virginia,12.2
+5,2024,West Virginia,15.2
+6,2024,West Virginia,17.4
+7,2024,West Virginia,15.1
+8,2024,West Virginia,16.8
+9,2024,West Virginia,12.8
+10,2024,West Virginia,16.3
+11,2024,West Virginia,10.0
+12,2024,West Virginia,11.3
+1,2025,West Virginia,12.8
+2,2025,West Virginia,12.1
+3,2025,West Virginia,14.9
+1,2020,Wisconsin,13.4
+2,2020,Wisconsin,13.4
+3,2020,Wisconsin,12.3
+4,2020,Wisconsin,13.3
+5,2020,Wisconsin,11.6
+6,2020,Wisconsin,15.9
+7,2020,Wisconsin,15.4
+8,2020,Wisconsin,15.5
+9,2020,Wisconsin,15.5
+10,2020,Wisconsin,16.4
+11,2020,Wisconsin,18.4
+12,2020,Wisconsin,15.3
+1,2021,Wisconsin,16.2
+2,2021,Wisconsin,20.9
+3,2021,Wisconsin,16.4
+4,2021,Wisconsin,16.9
+5,2021,Wisconsin,14.5
+6,2021,Wisconsin,16.2
+7,2021,Wisconsin,21.5
+8,2021,Wisconsin,20.5
+9,2021,Wisconsin,15.7
+10,2021,Wisconsin,14.7
+11,2021,Wisconsin,14.7
+12,2021,Wisconsin,16.2
+1,2022,Wisconsin,19.0
+2,2022,Wisconsin,18.9
+3,2022,Wisconsin,11.9
+4,2022,Wisconsin,11.6
+5,2022,Wisconsin,15.7
+6,2022,Wisconsin,18.3
+7,2022,Wisconsin,14.4
+8,2022,Wisconsin,14.3
+9,2022,Wisconsin,14.0
+10,2022,Wisconsin,21.1
+11,2022,Wisconsin,16.8
+12,2022,Wisconsin,14.2
+1,2023,Wisconsin,14.4
+2,2023,Wisconsin,13.9
+3,2023,Wisconsin,11.7
+4,2023,Wisconsin,15.0
+5,2023,Wisconsin,18.9
+6,2023,Wisconsin,47.7
+7,2023,Wisconsin,20.7
+8,2023,Wisconsin,19.7
+9,2023,Wisconsin,15.3
+10,2023,Wisconsin,12.4
+11,2023,Wisconsin,15.6
+12,2023,Wisconsin,12.4
+1,2024,Wisconsin,12.5
+2,2024,Wisconsin,13.0
+3,2024,Wisconsin,10.6
+4,2024,Wisconsin,12.3
+5,2024,Wisconsin,13.1
+6,2024,Wisconsin,12.3
+7,2024,Wisconsin,13.5
+8,2024,Wisconsin,14.5
+9,2024,Wisconsin,15.3
+10,2024,Wisconsin,21.1
+11,2024,Wisconsin,9.4
+12,2024,Wisconsin,13.6
+1,2025,Wisconsin,14.2
+2,2025,Wisconsin,15.3
+3,2025,Wisconsin,12.9
+1,2020,Wyoming,10.6
+2,2020,Wyoming,10.0
+3,2020,Wyoming,9.4
+4,2020,Wyoming,12.1
+5,2020,Wyoming,13.2
+6,2020,Wyoming,16.8
+7,2020,Wyoming,19.7
+8,2020,Wyoming,29.2
+9,2020,Wyoming,29.4
+10,2020,Wyoming,21.9
+11,2020,Wyoming,14.8
+12,2020,Wyoming,11.5
+1,2021,Wyoming,10.9
+2,2021,Wyoming,12.3
+3,2021,Wyoming,13.6
+4,2021,Wyoming,13.8
+5,2021,Wyoming,11.5
+6,2021,Wyoming,23.3
+7,2021,Wyoming,27.8
+8,2021,Wyoming,36.5
+9,2021,Wyoming,27.5
+10,2021,Wyoming,11.5
+11,2021,Wyoming,12.6
+12,2021,Wyoming,15.1
+1,2022,Wyoming,13.2
+2,2022,Wyoming,14.2
+3,2022,Wyoming,12.7
+4,2022,Wyoming,19.5
+5,2022,Wyoming,14.0
+6,2022,Wyoming,18.8
+7,2022,Wyoming,21.7
+8,2022,Wyoming,19.6
+9,2022,Wyoming,24.4
+10,2022,Wyoming,16.7
+11,2022,Wyoming,12.6
+12,2022,Wyoming,12.9
+1,2023,Wyoming,7.8
+2,2023,Wyoming,12.4
+3,2023,Wyoming,10.1
+4,2023,Wyoming,14.6
+5,2023,Wyoming,18.7
+6,2023,Wyoming,12.4
+7,2023,Wyoming,21.3
+8,2023,Wyoming,19.8
+9,2023,Wyoming,17.7
+10,2023,Wyoming,12.0
+11,2023,Wyoming,13.3
+12,2023,Wyoming,10.7
+1,2024,Wyoming,10.8
+2,2024,Wyoming,8.7
+3,2024,Wyoming,10.2
+4,2024,Wyoming,13.5
+5,2024,Wyoming,11.4
+6,2024,Wyoming,19.3
+7,2024,Wyoming,26.6
+8,2024,Wyoming,22.4
+9,2024,Wyoming,26.7
+10,2024,Wyoming,24.4
+11,2024,Wyoming,9.6
+12,2024,Wyoming,11.5
+1,2025,Wyoming,10.6
+2,2025,Wyoming,11.9
+3,2025,Wyoming,12.2
+4,2025,Wyoming,14.4
+5,2025,Wyoming,10.7
+6,2025,Wyoming,15.0
