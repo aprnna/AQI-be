@@ -261,12 +261,13 @@ def get_time_pm(filters: dict):
 @get_filters
 def get_time_aqi(filters: dict):
     try:
-        df = get_and_filter_data(filters, CSV_PARAM_HERE, DROP_PARAM_HERE)
+#        df = get_and_filter_data(filters, CSV_PARAM_HERE, DROP_PARAM_HERE)
         
-        CODE_HERE
+#        CODE_HERE
 
-        response_data = {CODE_HERE_TOO}
-        return jsonify(response_data), 200
+#        response_data = {CODE_HERE_TOO}
+#        return jsonify(response_data), 200
+        return None
     
     except Exception as e:
         return jsonify({'error': str(e)}), 500
