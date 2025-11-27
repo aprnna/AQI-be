@@ -10,6 +10,8 @@ AQI_CSV = 'AQI_2020_2025.csv'
 GAS_CSV = 'Criteria_Gases_2020_2025.csv'
 P10_CSV = 'PM10_2020_2025.csv'
 P25_CSV = 'PM2.5_2020_2025.csv'
+A1Y_CSV = 'AQI_Prediction_1Y.csv'
+A5Y_CSV = 'AQI_Prediction_5Y.csv'
 
 def get_filters(f):
     @wraps(f)
@@ -25,7 +27,7 @@ def get_filters(f):
                       'end_year'    : int(data.get('end_year')),
                       'states'      : data.get('states', [])}
         except TypeError:
-            return jsonify({'error': 'Date parameter must be filled integer.'}), 400
+            return jsonify({'error': 'Date parameter must be filled with integer.'}), 400
         
         return f(filters=params, *args, **kwargs)
     return decorated_function
@@ -258,16 +260,46 @@ def get_time_pm(filters: dict):
         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/time_aqi', methods=['POST'])
-@get_filters
-def get_time_aqi(filters: dict):
+def get_time_aqi():
     try:
-#        df = get_and_filter_data(filters, CSV_PARAM_HERE, DROP_PARAM_HERE)
-        
-#        CODE_HERE
+        if not request.is_json:
+            return jsonify({'error': 'Request body must be in JSON format.'}), 400
 
-#        response_data = {CODE_HERE_TOO}
-#        return jsonify(response_data), 200
-        return None
+        data = request.get_json()
+        try:
+            predict_type = int(data.get('predict_type'))
+            
+        except TypeError:
+            return jsonify({'error': 'Date parameter must be filled integer.'}), 400
+        
+        df = pd.read_csv(AQI_CSV)
+        df = df.groupby(['Year', 'Month']).mean().reset_index()
+        df = change_month_type(df)
+        
+        if predict_type == 1:
+            pred_df = pd.read_csv(A1Y_CSV)
+        else:
+            pred_df = pd.read_csv(A5Y_CSV)
+        pred_df = change_month_type(pred_df)
+
+        response_data = []
+        for index, row in df.iterrows():    
+            response_data.append({'Date'     : f'{row['Month']} {row['Year']}',
+                               'History'  : row['AQI'],
+                               'Predicted': None,
+                               'CI_range' : None})
+
+        for index, row in pred_df.iterrows():
+            if response_data and response_data[-1]['Predicted'] is None:
+                response_data[-1]['Predicted'] = response_data[-1]['History']
+                response_data[-1]['CI_range'] = [response_data[-1]['History'], response_data[-1]['History']]
+
+            response_data.append({'Date'     : f'{row['Month']} {row['Year']}',
+                               'History'  : None,
+                               'Predicted': row['Predicted_AQI'],
+                               'CI_range' : [row['Lower_CI'], row['Upper_CI']] })
+            
+        return jsonify(response_data), 200
     
     except Exception as e:
         return jsonify({'error': str(e)}), 500
