@@ -6,276 +6,343 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 CORS(app)
 
-AQI_CSV = 'AQI_2020_2025.csv'
-GAS_CSV = 'Criteria_Gases_2020_2025.csv'
-P10_CSV = 'PM10_2020_2025.csv'
-P25_CSV = 'PM2.5_2020_2025.csv'
-A1Y_CSV = 'AQI_Prediction_1Y.csv'
-A5Y_CSV = 'AQI_Prediction_5Y.csv'
+AQI_CSV = "AQI_2020_2025.csv"
+GAS_CSV = "Criteria_Gases_2020_2025.csv"
+P10_CSV = "PM10_2020_2025.csv"
+P25_CSV = "PM2.5_2020_2025.csv"
+A1Y_CSV = "AQI_Prediction_1Y.csv"
+A5Y_CSV = "AQI_Prediction_5Y.csv"
+
 
 def get_filters(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
         if not request.is_json:
-            return jsonify({'error': 'Request body must be in JSON format.'}), 400
+            return jsonify({"error": "Request body must be in JSON format."}), 400
 
         data = request.get_json()
         try:
-            params = {'start_month' : int(data.get('start_month')),
-                      'start_year'  : int(data.get('start_year')),
-                      'end_month'   : int(data.get('end_month')),
-                      'end_year'    : int(data.get('end_year')),
-                      'states'      : data.get('states', [])}
+            params = {
+                "start_month": int(data.get("start_month")),
+                "start_year": int(data.get("start_year")),
+                "end_month": int(data.get("end_month")),
+                "end_year": int(data.get("end_year")),
+                "states": data.get("states", []),
+            }
         except TypeError:
-            return jsonify({'error': 'Date parameter must be filled with integer.'}), 400
-        
+            return (
+                jsonify({"error": "Date parameter must be filled with integer."}),
+                400,
+            )
+
         return f(filters=params, *args, **kwargs)
+
     return decorated_function
 
-def get_and_filter_data(filters: dict, csv: str|list[str], drop: str|list[str]) -> pd.DataFrame:
-    start_month = filters['start_month']
-    start_year  = filters['start_year']
-    end_month   = filters['end_month']
-    end_year    = filters['end_year']
-    states      = filters['states']
+
+def get_and_filter_data(
+    filters: dict, csv: str | list[str], drop: str | list[str]
+) -> pd.DataFrame:
+    start_month = filters["start_month"]
+    start_year = filters["start_year"]
+    end_month = filters["end_month"]
+    end_year = filters["end_year"]
+    states = filters["states"]
 
     if type(csv) == str:
         df = pd.read_csv(csv)
     else:
         df = pd.read_csv(csv[0])
-        df.rename(columns={'Mean': 'PM2.5 Mean'}, inplace=True)
+        df.rename(columns={"Mean": "PM2.5 Mean"}, inplace=True)
         df = pd.concat([df, pd.read_csv(csv[1]).Mean], axis=1)
-        df.rename(columns={'Mean': 'PM10 Mean'}, inplace=True)
-        
-    df = df[(df.Month >= start_month) & (df.Month <= end_month) & (df.Year >= start_year) & (df.Year <= end_year) & (df['State Name'].isin(states))]
+        df.rename(columns={"Mean": "PM10 Mean"}, inplace=True)
+
+    df = df[
+        (df.Month >= start_month)
+        & (df.Month <= end_month)
+        & (df.Year >= start_year)
+        & (df.Year <= end_year)
+        & (df["State Name"].isin(states))
+    ]
     return df.drop(columns=drop)
+
 
 def random_pie_chart_function(df: pd.DataFrame, filter: str) -> pd.DataFrame:
     if df.shape[0] > 5:
         sorted = df.sort_values(filter, ascending=False).iloc[:4]
-        sorted.loc[-1] = ['Others', df.sort_values(filter, ascending=False).iloc[4:][filter].sum()]
+        sorted.loc[-1] = [
+            "Others",
+            df.sort_values(filter, ascending=False).iloc[4:][filter].sum(),
+        ]
     else:
         sorted = df.sort_values(filter, ascending=False)
     sorted.reset_index(drop=True, inplace=True)
     sorted[filter] = sorted[filter].round(1)
     return sorted
 
-def change_month_type(df: pd.DataFrame) -> pd.DataFrame:
-    df['dummy_date'] = pd.to_datetime(df.Month.astype(str) + '-01-2023')
-    df.Month = df.dummy_date.dt.month_name()
-    return df.drop(columns='dummy_date')
 
-@app.route('/api/sum_gases', methods=['POST'])
+def change_month_type(df: pd.DataFrame) -> pd.DataFrame:
+    df["dummy_date"] = pd.to_datetime(df.Month.astype(str) + "-01-2023")
+    df.Month = df.dummy_date.dt.month_name()
+    return df.drop(columns="dummy_date")
+
+
+@app.route("/api/sum_gases", methods=["POST"])
 @get_filters
 def get_sum_gases(filters: dict):
     try:
-        df = get_and_filter_data(filters, GAS_CSV, ['Month', 'Year', 'State Name'])
-        df = df.groupby('Parameter').sum()
+        df = get_and_filter_data(filters, GAS_CSV, ["Month", "Year", "State Name"])
+        df = df.groupby("Parameter").sum()
         df = df[df.Mean == df.Mean.max()].reset_index()
 
-        response_data = {'Gas Name'     : str(df.Parameter.iloc[0]),
-                         'Sum Gas Value': float(df.Mean.round(1).iloc[0])}
+        response_data = {
+            "Gas Name": str(df.Parameter.iloc[0]),
+            "Sum Gas Value": float(df.Mean.round(1).iloc[0]),
+        }
         return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
 
-@app.route('/api/avg_aqi', methods=['POST'])
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/avg_aqi", methods=["POST"])
 @get_filters
 def get_avg_aqi(filters: dict):
     try:
-        df = get_and_filter_data(filters, AQI_CSV, ['Month', 'Year', 'State Name', 'Category'])
-        response_data = {'Mean AQI Value': float(df.AQI.mean().round(1))}
+        df = get_and_filter_data(
+            filters, AQI_CSV, ["Month", "Year", "State Name", "Category"]
+        )
+        response_data = {"Mean AQI Value": float(df.AQI.mean().round(1))}
         return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
 
-@app.route('/api/avg_pm25', methods=['POST'])
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/avg_pm25", methods=["POST"])
 @get_filters
 def get_avg_p25(filters: dict):
     try:
-        df = get_and_filter_data(filters, P25_CSV, ['Month', 'Year', 'State Name'])
-        response_data = {'Mean PM2.5 Value': float(df.Mean.mean().round(1))}
+        df = get_and_filter_data(filters, P25_CSV, ["Month", "Year", "State Name"])
+        response_data = {"Mean PM2.5 Value": float(df.Mean.mean().round(1))}
         return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
 
-@app.route('/api/avg_pm10', methods=['POST'])
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/avg_pm10", methods=["POST"])
 @get_filters
 def get_avg_p10(filters: dict):
     try:
-        df = get_and_filter_data(filters, P10_CSV, ['Month', 'Year', 'State Name'])
-        response_data = {'Mean PM10 Value': float(df.Mean.mean().round(1))}
+        df = get_and_filter_data(filters, P10_CSV, ["Month", "Year", "State Name"])
+        response_data = {"Mean PM10 Value": float(df.Mean.mean().round(1))}
         return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
 
-@app.route('/api/map_aqi', methods=['POST'])
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/map_aqi", methods=["POST"])
 @get_filters
 def get_map_aqi(filters: dict):
     def categorize_aqi_value(aqi_val: float) -> str:
         if aqi_val <= 50:
-            return 'Good'
+            return "Good"
         elif 50 < aqi_val <= 100:
-            return 'Moderate'
+            return "Moderate"
         elif 100 < aqi_val <= 150:
-            return 'Unhealthy for Sensitive Groups'
+            return "Unhealthy for Sensitive Groups"
         elif 150 < aqi_val <= 200:
-            return 'Unhealthy'
+            return "Unhealthy"
         elif 200 < aqi_val <= 300:
-            return 'Very Unhealthy'
+            return "Very Unhealthy"
         else:
-            return 'Hazardous'
+            return "Hazardous"
 
     try:
-        df = get_and_filter_data(filters, AQI_CSV, ['Month', 'Year', 'Category'])
-        df = df.groupby('State Name').mean().reset_index()
-        df['Category'] = df.AQI.apply(categorize_aqi_value)
+        df = get_and_filter_data(filters, AQI_CSV, ["Month", "Year", "Category"])
+        df = df.groupby("State Name").mean().reset_index()
+        df["Category"] = df.AQI.apply(categorize_aqi_value)
 
         response_data = []
         for row in range(df.shape[0]):
-            response_data.append({'State Name'    : str(df.iloc[row, 0]),
-                                  'Mean AQI Value': float(df.iloc[row, 1]),
-                                  'AQI Category'  : str(df.iloc[row, 2])})
-            
-        return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+            response_data.append(
+                {
+                    "State Name": str(df.iloc[row, 0]),
+                    "Mean AQI Value": float(df.iloc[row, 1]),
+                    "AQI Category": str(df.iloc[row, 2]),
+                }
+            )
 
-@app.route('/api/prec_gases', methods=['POST'])
+        return jsonify(response_data), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/prec_gases", methods=["POST"])
 @get_filters
 def get_prec_gases(filters: dict):
     try:
-        df = get_and_filter_data(filters, GAS_CSV, ['Month', 'Year', 'State Name'])
-        df = df.groupby('Parameter').sum().reset_index()
+        df = get_and_filter_data(filters, GAS_CSV, ["Month", "Year", "State Name"])
+        df = df.groupby("Parameter").sum().reset_index()
 
         response_data = []
         for row in range(df.shape[0]):
-            response_data.append({'Gas Name'  : str(df.iloc[row, 0]),
-                                  'Total Mass': float(df.iloc[row, 1])})
-            
-        return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+            response_data.append(
+                {"Gas Name": str(df.iloc[row, 0]), "Total Mass": float(df.iloc[row, 1])}
+            )
 
-@app.route('/api/prec_aqi', methods=['POST'])
+        return jsonify(response_data), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/prec_aqi", methods=["POST"])
 @get_filters
 def get_prec_aqi(filters: dict):
     try:
-        df = get_and_filter_data(filters, AQI_CSV, ['Month', 'Year', 'Category'])
-        df = df.groupby('State Name').mean().reset_index()
-        df = random_pie_chart_function(df, 'AQI')
+        df = get_and_filter_data(filters, AQI_CSV, ["Month", "Year", "Category"])
+        df = df.groupby("State Name").mean().reset_index()
+        df = random_pie_chart_function(df, "AQI")
 
         response_data = []
         for row in range(df.shape[0]):
-            response_data.append({'State Name'    : str(df.iloc[row, 0]),
-                                  'Mean AQI Value': float(df.iloc[row, 1])})
-        
-        return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+            response_data.append(
+                {
+                    "State Name": str(df.iloc[row, 0]),
+                    "Mean AQI Value": float(df.iloc[row, 1]),
+                }
+            )
 
-@app.route('/api/prec_p25', methods=['POST'])
+        return jsonify(response_data), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/prec_p25", methods=["POST"])
 @get_filters
 def get_prec_p25(filters: dict):
     try:
-        df = get_and_filter_data(filters, P25_CSV, ['Month', 'Year'])
-        df = df.groupby('State Name').sum().reset_index()
-        df = random_pie_chart_function(df, 'Mean')
+        df = get_and_filter_data(filters, P25_CSV, ["Month", "Year"])
+        df = df.groupby("State Name").sum().reset_index()
+        df = random_pie_chart_function(df, "Mean")
 
         response_data = []
         for row in range(df.shape[0]):
-           response_data.append({'State Name': str(df.iloc[row, 0]),
-                                 'Total Mass': float(df.iloc[row, 1])})
-        
-        return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+            response_data.append(
+                {
+                    "State Name": str(df.iloc[row, 0]),
+                    "Total Mass": float(df.iloc[row, 1]),
+                }
+            )
 
-@app.route('/api/prec_p10', methods=['POST'])
+        return jsonify(response_data), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/prec_p10", methods=["POST"])
 @get_filters
 def get_prec_p10(filters: dict):
     try:
-        df = get_and_filter_data(filters, P10_CSV, ['Month', 'Year'])
-        df = df.groupby('State Name').sum().reset_index()
-        df = random_pie_chart_function(df, 'Mean')
+        df = get_and_filter_data(filters, P10_CSV, ["Month", "Year"])
+        df = df.groupby("State Name").sum().reset_index()
+        df = random_pie_chart_function(df, "Mean")
 
         response_data = []
         for row in range(df.shape[0]):
-            response_data.append({'State Name': str(df.iloc[row, 0]),
-                                  'Total Mass': float(df.iloc[row, 1])})
-        
-        return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+            response_data.append(
+                {
+                    "State Name": str(df.iloc[row, 0]),
+                    "Total Mass": float(df.iloc[row, 1]),
+                }
+            )
 
-@app.route('/api/time_gases', methods=['POST'])
+        return jsonify(response_data), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/time_gases", methods=["POST"])
 @get_filters
 def get_time_gases(filters: dict):
     try:
-        df = get_and_filter_data(filters, GAS_CSV, 'State Name')
-        df = df.groupby(['Year', 'Month', 'Parameter']).mean().reset_index()
-        df = df.pivot_table(index=['Year', 'Month'], columns='Parameter',  values='Mean').reset_index()
+        df = get_and_filter_data(filters, GAS_CSV, "State Name")
+        df = df.groupby(["Year", "Month", "Parameter"]).mean().reset_index()
+        df = df.pivot_table(
+            index=["Year", "Month"], columns="Parameter", values="Mean"
+        ).reset_index()
         df.columns.name = None
         df = change_month_type(df)
 
         response_data = []
         for row in range(df.shape[0]):
-            response_data.append({'Date'      : f'{df.iloc[row, 1]} {df.iloc[row, 0]}',
-                                  'CO Mean'   : float(df.iloc[row, 2].round(1)),
-                                  'NO2 Mean'  : float(df.iloc[row, 3].round(1)),
-                                  'Ozone Mean': float(df.iloc[row, 4].round(1)),
-                                  'SO2 Mean'  : float(df.iloc[row, 5].round(1))})
-            
-        return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+            response_data.append(
+                {
+                    "Date": f"{df.iloc[row, 1]} {df.iloc[row, 0]}",
+                    "CO Mean": float(df.iloc[row, 2].round(1)),
+                    "NO2 Mean": float(df.iloc[row, 3].round(1)),
+                    "Ozone Mean": float(df.iloc[row, 4].round(1)),
+                    "SO2 Mean": float(df.iloc[row, 5].round(1)),
+                }
+            )
 
-@app.route('/api/time_pm', methods=['POST'])
+        return jsonify(response_data), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/time_pm", methods=["POST"])
 @get_filters
 def get_time_pm(filters: dict):
     try:
-        df = get_and_filter_data(filters, [P25_CSV, P10_CSV], 'State Name')
-        df = df.groupby(['Year', 'Month']).mean().reset_index()
+        df = get_and_filter_data(filters, [P25_CSV, P10_CSV], "State Name")
+        df = df.groupby(["Year", "Month"])["AQI"].mean().reset_index()
         df = change_month_type(df)
-        
+
         response_data = []
         for row in range(df.shape[0]):
-            response_data.append({'Date'      : f'{df.iloc[row, 1]} {df.iloc[row, 0]}',
-                                  'PM2.5 Mean': float(df.iloc[row, 2].round(1)),
-                                  'PM10 Mean' : float(df.iloc[row, 3].round(1))})
-        
-        return jsonify(response_data), 200
-    
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+            response_data.append(
+                {
+                    "Date": f"{df.iloc[row, 1]} {df.iloc[row, 0]}",
+                    "PM2.5 Mean": float(df.iloc[row, 2].round(1)),
+                    "PM10 Mean": float(df.iloc[row, 3].round(1)),
+                }
+            )
 
-@app.route('/api/time_aqi', methods=['POST'])
+        return jsonify(response_data), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/time_aqi", methods=["POST"])
 def get_time_aqi():
     try:
         if not request.is_json:
-            return jsonify({'error': 'Request body must be in JSON format.'}), 400
+            return jsonify({"error": "Request body must be in JSON format."}), 400
 
         data = request.get_json()
         try:
-            predict_type = int(data.get('predict_type'))
-            
+            predict_type = int(data.get("predict_type"))
+
         except TypeError:
-            return jsonify({'error': 'Date parameter must be filled integer.'}), 400
-        
+            return jsonify({"error": "Date parameter must be filled integer."}), 400
+
         df = pd.read_csv(AQI_CSV)
-        df = df.groupby(['Year', 'Month']).mean().reset_index()
+        if "AQI" in df.columns:
+            df["AQI"] = pd.to_numeric(df["AQI"], errors="coerce")
+            df = df.dropna(subset=["AQI"])
+        df = df.groupby(["Year", "Month"]).mean().reset_index()
         df = change_month_type(df)
-        
+
         if predict_type == 1:
             pred_df = pd.read_csv(A1Y_CSV)
         else:
@@ -283,23 +350,43 @@ def get_time_aqi():
         pred_df = change_month_type(pred_df)
 
         response_data = []
-        for index, row in df.iterrows():    
-            response_data.append({'Date'     : f'{row['Month']} {row['Year']}',
-                               'History'  : row['AQI'],
-                               'Predicted': None,
-                               'CI_range' : None})
+        for index, row in df.iterrows():
+            response_data.append(
+                {
+                    "Date": f"{row['Month']} {row['Year']}",
+                    "History": float(row["AQI"]),
+                    "Predicted": None,
+                    "CI_range": None,
+                }
+            )
 
         for index, row in pred_df.iterrows():
-            if response_data and response_data[-1]['Predicted'] is None:
-                response_data[-1]['Predicted'] = response_data[-1]['History']
-                response_data[-1]['CI_range'] = [response_data[-1]['History'], response_data[-1]['History']]
+            if response_data and response_data[-1]["Predicted"] is None:
+                response_data[-1]["Predicted"] = response_data[-1]["History"]
+                response_data[-1]["CI_range"] = [
+                    response_data[-1]["History"],
+                    response_data[-1]["History"],
+                ]
 
-            response_data.append({'Date'     : f'{row['Month']} {row['Year']}',
-                               'History'  : None,
-                               'Predicted': row['Predicted_AQI'],
-                               'CI_range' : [row['Lower_CI'], row['Upper_CI']] })
-            
+            response_data.append(
+                {
+                    "Date": f"{row['Month']} {row['Year']}",
+                    "History": None,
+                    "Predicted": float(row["Predicted_AQI"]),
+                    "CI_range": [float(row["Lower_CI"]), float(row["Upper_CI"])],
+                }
+            )
+
         return jsonify(response_data), 200
-    
+
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/health", methods=["GET"])
+def health():
+    return {"status": "ok"}, 200
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
