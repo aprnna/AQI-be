@@ -1,0 +1,103 @@
+{
+  "info": {
+    "name": "AQI-be",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5000" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "{{baseUrl}}/health", "host": ["{{baseUrl}}"], "path": ["health"] }
+      }
+    },
+    {
+      "name": "Average AQI",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start_month\": 1,\n  \"start_year\": 2024,\n  \"end_month\": 3,\n  \"end_year\": 2024,\n  \"states\": [\"Alabama\", \"Alaska\"]\n}"
+        },
+        "url": { "raw": "{{baseUrl}}/api/avg_aqi", "host": ["{{baseUrl}}"], "path": ["api","avg_aqi"] }
+      }
+    },
+    {
+      "name": "Average PM2.5",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start_month\": 1,\n  \"start_year\": 2024,\n  \"end_month\": 12,\n  \"end_year\": 2024,\n  \"states\": [\"Alabama\", \"Alaska\"]\n}"
+        },
+        "url": { "raw": "{{baseUrl}}/api/avg_pm25", "host": ["{{baseUrl}}"], "path": ["api","avg_pm25"] }
+      }
+    },
+    {
+      "name": "Average PM10",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start_month\": 1,\n  \"start_year\": 2024,\n  \"end_month\": 12,\n  \"end_year\": 2024,\n  \"states\": [\"Alabama\", \"Alaska\"]\n}"
+        },
+        "url": { "raw": "{{baseUrl}}/api/avg_pm10", "host": ["{{baseUrl}}"], "path": ["api","avg_pm10"] }
+      }
+    },
+    {
+      "name": "AQI Map",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start_month\": 1,\n  \"start_year\": 2024,\n  \"end_month\": 12,\n  \"end_year\": 2024\n}"
+        },
+        "url": { "raw": "{{baseUrl}}/api/map_aqi", "host": ["{{baseUrl}}"], "path": ["api","map_aqi"] }
+      }
+    },
+    {
+      "name": "Time Gases",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start_month\": 1,\n  \"start_year\": 2024,\n  \"end_month\": 12,\n  \"end_year\": 2024,\n  \"state\": \"Alabama\"\n}"
+        },
+        "url": { "raw": "{{baseUrl}}/api/time_gases", "host": ["{{baseUrl}}"], "path": ["api","time_gases"] }
+      }
+    },
+    {
+      "name": "Time PM",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start_month\": 1,\n  \"start_year\": 2024,\n  \"end_month\": 12,\n  \"end_year\": 2024,\n  \"state\": \"Alabama\"\n}"
+        },
+        "url": { "raw": "{{baseUrl}}/api/time_pm", "host": ["{{baseUrl}}"], "path": ["api","time_pm"] }
+      }
+    },
+    {
+      "name": "Time AQI (Predict)",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"predict_type\": 1\n}"
+        },
+        "url": { "raw": "{{baseUrl}}/api/time_aqi", "host": ["{{baseUrl}}"], "path": ["api","time_aqi"] }
+      }
+    }
+  ]
+}
