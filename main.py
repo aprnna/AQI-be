@@ -65,19 +65,15 @@ def get_filters(f):
                 "start_year": int(data.get("start_year")),
                 "end_month": int(data.get("end_month")),
                 "end_year": int(data.get("end_year")),
-                "states": data.get("states", []),
-            }
+                "states": data.get("states", [])}
         except TypeError:
             return error_response("Date parameter must be filled with integer.", 400)
 
         return f(filters=params, *args, **kwargs)
-
     return decorated_function
 
 
-def get_and_filter_data(
-    filters: dict, csv: str | list[str], drop: str | list[str]
-) -> pd.DataFrame:
+def get_and_filter_data(filters: dict, csv: str | list[str], drop: str | list[str]) -> pd.DataFrame:
     start_month = filters["start_month"]
     start_year = filters["start_year"]
     end_month = filters["end_month"]
@@ -247,6 +243,8 @@ def get_prec_gases(filters: dict):
             response_data.append(
                 {"Name": str(df.iloc[row, 0]), "Total_Mass": float(df.iloc[row, 1])}
             )
+            if row == 4:
+                break
 
         return success_response(response_data)
 
@@ -271,6 +269,8 @@ def get_prec_aqi(filters: dict):
                     "Mean": float(df.iloc[row, 1]),
                 }
             )
+            if row == 4:
+                break
 
         return success_response(response_data)
 
@@ -295,6 +295,8 @@ def get_prec_p25(filters: dict):
                     "Total_Mass": float(df.iloc[row, 1]),
                 }
             )
+            if row == 4:
+                break
 
         return success_response(response_data)
 
@@ -319,6 +321,8 @@ def get_prec_p10(filters: dict):
                     "Total_Mass": float(df.iloc[row, 1]),
                 }
             )
+            if row == 4:
+                break
 
         return success_response(response_data)
 
