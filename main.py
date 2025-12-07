@@ -367,7 +367,7 @@ def get_time_gases(filters: dict):
 def get_time_pm(filters: dict):
     try:
         df = get_and_filter_data(filters, [P25_CSV, P10_CSV], "State Name")
-        df = df.groupby(["Year", "Month"])["AQI"].mean().reset_index()
+        df = df.groupby(["Year", "Month"]).mean().reset_index()
         df = change_month_type(df)
 
         response_data = []
