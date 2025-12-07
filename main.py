@@ -400,13 +400,13 @@ def get_time_aqi():
         except TypeError:
             return error_response("Date parameter must be filled integer.", 400)
 
-        df = pd.read_csv(AQI_CSV)
-        if "AQI" in df.columns:
-            df["AQI"] = pd.to_numeric(df["AQI"], errors="coerce")
-            df = df.dropna(subset=["AQI"])
-        numeric_cols = df.select_dtypes(include=['number']).columns
+        df = pd.read_csv(AQI_CSV, usecols=['Month','Year','AQI'])
+        #if "AQI" in df.columns:
+        #    df["AQI"] = pd.to_numeric(df["AQI"], errors="coerce")
+        #    df = df.dropna(subset=["AQI"])
+        #numeric_cols = df.select_dtypes(include=['number']).columns
 
-        df = df.groupby(["Year", "Month"])[numeric_cols].mean().reset_index()   
+        df = df.groupby(["Year", "Month"]).mean().reset_index()   
         df = change_month_type(df)
 
         pred_df = pd.read_csv(A1Y_CSV if predict_type == 1 else A5Y_CSV)
