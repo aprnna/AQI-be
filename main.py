@@ -369,8 +369,9 @@ def get_time_aqi():
             return error_response("Request body must be in JSON format.", 400)
 
         data = request.get_json()
+        predict_type_raw = data.get("predict_type")
         try:
-            predict_type = int(data.get("predict_type"))
+            predict_type = int(predict_type_raw) if predict_type_raw is not None else 1
         except TypeError:
             return error_response("Date parameter must be filled integer.", 400)
 
@@ -381,10 +382,7 @@ def get_time_aqi():
         df = df.groupby(["Year", "Month"]).mean().reset_index()
         df = change_month_type(df)
 
-        if predict_type == 1:
-            pred_df = pd.read_csv(A1Y_CSV)
-        else:
-            pred_df = pd.read_csv(A5Y_CSV)
+        pred_df = pd.read_csv(A1Y_CSV if predict_type == 1 else A5Y_CSV)
         pred_df = change_month_type(pred_df)
 
         response_data = []
