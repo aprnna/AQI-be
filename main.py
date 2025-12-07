@@ -26,11 +26,29 @@ A1Y_CSV = "AQI_Prediction_1Y.csv"
 A5Y_CSV = "AQI_Prediction_5Y.csv"
 
 
+# -------------------------
+#  STANDARD API RESPONSE
+# -------------------------
+def success_response(data, status_code=200):
+    return jsonify({
+        "status": "success",
+        "data": data
+    }), status_code
+
+
+def error_response(message, status_code=500):
+    return jsonify({
+        "status": "error",
+        "message": message
+    }), status_code
+
+
+
 def get_filters(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
         if not request.is_json:
-            return jsonify({"error": "Request body must be in JSON format."}), 400
+            return error_response("Request body must be in JSON format.", 400)
 
         data = request.get_json()
         try:
@@ -42,10 +60,7 @@ def get_filters(f):
                 "states": data.get("states", []),
             }
         except TypeError:
-            return (
-                jsonify({"error": "Date parameter must be filled with integer."}),
-                400,
-            )
+            return error_response("Date parameter must be filled with integer.", 400)
 
         return f(filters=params, *args, **kwargs)
 
@@ -111,10 +126,11 @@ def get_sum_gases(filters: dict):
             "Gas Name": str(df.Parameter.iloc[0]),
             "Sum Gas Value": float(df.Mean.round(1).iloc[0]),
         }
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/avg_aqi", methods=["POST"])
@@ -125,10 +141,11 @@ def get_avg_aqi(filters: dict):
             filters, AQI_CSV, ["Month", "Year", "State Name", "Category"]
         )
         response_data = {"Mean AQI Value": float(df.AQI.mean().round(1))}
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/avg_pm25", methods=["POST"])
@@ -137,10 +154,11 @@ def get_avg_p25(filters: dict):
     try:
         df = get_and_filter_data(filters, P25_CSV, ["Month", "Year", "State Name"])
         response_data = {"Mean PM2.5 Value": float(df.Mean.mean().round(1))}
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/avg_pm10", methods=["POST"])
@@ -149,10 +167,11 @@ def get_avg_p10(filters: dict):
     try:
         df = get_and_filter_data(filters, P10_CSV, ["Month", "Year", "State Name"])
         response_data = {"Mean PM10 Value": float(df.Mean.mean().round(1))}
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/map_aqi", methods=["POST"])
@@ -187,10 +206,11 @@ def get_map_aqi(filters: dict):
                 }
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/prec_gases", methods=["POST"])
@@ -206,10 +226,11 @@ def get_prec_gases(filters: dict):
                 {"Gas Name": str(df.iloc[row, 0]), "Total Mass": float(df.iloc[row, 1])}
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/prec_aqi", methods=["POST"])
@@ -229,10 +250,11 @@ def get_prec_aqi(filters: dict):
                 }
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/prec_p25", methods=["POST"])
@@ -252,10 +274,11 @@ def get_prec_p25(filters: dict):
                 }
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/prec_p10", methods=["POST"])
@@ -275,10 +298,11 @@ def get_prec_p10(filters: dict):
                 }
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/time_gases", methods=["POST"])
@@ -305,10 +329,11 @@ def get_time_gases(filters: dict):
                 }
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/time_pm", methods=["POST"])
@@ -329,24 +354,24 @@ def get_time_pm(filters: dict):
                 }
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/api/time_aqi", methods=["POST"])
 def get_time_aqi():
     try:
         if not request.is_json:
-            return jsonify({"error": "Request body must be in JSON format."}), 400
+            return error_response("Request body must be in JSON format.", 400)
 
         data = request.get_json()
         try:
             predict_type = int(data.get("predict_type"))
-
         except TypeError:
-            return jsonify({"error": "Date parameter must be filled integer."}), 400
+            return error_response("Date parameter must be filled integer.", 400)
 
         df = pd.read_csv(AQI_CSV)
         if "AQI" in df.columns:
@@ -389,15 +414,17 @@ def get_time_aqi():
                 }
             )
 
-        return jsonify(response_data), 200
+        return success_response(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
+
 
 
 @app.route("/health", methods=["GET"])
 def health():
-    return {"status": "ok"}, 200
+    return success_response({"status": "ok"})
+
 
 @app.route("/api/chatbot_aqi", methods=["POST"])
 @get_filters
@@ -429,13 +456,14 @@ def chatbot_aqi(filters: dict):
         model = genai.GenerativeModel('gemini-2.5-flash')
         response = model.generate_content(prompt)
 
-        return jsonify({
+        return success_response({
             "response": response.text,
             "context_used": "Data_AQI " + str(filters['states'])
-        }), 200
+        })
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
     
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
