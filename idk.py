@@ -2,6 +2,18 @@ import pandas as pd
 from functools import wraps
 from flask_cors import CORS
 from flask import Flask, request, jsonify
+import google.generativeai as genai
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+API_KEY = os.getenv("GOOGLE_API_KEY")
+
+if not API_KEY:
+    raise ValueError("GOOGLE_API_KEY not found in environment variables.")
+else:
+    genai.configure(api_key=API_KEY)
 
 app = Flask(__name__)
 CORS(app)
@@ -387,6 +399,43 @@ def get_time_aqi():
 def health():
     return {"status": "ok"}, 200
 
+@app.route("/api/chatbot_aqi", methods=["POST"])
+@get_filters
+def chatbot_aqi(filters: dict):
+    try:
+        data = request.get_json()
+        user_question = data.get("question", "Berikan analisis singkat tentang kualitas udara ini.")
+        df_history = get_and_filter_data(filters, AQI_CSV, ["Month", "Year", "Category"])
 
+        data_summary = df_history.describe().to_string()
+        data_sample = df_history.head(20).to_string()
+
+        prompt = f"""
+        Kamu adalah asisten ahli kualitas udara (AQI) untuk dashboard pemantauan Amerika Serikat.
+            
+            Konteks Data (Statistik):
+            {data_summary}
+
+            Sampel Data Terkini:
+            {data_sample}
+
+            Tugas:
+            Jawab pertanyaan stakeholder berdasarkan data di atas. Berikan insight untuk pengambilan keputusan (decision making).
+            Jika AQI buruk (>100), berikan peringatan kesehatan.
+            
+            Pertanyaan User: {user_question}
+            """
+        
+        model = genai.GenerativeModel('gemini-2.5-flash')
+        response = model.generate_content(prompt)
+
+        return jsonify({
+            "response": response.text,
+            "context_used": "Data_AQI " + str(filters['states'])
+        }), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
