@@ -6,6 +6,7 @@ from flask import Flask, request, jsonify
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
+import math
 
 load_dotenv()
 
@@ -43,7 +44,13 @@ def error_response(message, status_code=500):
         "message": message
     }), status_code
 
-
+def safe_float(value):
+    if value is None or (isinstance(value, float) and math.isnan(value)):
+        return None
+    try:
+        return float(round(value, 1))
+    except:
+        return None
 
 def get_filters(f):
     @wraps(f)
@@ -114,6 +121,20 @@ def change_month_type(df: pd.DataFrame) -> pd.DataFrame:
     df.Month = df.dummy_date.dt.month_name()
     return df.drop(columns="dummy_date")
 
+@app.route("/api/states", methods=["GET"])
+def get_states():
+    try:
+        df = pd.read_csv(AQI_CSV)
+
+        if "State Name" not in df.columns:
+            return error_response("Column 'State Name' not found in CSV.", 500)
+
+        states = sorted(df["State Name"].dropna().unique().tolist())
+
+        return success_response( states)
+
+    except Exception as e:
+        return error_response(str(e))
 
 @app.route("/api/sum_gases", methods=["POST"])
 @get_filters
@@ -124,8 +145,8 @@ def get_sum_gases(filters: dict):
         df = df[df.Mean == df.Mean.max()].reset_index()
 
         response_data = {
-            "Gas Name": str(df.Parameter.iloc[0]),
-            "Sum Gas Value": float(df.Mean.round(1).iloc[0]),
+            "Name": str(df.Parameter.iloc[0]),
+            "Sum": float(df.Mean.round(1).iloc[0]),
         }
         return success_response(response_data)
 
@@ -141,7 +162,7 @@ def get_avg_aqi(filters: dict):
         df = get_and_filter_data(
             filters, AQI_CSV, ["Month", "Year", "State Name", "Category"]
         )
-        response_data = {"Mean AQI Value": float(df.AQI.mean().round(1))}
+        response_data = {"Mean": float(df.AQI.mean().round(1))}
         return success_response(response_data)
 
     except Exception as e:
@@ -154,7 +175,7 @@ def get_avg_aqi(filters: dict):
 def get_avg_p25(filters: dict):
     try:
         df = get_and_filter_data(filters, P25_CSV, ["Month", "Year", "State Name"])
-        response_data = {"Mean PM2.5 Value": float(df.Mean.mean().round(1))}
+        response_data = {"Mean": float(df.Mean.mean().round(1))}
         return success_response(response_data)
 
     except Exception as e:
@@ -167,7 +188,7 @@ def get_avg_p25(filters: dict):
 def get_avg_p10(filters: dict):
     try:
         df = get_and_filter_data(filters, P10_CSV, ["Month", "Year", "State Name"])
-        response_data = {"Mean PM10 Value": float(df.Mean.mean().round(1))}
+        response_data = {"Mean": float(df.Mean.mean().round(1))}
         return success_response(response_data)
 
     except Exception as e:
@@ -224,7 +245,7 @@ def get_prec_gases(filters: dict):
         response_data = []
         for row in range(df.shape[0]):
             response_data.append(
-                {"Gas Name": str(df.iloc[row, 0]), "Total Mass": float(df.iloc[row, 1])}
+                {"Name": str(df.iloc[row, 0]), "Total_Mass": float(df.iloc[row, 1])}
             )
 
         return success_response(response_data)
@@ -246,8 +267,8 @@ def get_prec_aqi(filters: dict):
         for row in range(df.shape[0]):
             response_data.append(
                 {
-                    "State Name": str(df.iloc[row, 0]),
-                    "Mean AQI Value": float(df.iloc[row, 1]),
+                    "State": str(df.iloc[row, 0]),
+                    "Mean": float(df.iloc[row, 1]),
                 }
             )
 
@@ -270,8 +291,8 @@ def get_prec_p25(filters: dict):
         for row in range(df.shape[0]):
             response_data.append(
                 {
-                    "State Name": str(df.iloc[row, 0]),
-                    "Total Mass": float(df.iloc[row, 1]),
+                    "State": str(df.iloc[row, 0]),
+                    "Total_Mass": float(df.iloc[row, 1]),
                 }
             )
 
@@ -294,8 +315,8 @@ def get_prec_p10(filters: dict):
         for row in range(df.shape[0]):
             response_data.append(
                 {
-                    "State Name": str(df.iloc[row, 0]),
-                    "Total Mass": float(df.iloc[row, 1]),
+                    "State": str(df.iloc[row, 0]),
+                    "Total_Mass": float(df.iloc[row, 1]),
                 }
             )
 
@@ -323,10 +344,10 @@ def get_time_gases(filters: dict):
             response_data.append(
                 {
                     "Date": f"{df.iloc[row, 1]} {df.iloc[row, 0]}",
-                    "CO Mean": float(df.iloc[row, 2].round(1)),
-                    "NO2 Mean": float(df.iloc[row, 3].round(1)),
-                    "Ozone Mean": float(df.iloc[row, 4].round(1)),
-                    "SO2 Mean": float(df.iloc[row, 5].round(1)),
+                    "CO Mean": safe_float(df.iloc[row, 2]),
+                    "NO2 Mean": safe_float(df.iloc[row, 3]),
+                    "Ozone Mean": safe_float(df.iloc[row, 4]),
+                    "SO2 Mean": safe_float(df.iloc[row, 5]),
                 }
             )
 
@@ -379,7 +400,9 @@ def get_time_aqi():
         if "AQI" in df.columns:
             df["AQI"] = pd.to_numeric(df["AQI"], errors="coerce")
             df = df.dropna(subset=["AQI"])
-        df = df.groupby(["Year", "Month"]).mean().reset_index()
+        numeric_cols = df.select_dtypes(include=['number']).columns
+
+        df = df.groupby(["Year", "Month"])[numeric_cols].mean().reset_index()   
         df = change_month_type(df)
 
         pred_df = pd.read_csv(A1Y_CSV if predict_type == 1 else A5Y_CSV)
