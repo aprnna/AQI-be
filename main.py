@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 from functools import wraps
 from flask_cors import CORS
@@ -426,44 +427,65 @@ def health():
     return success_response({"status": "ok"})
 
 
+
 @app.route("/api/chatbot_aqi", methods=["POST"])
 @get_filters
 def chatbot_aqi(filters: dict):
     try:
         data = request.get_json()
-        user_question = data.get("question", "Berikan analisis singkat tentang kualitas udara ini.")
-        df_history = get_and_filter_data(filters, AQI_CSV, ["Month", "Year", "Category"])
+        user_question = data.get(
+            "question", "Berikan rekomendasi berdasarkan data ini."
+        )
 
+        df_history = get_and_filter_data(
+            filters, AQI_CSV, ["Month", "Year", "Category"]
+        )
         data_summary = df_history.describe().to_string()
-        data_sample = df_history.head(20).to_string()
 
         prompt = f"""
-        Kamu adalah asisten ahli kualitas udara (AQI) untuk dashboard pemantauan Amerika Serikat.
-            
-            Konteks Data (Statistik):
-            {data_summary}
+        Bertindaklah sebagai sistem rekomendasi kualitas udara.
+        Berdasarkan data statistik AQI berikut:
+        {data_summary}
 
-            Sampel Data Terkini:
-            {data_sample}
+        Pertanyaan User: {user_question}
 
-            Tugas:
-            Jawab pertanyaan stakeholder berdasarkan data di atas. Berikan insight untuk pengambilan keputusan (decision making).
-            Jika AQI buruk (>100), berikan peringatan kesehatan.
-            
-            Pertanyaan User: {user_question}
-            """
+        Tugas: Berikan 3-5 rekomendasi aksi konkret bagi pemangku kepentingan atau warga.
         
-        model = genai.GenerativeModel('gemini-2.5-flash')
-        response = model.generate_content(prompt)
+        PENTING: Keluaran HARUS berupa JSON Array murni tanpa format Markdown (```json).
+        Struktur JSON wajib seperti ini:
+        [
+            {{
+                "Title": "Judul Rekomendasi (Singkat & Padat)",
+                "Description": "Penjelasan detail dan alasan berdasarkan data."
+            }}
+        ]
+            """
 
-        return success_response({
-            "response": response.text,
-            "context_used": "Data_AQI " + str(filters['states'])
-        })
+        model = genai.GenerativeModel("gemini-2.5-flash")
+        response = model.generate_content(prompt)
+        cleaned_text = response.text.replace("```json", "").replace("```", "").strip()
+
+        try:
+            recommendations = json.loads(cleaned_text)
+        except json.JSONDecodeError:
+            recommendations = [
+                {"Title": "Gagal Memformat Data", "Description": cleaned_text}
+            ]
+
+        recommendations = json.loads(cleaned_text)
+        return (
+            jsonify(
+                {
+                    "response": recommendations,
+                    "context_used": "Data_AQI " + str(filters["states"]),
+                }
+            ),
+            200,
+        )
 
     except Exception as e:
-        return error_response(str(e))
-    
+        return jsonify({"error": str(e)}), 500
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
