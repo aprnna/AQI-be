@@ -375,8 +375,8 @@ def get_time_pm(filters: dict):
             response_data.append(
                 {
                     "Date": f"{df.iloc[row, 1]} {df.iloc[row, 0]}",
-                    "PM2.5 Mean": float(df.iloc[row, 2].round(1)),
-                    "PM10 Mean": float(df.iloc[row, 3].round(1)),
+                    "PM25_Mean": float(df.iloc[row, 2].round(1)),
+                    "PM10_Mean": float(df.iloc[row, 3].round(1)),
                 }
             )
 
@@ -453,7 +453,7 @@ def health():
 
 
 
-@app.route("/api/chatbot_aqi", methods=["POST"])
+@app.route("/api/recommendations", methods=["POST"])
 @get_filters
 def chatbot_aqi(filters: dict):
     try:
@@ -496,20 +496,15 @@ def chatbot_aqi(filters: dict):
             recommendations = [
                 {"Title": "Gagal Memformat Data", "Description": cleaned_text}
             ]
-
-        recommendations = json.loads(cleaned_text)
-        return (
-            jsonify(
-                {
-                    "response": recommendations,
-                    "context_used": "Data_AQI " + str(filters["states"]),
-                }
-            ),
-            200,
+        return success_response(
+            {
+                "response": recommendations,
+                "context_used": "Data_AQI " + str(filters["states"]),
+            }
         )
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return error_response(str(e))
 
 
 if __name__ == "__main__":
