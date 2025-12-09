@@ -18,7 +18,7 @@ else:
     genai.configure(api_key=API_KEY)
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000", "http://127.0.0.1:3000"], supports_credentials=True)
+CORS(app, origins=["http://localhost:3000", "http://127.0.0.1:3000", "https://aqife.zabduziz.com"], supports_credentials=True)
 
 AQI_CSV = "AQI_2020_2025.csv"
 GAS_CSV = "Criteria_Gases_2020_2025.csv"
