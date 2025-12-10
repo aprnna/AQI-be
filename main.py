@@ -451,6 +451,10 @@ def get_time_aqi():
 def health():
     return success_response({"status": "ok"})
 
+@app.route("/test", methods=["GET"])
+def test():
+    return success_response({"status": "CI/CD Pipeline Success!"})
+
 
 
 @app.route("/api/recommendations", methods=["POST"])
