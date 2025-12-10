@@ -8,6 +8,10 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
+
+      - name: Debug docker username
+        run: |
+          echo "DOCKER_USERNAME: '${{ secrets.DOCKER_USERNAME }}'"
       - name: Checkout Code
         uses: actions/checkout@v4
 
