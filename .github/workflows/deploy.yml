@@ -8,10 +8,6 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-
-      - name: Debug docker username
-        run: |
-          echo "DOCKER_USERNAME: '${{ secrets.DOCKER_USERNAME }}'"
       - name: Checkout Code
         uses: actions/checkout@v4
 
@@ -34,7 +30,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/aqi-be:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}aqi-be:latest
 
   deploy-to-vps:
     needs: build-and-push # Job ini cuma jalan kalau build sukses
