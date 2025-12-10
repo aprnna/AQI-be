@@ -8,6 +8,9 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
+      - name: Check Docker Username
+        run: echo "DOCKER_USERNAME is set to:${{ secrets.DOCKER_USERNAME }}"
+  
       - name: Checkout Code
         uses: actions/checkout@v4
 
