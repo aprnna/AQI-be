@@ -43,7 +43,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
+          username: admin
           key: ${{ secrets.VPS_KEY }}
           script: |
             # Masuk ke folder project di VPS
