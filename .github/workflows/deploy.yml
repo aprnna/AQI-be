@@ -47,7 +47,7 @@ jobs:
           key: ${{ secrets.VPS_KEY }}
           script: |
             # Masuk ke folder project di VPS
-            cd ${{ secrets.PROJECT_PATH }}
+            cd psd/aqi-be/
             
             # Pull image terbaru yang barusan kita push
             docker compose pull
