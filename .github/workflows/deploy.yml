@@ -1,0 +1,59 @@
+name: CI/CD Pipeline Backend
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Login ke Docker Hub biar bisa nge-push image
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      # Setup Docker Buildx (Engine builder yang lebih canggih)
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Build image dari Dockerfile dan Push ke Docker Hub
+      # Tag 'latest' bakal selalu di-overwrite sama yang baru
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/aqi-be:latest
+
+  deploy-to-vps:
+    needs: build-and-push # Job ini cuma jalan kalau build sukses
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_KEY }}
+          script: |
+            # Masuk ke folder project di VPS
+            cd ${{ secrets.PROJECT_PATH }}
+            
+            # Pull image terbaru yang barusan kita push
+            docker compose pull
+            
+            # Matikan container lama (DOWNTIME TERJADI DI SINI)
+            docker compose down
+            
+            # Nyalakan container baru dengan mode detached
+            docker compose up -d --remove-orphans
+            
+            # Bersihin image sampah (dangling images) biar disk VPS gak penuh
+            docker image prune -f
